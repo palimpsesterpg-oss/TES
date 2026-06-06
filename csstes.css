@@ -4392,3 +4392,8 @@ firstdts:before {
 .cam .blocperso.one {
 	padding: var(--2xlarge)
 }
+
+.cam .headperso img {width: 75px;
+object-fit: cover;
+border-radius: 100%;
+}
