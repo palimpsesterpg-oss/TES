@@ -4393,7 +4393,8 @@ firstdts:before {
 	padding: var(--2xlarge)
 }
 
-.cam .headperso img {width: 75px;
-object-fit: cover;
+.cam .headperso img {width: 85px;
+height: 85px;
 border-radius: 100%;
 }
+
