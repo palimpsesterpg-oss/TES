@@ -4370,11 +4370,11 @@ firstdts:before {
 
 .signcam div i,
 .signcam div strong {
-	color: var(--custom-color-50) !important;
+	color: var(--custom-color-600) !important;
 }
 
 .signcam div strong {
-	font-weight: 100 !important
+	font-weight: 700 !important
 }
 
 .signcam img {
@@ -4397,4 +4397,3 @@ firstdts:before {
 height: 85px;
 border-radius: 100%;
 }
-
