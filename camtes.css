@@ -1,385 +1,385 @@
 .cam.group-4 {
-	--custom-color-50: #F2F3E9;
-	--custom-color-100: #E6E7D3;
-	--custom-color-200: #D9DABE;
-	--custom-color-300: #CCCEA8;
-	--custom-color-400: #BFC292;
-	--custom-color: #B3B67C;
-	--custom-color-600: #A0A35C;
-	--custom-color-700: #808349;
-	--custom-color-800: #606237;
-	--custom-color-900: #404125;
-	--custom-color-950: #202112;
+    --custom-color-50: #F2F3E9;
+    --custom-color-100: #E6E7D3;
+    --custom-color-200: #D9DABE;
+    --custom-color-300: #CCCEA8;
+    --custom-color-400: #BFC292;
+    --custom-color: #B3B67C;
+    --custom-color-600: #A0A35C;
+    --custom-color-700: #808349;
+    --custom-color-800: #606237;
+    --custom-color-900: #404125;
+    --custom-color-950: #202112;
 }
 
 .cam .group-5 {
-	--custom-color-50: #E9ECF5;
-	--custom-color-100: #D4D9EC;
-	--custom-color-200: #BEC6E2;
-	--custom-color-300: #A8B3D8;
-	--custom-color-400: #929FCE;
-	--custom-color: #7D8CC4;
-	--custom-color-600: #586CB4;
-	--custom-color-700: #425494;
-	--custom-color-800: #323F6F;
-	--custom-color-900: #212A4A;
-	--custom-color-950: #111525;
+    --custom-color-50: #E9ECF5;
+    --custom-color-100: #D4D9EC;
+    --custom-color-200: #BEC6E2;
+    --custom-color-300: #A8B3D8;
+    --custom-color-400: #929FCE;
+    --custom-color: #7D8CC4;
+    --custom-color-600: #586CB4;
+    --custom-color-700: #425494;
+    --custom-color-800: #323F6F;
+    --custom-color-900: #212A4A;
+    --custom-color-950: #111525;
 }
 
 .cam.group-6 {
-	--custom-color-50: #EAEEF5;
-	--custom-color-100: #D5DDEC;
-	--custom-color-200: #C0CBE2;
-	--custom-color-300: #ABBAD8;
-	--custom-color-400: #96A9CF;
-	--custom-color: #8298C5;
-	--custom-color-600: #5C79B4;
-	--custom-color-700: #455F95;
-	--custom-color-800: #334870;
-	--custom-color-900: #22304B;
-	--custom-color-950: #111825;
+    --custom-color-50: #EAEEF5;
+    --custom-color-100: #D5DDEC;
+    --custom-color-200: #C0CBE2;
+    --custom-color-300: #ABBAD8;
+    --custom-color-400: #96A9CF;
+    --custom-color: #8298C5;
+    --custom-color-600: #5C79B4;
+    --custom-color-700: #455F95;
+    --custom-color-800: #334870;
+    --custom-color-900: #22304B;
+    --custom-color-950: #111825;
 }
 
 
 
 .cam camhd {
-	font-family: var(--spe);
-	text-transform: uppercase;
-	letter-spacing: 2.5px;
-	padding-left: 2.5px;
-	display: block;
-	text-align: center;
+    font-family: var(--spe);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    padding-left: 2.5px;
+    display: block;
+    text-align: center;
 }
 
 .cam camhd i {
-	font-style: normal !important;
-	color: var(--custom-color) !important
+    font-style: normal !important;
+    color: var(--custom-color) !important
 }
 
 .cam camhd:after,
 .cam camhd:before {
-	content: '';
-	border-bottom: 1px solid var(--whiteop5);
-	flex: 1
+    content: '';
+    border-bottom: 1px solid var(--whiteop5);
+    flex: 1
 }
 
 .cam .blocperso.one i,
 .cam .blocperso.one strong,
 .cam .blocrec.two i,
 .cam .blocrec.two strong {
-	font-family: var(--play)
+    font-family: var(--play)
 }
 
 .cam i:not(.ph),
 .cam .content a:not(.mentiontag, .ficheperso.first a),
 .cam strong:not(chronoevent strong) {
-	color: var(--group-color);
+    color: var(--group-color);
 }
 
 .cam cam1 {
-	color: var(--group-color);
-	text-transform: uppercase;
-	font-weight: 900;
-	letter-spacing: 1px;
-	padding-left: 1px;
-	font-size: var(--small)
+    color: var(--group-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-left: 1px;
+    font-size: var(--small)
 }
 
 .cam cam2 {
-	background-color: var(--group-color-50);
-	padding: 0 var(--medium);
-	font-family: 'Inconsolata';
-	font-weight: 300;
-	text-transform: uppercase;
-	color: var(--group-color);
+    background-color: var(--group-color-50);
+    padding: 0 var(--medium);
+    font-family: 'Inconsolata';
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--group-color);
 }
 
 .cam cam3 {
-	color: var(--group-color-100);
-	background-color: var(--group-color);
-	font-family: var(--alumni);
-	letter-spacing: 2.5px;
-	font-weight: 100;
-	font-size: var(--large);
-	padding-right: var(--xsmall);
-	padding-left: calc(var(--xsmall) + 2.5px)
+    color: var(--group-color-100);
+    background-color: var(--group-color);
+    font-family: var(--alumni);
+    letter-spacing: 2.5px;
+    font-weight: 100;
+    font-size: var(--large);
+    padding-right: var(--xsmall);
+    padding-left: calc(var(--xsmall) + 2.5px)
 }
 
 .cam cam4 {
-	color: var(--group-color);
-	border-bottom: 2.5px solid var(--group-color-50);
-	font-family: var(--play);
+    color: var(--group-color);
+    border-bottom: 2.5px solid var(--group-color-50);
+    font-family: var(--play);
 }
 
 .cam cam5 {
-	background: linear-gradient(to right, var(--group-color-200), var(--group-color), var(--group-color-200));
-	color: var(--white);
-	padding-right: var(--xsmall);
-	padding-left: calc(var(--xsmall) + 5px);
-	text-transform: lowercase;
-	font-style: italic;
-	font-weight: 100;
-	letter-spacing: 5px;
+    background: linear-gradient(to right, var(--group-color-200), var(--group-color), var(--group-color-200));
+    color: var(--white);
+    padding-right: var(--xsmall);
+    padding-left: calc(var(--xsmall) + 5px);
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 5px;
 }
 
 .cam cam6 {
-	color: var(--custom-color);
-	font-family: var(--spe);
-	font-size: var(--large);
-	letter-spacing: 1px;
+    color: var(--custom-color);
+    font-family: var(--spe);
+    font-size: var(--large);
+    letter-spacing: 1px;
 }
 
 .cam cam7 {
-	font-family: var(--play);
-	color: var(--custom-color-400);
-	display: inline-block;
-	text-transform: uppercase;
-	font-weight: 300;
+    font-family: var(--play);
+    color: var(--custom-color-400);
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .cam cam7::first-letter {
-	color: var(--custom-color-600);
-	font-size: var(--xlarge);
-	font-family: var(--spe);
-	font-weight: 700;
-	text-transform: lowercase;
+    color: var(--custom-color-600);
+    font-size: var(--xlarge);
+    font-family: var(--spe);
+    font-weight: 700;
+    text-transform: lowercase;
 }
 
 .cam cam8 {
-	font-style: italic;
-	text-transform: uppercase;
-	font-weight: 300;
-	letter-spacing: 1px;
-	color: var(--custom-color);
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: var(--custom-color);
 }
 
 .cam cam9 {
-	background: var(--custom-color-100);
-	padding: var(--2xsmall) var(--medium);
-	color: var(--custom-color-700);
-	text-shadow: 0.5px 0.5px var(--white);
-	font-family: var(--play);
+    background: var(--custom-color-100);
+    padding: var(--2xsmall) var(--medium);
+    color: var(--custom-color-700);
+    text-shadow: 0.5px 0.5px var(--white);
+    font-family: var(--play);
 }
 
 .cam .rpcam {
-	border: 1px solid var(--custom-color-200);
-	outline: 2px solid var(--custom-color-50);
-	box-shadow: 0px 0px 0px 6px var(--white);
-	background: var(--white);
-	padding: var(--large);
-	display: flex;
-	margin: 0 auto;
-	flex-direction: column;
-	gap: var(--large);
-	align-items: center;
+    border: 1px solid var(--custom-color-200);
+    outline: 2px solid var(--custom-color-50);
+    box-shadow: 0px 0px 0px 6px var(--white);
+    background: var(--white);
+    padding: var(--large);
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: var(--large);
+    align-items: center;
 }
 
 .cam .quoterpcam {
-	display: flex;
-	align-items: center;
-	width: 90%;
-	color: var(--custom-color-600);
-	gap: var(--large)
+    display: flex;
+    align-items: center;
+    width: 90%;
+    color: var(--custom-color-600);
+    gap: var(--large)
 }
 
 .cam .quoterpcam span {
-	display: inline-block;
-	transform: rotateY(3.142rad);
-	font-size: var(--2xlarge)
+    display: inline-block;
+    transform: rotateY(3.142rad);
+    font-size: var(--2xlarge)
 }
 
 .cam .quoterpcam div {
-	flex: 1;
-	font-family: var(--play);
-	font-style: italic;
+    flex: 1;
+    font-family: var(--play);
+    font-style: italic;
 }
 
 .cam .inforpcam {
-	color: var(--custom-color-600) !important;
-	background: var(--custom-color-50);
-	padding: var(--2xsmall);
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	letter-spacing: 2.5px;
-	text-transform: uppercase;
-	font-family: var(--inc);
-	font-weight: 300;
-	width: 100%;
+    color: var(--custom-color-600) !important;
+    background: var(--custom-color-50);
+    padding: var(--2xsmall);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-family: var(--inc);
+    font-weight: 300;
+    width: 100%;
 }
 
 .cam .bodyrpcam i,
 .cam .inforpcam a {
-	color: var(--custom-color-600) !important;
+    color: var(--custom-color-600) !important;
 }
 
 
 .cam .footrpcam {
-	background: var(--custom-color);
-	color: var(--white) !important;
-	padding: var(--2xsmall);
-	text-align: center;
-	font-weight: 700;
-	width: 100%
+    background: var(--custom-color);
+    color: var(--white) !important;
+    padding: var(--2xsmall);
+    text-align: center;
+    font-weight: 700;
+    width: 100%
 }
 
 .cam .bodyrpcam {
-	width: 100%
+    width: 100%
 }
 
 .cam .bodyrpcam i {
-	margin: var(--small);
-	font-weight: 600;
+    margin: var(--small);
+    font-weight: 600;
 }
 
 .cam .bodyrpcam i:before {
-	font-family: 'TES';
-	content: '\E019';
-	padding-left: var(--2xsmall);
-	font-style: normal;
-	display: inline-block;
-	transform: rotateY(3.142rad);
+    font-family: 'TES';
+    content: '\E019';
+    padding-left: var(--2xsmall);
+    font-style: normal;
+    display: inline-block;
+    transform: rotateY(3.142rad);
 }
 
 .cam .imgrpcam {
-	object-fit: cover;
-	border-radius: 100%
+    object-fit: cover;
+    border-radius: 100%
 }
 
 .cam .imgrpcam.one {
-	width: 50px;
-	height: 50px
+    width: 50px;
+    height: 50px
 }
 
 .cam .imgrpcam.two {
-	width: 75px;
-	height: 75px;
-	padding: var(--2xsmall);
-	border: 0.5px solid var(--group-color);
-	margin: 0 var(--large) var(--2xsmall) var(--large);
+    width: 75px;
+    height: 75px;
+    padding: var(--2xsmall);
+    border: 0.5px solid var(--group-color);
+    margin: 0 var(--large) var(--2xsmall) var(--large);
 }
 
 
 .cam #postprofile-libre div[align="left"] {
-	font-family: var(--play);
-	text-transform: uppercase;
-	display: flex;
-	color: var(--group-color-400);
-	align-items: center;
-	justify-content: center;
-	letter-spacing: 0.5px;
-	text-align: right;
-	font-weight: 600;
-	gap: var(--large);
+    font-family: var(--play);
+    text-transform: uppercase;
+    display: flex;
+    color: var(--group-color-400);
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    text-align: right;
+    font-weight: 600;
+    gap: var(--large);
 }
 
 .cam #postprofile-libre div[align="left"]:before {
-	font-family: 'TES';
-	content: '\E013';
-	font-weight: 100;
-	font-size: var(--2xlarge)
+    font-family: 'TES';
+    content: '\E013';
+    font-weight: 100;
+    font-size: var(--2xlarge)
 }
 
 .cam #postprofile-libre h3 {
-	font-weight: 100;
-	color: var(--custom-color)
+    font-weight: 100;
+    color: var(--custom-color)
 }
 
 .cam #postprofile-libre h4 {
-	background-color: var(--custom-color-100);
-	color: var(--custom-color-600) !important;
-	margin: 0 auto !important;
-	width: fit-content;
-	font-style: italic;
-	padding: 0.15rem var(--xlarge) !important;
+    background-color: var(--custom-color-100);
+    color: var(--custom-color-600) !important;
+    margin: 0 auto !important;
+    width: fit-content;
+    font-style: italic;
+    padding: 0.15rem var(--xlarge) !important;
 }
 
 .cam #postprofile-libre .postprofile-field-content {
-	display: flex;
-	flex-direction: column;
-	gap: var(--large);
+    display: flex;
+    flex-direction: column;
+    gap: var(--large);
 }
 
 .cam #postprofile-libre div[align="center"] img {
-	width: 50px;
-	height: 50px;
-	object-fit: cover;
-	border-radius: 100%
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%
 }
 
 .cam #postprofile-libre div[align="justify"] {
-	padding: var(--xsmall);
-	background: var(--custom-color-50);
-	color: var(--custom-color-600);
-	font-weight: 300;
-	border: 0.5px solid var(--custom-color-200);
+    padding: var(--xsmall);
+    background: var(--custom-color-50);
+    color: var(--custom-color-600);
+    font-weight: 300;
+    border: 0.5px solid var(--custom-color-200);
 }
 
 .cam #postprofile-libre div[align="justify"] hr {
-	border-bottom: 0.5px solid var(--custom-color) !important;
-	border: 0px solid;
+    border-bottom: 0.5px solid var(--custom-color) !important;
+    border: 0px solid;
 }
 
 .cam #postprofile-libre div[align="justify"] strong {
-	color: var(--custom-color-600) !important
+    color: var(--custom-color-600) !important
 }
 
 .cam #postprofile-libre div[align="justify"] a {
-	background-color: var(--white);
-	color: var(--custom-color-600) !important;
+    background-color: var(--white);
+    color: var(--custom-color-600) !important;
 }
 
 .cam #postprofile-libre div[align="justify"] a:hover {
-	background-color: var(--custom-color-300);
-	color: var(--white) !important
+    background-color: var(--custom-color-300);
+    color: var(--white) !important
 }
 
 .signcam {
-	display: flex;
-	gap: var(--large);
-	width: 325px;
-	align-items: center;
+    display: flex;
+    gap: var(--large);
+    width: 325px;
+    align-items: center;
 }
 
 .signcam span {
-	font-size: var(--2xlarge);
-	color: var(--group-color)
+    font-size: var(--2xlarge);
+    color: var(--group-color)
 }
 
 .signcam div {
-	font-family: var(--play);
-	text-align: justify;
-	color: var(--darkneutral);
-	font-weight: 100
+    font-family: var(--play);
+    text-align: justify;
+    color: var(--darkneutral);
+    font-weight: 100
 }
 
 .signcam div i,
 .signcam div strong {
-	color: var(--custom-color-600) !important;
+    color: var(--custom-color-600) !important;
 }
 
 .signcam div strong {
-	font-weight: 700 !important
+    font-weight: 700 !important
 }
 
 .signcam img {
-	height: 60px
+    height: 60px
 }
 
 .cam .blocpl.one strong {
-	color: var(--custom-color-600)
+    color: var(--custom-color-600)
 }
 
 .cam .blocpl {
-	border-color: var(--group-color-50)
+    border-color: var(--group-color-50)
 }
 
 .cam .blocperso.one {
-	padding: var(--2xlarge)
+    padding: var(--2xlarge)
 }
 
-.cam .headperso img {width: 85px;
-height: 85px;
-border-radius: 100%;
+.cam .headperso img {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
 }
-
