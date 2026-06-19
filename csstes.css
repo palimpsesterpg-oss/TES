@@ -494,7 +494,8 @@ lblfvr:not(:first-of-type) {
 }
 
 lblfvr:after {
-	content: ": "
+	content: ":";
+	margin-right: 0.5rem
 }
 
 lbldvrs {
