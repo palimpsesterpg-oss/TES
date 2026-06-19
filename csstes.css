@@ -469,7 +469,7 @@ lblqst {
 
 .blocperso blockquote i {
 	font-family: var(--play);
-	color: var(--co4, var(--group-color));
+	color: var(--group-color, var(--co4));
 }
 
 lblchrn {
