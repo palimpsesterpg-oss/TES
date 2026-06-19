@@ -2481,6 +2481,7 @@ majgc::first-letter {
 	font-style: italic
 }
 
+.brf1,
 .br11,
 .br12,
 .br13,
@@ -2512,6 +2513,7 @@ majgc::first-letter {
 	background-color: var(--co1)
 }
 
+.brf1:before,
 .br11:before,
 .br12:before,
 .br13:before,
@@ -2526,6 +2528,7 @@ majgc::first-letter {
 	color: var(--co1)
 }
 
+.brf2,
 .br21,
 .br22,
 .br23,
