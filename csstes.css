@@ -456,8 +456,9 @@ lblprs:after {
 	margin: 0.5rem
 }
 
-lblprs:after {
+lblprs:before {
 	content: '•';
+	order: 2;
 	margin: 0.5rem
 }
 
