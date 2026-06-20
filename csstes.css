@@ -452,8 +452,13 @@ lblprs:not(:first-of-type) {
 }
 
 lblprs:after {
-	content: ' ⎯⎯⎯⎯⎯ •';
-	margin-right: 0.5rem
+	content: '⎯⎯⎯⎯⎯';
+	margin: 0.5rem
+}
+
+lblprs:after {
+	content: '•';
+	margin: 0.5rem
 }
 
 lblqst {
