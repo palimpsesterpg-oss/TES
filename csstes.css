@@ -440,11 +440,12 @@ fslarge {
 
 lblprs {
 	text-transform: uppercase;
-	display: block;
 	font-weight: 300;
 	font-family: var(--play);
 	color: var(--group-color, var(--co2));
-	text-align: right;
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 lblprs:not(:first-of-type) {
