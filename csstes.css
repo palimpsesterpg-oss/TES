@@ -194,7 +194,6 @@ fslarge {
 }
 
 .contentfam {
-	padding: 0 var(--large);
 	width: 100%
 }
 
@@ -246,6 +245,8 @@ fslarge {
 	justify-content: center;
 	flex-direction: column
 }
+
+.fichefam.noprof {margin: var(--2xlarge)}
 
 .headperso,
 .headpl,
@@ -3392,8 +3393,11 @@ pblocgc,
 .fichefam .logo50,
 .fichefam .logo75,
 .fichefam .logo100 {
-	margin-right: var(--3xlarge)
+	margin: var(--2xlarge);
+	outline: var(--small) solid var(--white);
 }
+
+.fichefam .icon75:last-of-type {margin-right: var(--2xlarge) !important}
 
 .icon50:last-of-type,
 .icon75:last-of-type,
@@ -3724,13 +3728,12 @@ p {
 
 #restricted-block {
 	display: flex;
-	gap: var(--xsmall);
+	gap: var(--2xsmall);
 	flex-direction: column;
 	align-items: center;
 	width: 100% !important;
 	text-transform: uppercase;
-	font-family: var(--alumni);
-	font-size: var(--large);
+	font-weight: 300
 }
 
 #restricted-block a {
