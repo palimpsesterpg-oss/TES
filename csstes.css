@@ -3732,6 +3732,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	width: 100% !important;
+	font-size: var(--small);
 	text-transform: uppercase;
 	font-weight: 300
 }
