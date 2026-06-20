@@ -49,15 +49,109 @@
 
 
 
-	--bunkbed: #f5ce3b;
-	--group-color-50: #fdf7df;
-	--group-color-100: #fceebe;
-	--group-color-200: #fae69e;
-	--group-color-300: #f8de7e;
-	--group-color-400: #f7d55e;
-	--group-color: #f5ce3b;
-	--group-color-600: #f2c10d;
-	--group-color-700: #c29a0a;
-	--group-color-800: #917408;
-	--group-color-900: #614d05;
-	--group-color-950: #302703;}
+	--bunkbed: #c29a0a;
+	--group-color-50: #fcf3cf;
+	--group-color-100: #fae69e;
+	--group-color-200: #f7da6e;
+	--group-color-300: #f5cd3d;
+	--group-color-400: #f2c10d;
+	--group-color: #c29a0a;
+	--group-color-600: #a28008;
+	--group-color-700: #816707;
+	--group-color-800: #614d05;
+
+	--meltmar: #8a9137;
+	--group-color-50: #eff1d9;
+	--group-color-100: #dfe2b4;
+	--group-color-200: #ced48e;
+	--group-color-300: #bec669;
+	--group-color-400: #acb645;
+	--group-color: #8a9137;
+	--group-color-600: #72782e;
+	--group-color-700: #5b6024;
+	--group-color-800: #44481b;
+
+	--dintab: #4d895d;
+	--group-color-50: #dfede3;
+	--group-color-100: #c0dcc7;
+	--group-color-200: #a0caab;
+	--group-color-300: #81b890;
+	--group-color-400: #61a674;
+	--group-color: #4d895d;
+	--group-color-600: #40724e;
+	--group-color-700: #335b3e;
+	--group-color-800: #27452f;
+
+    --wedring: #307b84;
+	--group-color-50: #d6eef0;
+	--group-color-100: #aedde2;
+	--group-color-200: #aedde2;
+	--group-color-300: #5dbac4;
+	--group-color-400: #3ea1ac;
+	--group-color: #307b84;
+	--group-color-600: #27666d;
+	--group-color-700: #205257;
+	--group-color-800: #183d42;
+
+    --phoalb: #0e6f9c;
+	--group-color-50: #cbebfa;
+	--group-color-100: #96d8f6;
+	--group-color-200: #62c4f1;
+	--group-color-300: #2db0ed;
+	--group-color-400: #1293cf;
+	--group-color: #0e6f9c;
+	--group-color-600: #0b5c81;
+	--group-color-700: #094967;
+	--group-color-800: #07374d;
+
+
+    #total-users-online {
+    height: 30px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: -webkit-fill-available;
+    text-align: center;
+    font-family: var(--inc);
+    gap: var(--2xsmall);
+    align-items: center;
+    justify-content: center
+}
+
+.forumtitle {
+    color: var(--co1)!important;
+    font-family: var(--play);
+    font-size: var(--large);
+    text-transform: lowercase;
+    letter-spacing: 0.15rem;
+    font-style: italic;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex
+}
+
+.cat_new .forumtitle, .forum_new .forumtitle {
+    color: var(--co1-700) !important;
+}
+
+.forumlinks a -> co3
+.forum_new .forumrow-status:before -> group-color
+.forumrow-avatar -> darkerlight
+
+#groups-qeel strong:first-child::after {    content: "";
+    border-bottom: 0.5px solid;
+    margin: auto var(--2xsmall);
+    flex: 1}
+
+    #groups-qeel div {
+    font-weight: 100;
+    display: flex;
+    color: var(--group-color);
+    font-family: var(--play);
+    font-size: var(--large);
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+}

@@ -69,9 +69,6 @@ fslarge {
 	--group-color-600: #404040;
 	--group-color-700: #333333;
 	--group-color-800: #262626;
-	--group-color-900: #1A1A1A;
-	--group-color-950: #0D0D0D;
-
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -89,8 +86,6 @@ fslarge {
 	--group-color-600: #6F5573;
 	--group-color-700: #59445C;
 	--group-color-800: #433345;
-	--group-color-900: #2D222E;
-	--group-color-950: #161117;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -108,8 +103,6 @@ fslarge {
 	--group-color-600: #693C51;
 	--group-color-700: #543041;
 	--group-color-800: #3F2431;
-	--group-color-900: #2A1821;
-	--group-color-950: #150C10;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -127,8 +120,6 @@ fslarge {
 	--group-color-600: #651E2A;
 	--group-color-700: #511822;
 	--group-color-800: #3D1219;
-	--group-color-900: #290C11;
-	--group-color-950: #140608;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -146,8 +137,6 @@ fslarge {
 	--group-color-600: #702A29;
 	--group-color-700: #592221;
 	--group-color-800: #431919;
-	--group-color-900: #2D1111;
-	--group-color-950: #160808;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -165,8 +154,6 @@ fslarge {
 	--group-color-600: #783529;
 	--group-color-700: #602A21;
 	--group-color-800: #482019;
-	--group-color-900: #301510;
-	--group-color-950: #180B08;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -345,19 +332,19 @@ fslarge {
 }
 
 [data-color-scheme="dark"] .ficheperso underb1 {
-	box-shadow: inset 0 -5px 0 var(--group-color-900, var(--co1-900))
+	box-shadow: inset 0 -5px 0 var(--group-color-800, var(--co1-900))
 }
 
 [data-color-scheme="dark"] .ficheperso underb2 {
-	box-shadow: inset 0 -5px 0 var(--group-color-900, var(--co-900))
+	box-shadow: inset 0 -5px 0 var(--group-color-800, var(--co-900))
 }
 
 [data-color-scheme="dark"] .ficheperso underb3 {
-	box-shadow: inset 0 -5px 0 var(--group-color-900, var(--co3-900))
+	box-shadow: inset 0 -5px 0 var(--group-color-800, var(--co3-900))
 }
 
 [data-color-scheme="dark"] .ficheperso underb4 {
-	box-shadow: inset 0 -5px 0 var(--group-color-900, var(--co4-900))
+	box-shadow: inset 0 -5px 0 var(--group-color-800, var(--co4-900))
 }
 
 [data-color-scheme="dark"] a [class*="group-"],
@@ -3743,7 +3730,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	width: 100% !important;
-	font-size: var(--small);
+	font-family: var(--inc);
 	text-transform: uppercase;
 	font-weight: 300
 }
