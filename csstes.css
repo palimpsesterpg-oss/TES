@@ -15,8 +15,6 @@
 	--gradientAll-50: linear-gradient(to left, var(--co1-50), var(--co2-50), var(--co3-50), var(--co4-50))
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
-
 fslarge {
 	font-size: var(--large)
 }
