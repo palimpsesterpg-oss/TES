@@ -446,6 +446,7 @@ lblprs {
 	display: flex;
     align-items: center;
     justify-content: flex-end;
+	gap: var(--small)
 }
 
 lblprs:not(:first-of-type) {
@@ -454,13 +455,11 @@ lblprs:not(:first-of-type) {
 
 lblprs:after {
 	content: '⎯⎯⎯⎯⎯';
-	margin: 0.5rem
 }
 
 lblprs:before {
 	content: '•';
 	order: 2;
-	margin: 0.5rem
 }
 
 lblqst {
