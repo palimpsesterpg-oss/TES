@@ -246,7 +246,9 @@ fslarge {
 	flex-direction: column
 }
 
-.fichefam.noprof {margin: var(--2xlarge)}
+.fichefam.noprof {
+	margin: var(--2xlarge)
+}
 
 .headperso,
 .headpl,
@@ -444,9 +446,9 @@ lblprs {
 	font-family: var(--play);
 	color: var(--group-color, var(--co2));
 	display: flex;
-    align-items: center;
+	align-items: center;
 	margin: var(--small);
-    justify-content: flex-end;
+	justify-content: flex-end;
 	gap: var(--small)
 }
 
@@ -464,32 +466,32 @@ lblprs:before {
 }
 
 lblqst {
-font-weight: 700;
-    margin: 0.25rem 0.5rem;
-    padding-left: 1px;
-    font-family: var(--alumni);
-    font-size: var(--large);
-    width: fit-content;
-    letter-spacing: 1px;
-    color: var(--group-color, var(--co1));
-    box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50));
+	font-weight: 700;
+	margin: 0.25rem 0.5rem;
+	padding-left: 1px;
+	font-family: var(--alumni);
+	font-size: var(--large);
+	width: fit-content;
+	letter-spacing: 1px;
+	color: var(--group-color, var(--co1));
+	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50));
 }
 
 .blocperso blockquote i {
 	font-weight: 300;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
 	text-transform: lowercase;
 	color: var(--group-color, var(--co4));
 }
 
 lblchrn {
 	background-color: var(--group-color, var(--co4));
-    padding: 0.5px 5px 0.5px 10px;
+	padding: 0.5px 5px 0.5px 10px;
 	margin-right: var(--xsmall);
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: var(--small);
-    color: var(--white);
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: var(--small);
+	color: var(--white);
 }
 
 lblfvr {
@@ -509,13 +511,13 @@ lblfvr:after {
 }
 
 lbldvrs {
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    font-size: var(--small);
-    font-weight: 700;
-    color: var(--group-color-400, var(--co2-400));
-    background: var(--group-color-50, var(--co2-50));
-    padding: 1px 5px 1px 7.5px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	font-size: var(--small);
+	font-weight: 700;
+	color: var(--group-color-400, var(--co2-400));
+	background: var(--group-color-50, var(--co2-50));
+	padding: 1px 5px 1px 7.5px;
 }
 
 lblplyr {
@@ -534,9 +536,9 @@ lblplyr {
 .idperso .contenttoggle {
 	padding: var(--large);
 	margin-top: var(--2xlarge);
-    outline: var(--large) solid var(--white);
-    background: var(--light);
-    border: 1px solid var(--group-color, var(--co1-50)) !important;
+	outline: var(--large) solid var(--white);
+	background: var(--light);
+	border: 1px solid var(--group-color, var(--co1-50)) !important;
 }
 
 .groupperso {
@@ -3404,7 +3406,9 @@ pblocgc,
 	outline: var(--small) solid var(--white);
 }
 
-.fichefam .icon75:last-of-type {margin-right: var(--2xlarge) !important}
+.fichefam .icon75:last-of-type {
+	margin-right: var(--2xlarge) !important
+}
 
 .icon50:last-of-type,
 .icon75:last-of-type,
@@ -4033,237 +4037,240 @@ firstdts:before {
 }
 
 .ficheinsta {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- gap: var(--large);
- padding: var(--large);
- width: 514px;
- background: var(--white);
- margin: 0 auto
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--large);
+	padding: var(--large);
+	width: 514px;
+	background: var(--white);
+	margin: 0 auto
 }
 
 .ficheinsta.mini {
- flex-direction: row;
- width: 400px;
- padding: var(--small);
- justify-content: flex-start
+	flex-direction: row;
+	width: 400px;
+	padding: var(--small);
+	justify-content: flex-start
 }
 
 .ficheinsta.mini a {
- font-family: var(--inc);
- color: var(--co3, var(--group-color));
- text-transform: uppercase;
- text-transform: 1px
+	font-family: var(--inc);
+	color: var(--co3, var(--group-color));
+	text-transform: uppercase;
+	text-transform: 1px
 }
 
 .headinsta {
- display: flex;
- align-items: center;
- justify-content: center;
- gap: var(--large)
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: var(--large)
 }
 
 .iconinsta {
- width: 100px;
- height: 100px;
- object-fit: cover;
- border-radius: 100%;
- padding: var(--xsmall);
- border: 1px solid var(--group-color, var(--co1))
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 100%;
+	padding: var(--xsmall);
+	border: 1px solid var(--group-color, var(--co1))
 }
 
 .miniconinsta {
- width: 50px;
- height: 50px;
- object-fit: cover;
- border-radius: 100%;
- padding: 0.2rem;
- border: 0.5px solid var(--group-color, var(--co1))
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 100%;
+	padding: 0.2rem;
+	border: 0.5px solid var(--group-color, var(--co1))
 }
 
 .pseudoinsta {
- display: flex;
- flex: 1;
- flex-direction: column
+	display: flex;
+	flex: 1;
+	flex-direction: column
 }
 
 mainpseudo {
- text-transform: lowercase;
- font-weight: 700;
- letter-spacing: 1px;
- font-size: var(--xlarge)
+	text-transform: lowercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: var(--xlarge)
 }
 
 minipseudo {
- text-transform: lowercase;
- font-weight: 700
+	text-transform: lowercase;
+	font-weight: 700
 }
 
 mainpseudo:before,
 minipseudo:before {
- content: "@"
+	content: "@"
 }
 
 instadata {
- font-weight: 300;
- letter-spacing: 2.5px;
- text-transform: uppercase;
- font-family: var(--alumni)
+	font-weight: 300;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	font-family: var(--alumni)
 }
 
 instadata strong {
- font-weight: 700;
- color: var(--group-color, var(--co2))
+	font-weight: 700;
+	color: var(--group-color, var(--co2))
 }
 
 littlepseudo {
- font-weight: 700
+	font-weight: 700
 }
 
 statusinsta {
- color: var(--darkerneutral);
- font-weight: 300
+	color: var(--darkerneutral);
+	font-weight: 300
 }
 
 .followsinsta {
- color: var(--lighterdark);
- width: 100%;
- text-align: center;
- text-transform: lowercase;
- font-weight: 300
+	color: var(--lighterdark);
+	font-family: var(--inc);
+	width: 100%;
+	text-align: center;
+	text-transform: lowercase;
+	font-weight: 300
 }
 
 .storiesinsta {
- display: flex;
- align-items: center;
- justify-content: center;
- gap: var(--large);
- text-transform: uppercase;
- font-weight: 300;
- letter-spacing: 1px;
- width: 100%
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--large);
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+	width: 100%
 }
 
 .storiesinsta img {
- display: block;
- border-radius: 100%;
- height: 45px;
- width: 45px
+	display: block;
+	border-radius: 100%;
+	height: 45px;
+	width: 45px
 }
 
 .storiesinsta div {
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: var(--xsmall)
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--xsmall)
 }
 
 .contentinsta {
- display: flex;
- flex-wrap: wrap;
- gap: var(--large);
- width: 100%
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--large);
+	width: 100%
 }
 
 .imginsta {
- position: relative;
- display: flex;
- align-items: center;
- justify-content: center
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center
 }
 
 .imginsta img,
 .imginsta,
 .imgcontent {
- height: 150px;
- width: 150px;
- object-fit: cover
+	height: 150px;
+	width: 150px;
+	object-fit: cover
 }
 
 .imgcontent {
- display: none;
- position: absolute;
- gap: var(--large);
- width: 135px;
- height: 135px;
- align-items: center;
- justify-content: center;
- background-color: var(--whiteop75);
- backdrop-filter: blur(3px);
- flex-direction: column
+	display: none;
+	position: absolute;
+	gap: var(--large);
+	text-transform: lowercase;
+	width: 135px;
+	height: 135px;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--whiteop75);
+	backdrop-filter: blur(3px);
+	flex-direction: column
 }
 
 .imginsta:hover {
- filter: grayscale(1)
+	filter: grayscale(1)
 }
 
 .imginsta:hover .imgcontent {
- display: flex
+	display: flex
 }
 
 .ficheinsta.post,
 .ficheinsta.story {
- width: 400px;
- gap: var(--large)
+	width: 400px;
+	gap: var(--large)
 }
 
 .ficheinsta .imgpost {
- width: 400px;
- height: 500px;
- object-fit: cover
+	width: 400px;
+	height: 500px;
+	object-fit: cover
 }
 
 .ficheinsta.story {
- position: relative;
- padding: 0px !important
+	position: relative;
+	padding: 0px !important
 }
 
 .ficheinsta.story .contentstory {
- position: absolute;
- padding: 0px !important;
- top: 0;
- width: 400px;
- height: 500px;
- color: #ffffff !important;
- padding: var(--large);
- display: flex;
- flex-direction: column
+	position: absolute;
+	padding: 0px !important;
+	top: 0;
+	width: 400px;
+	height: 500px;
+	color: #ffffff !important;
+	padding: var(--large);
+	display: flex;
+	flex-direction: column
 }
 
 .ficheinsta.story .contentstory div:first-child {
- padding-bottom: var(--large);
- border-bottom: 1px solid white
+	padding-bottom: var(--large);
+	border-bottom: 1px solid white
 }
 
 .ficheinsta.story .contentstory div:first-child incd {
- color: #ffffff !important
+	color: #ffffff !important
 }
 
 .ficheinsta.story .contentstory div:last-child {
- display: block;
- height: -webkit-fill-available;
- padding-top: var(--large)
+	display: block;
+	height: -webkit-fill-available;
+	padding-top: var(--large)
 }
 
 .ficheinsta.story .contentstory div,
 .ficheinsta.post .instapostdetails,
 .ficheinsta.post .instapostdetails div {
- width: 100%;
- height: fit-content;
- display: flex;
- justify-content: space-between;
- align-items: center;
- gap: var(--large)
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: var(--large)
 }
 
 .ficheinsta.post .instapostdetails div {
- justify-content: flex-start
+	justify-content: flex-start
 }
 
 .ficheinsta.story .contentstory .miniconinsta {
- border: 0.5px solid var(--white);
- height: 35px;
- width: 35px
+	border: 0.5px solid var(--white);
+	height: 35px;
+	width: 35px
 }
