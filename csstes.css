@@ -669,8 +669,11 @@ reclinks a:after {
 }
 
 .dotlist:before {content: '•';
-margin: var(--2xlarge);
+margin: var(--large);
 color: var(--co4)}
+
+.inneradmin .dotlist:before {margin-right: var(--large);
+margin-left: 0px !important;}
 
 border1,
 border2,
