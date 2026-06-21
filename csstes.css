@@ -162,7 +162,7 @@ fslarge {
 .titrefam {
 	font-size: var(--2xlarge);
 	text-align: center;
-	font-family: var(--alumni);
+	font-family: var(--var);
 	text-transform: lowercase;
 	font-weight: 900;
 	letter-spacing: 5px;
@@ -190,7 +190,7 @@ fslarge {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 100;
-	font-family: var(--alumni);
+	font-family: var(--var);
 	font-size: var(--xlarge);
 	letter-spacing: var(--xsmall);
 	display: flex;
@@ -265,7 +265,7 @@ fslarge {
 
 .pseudoperso nom {
 	font-style: italic;
-	font-family: var(--play);
+	font-family: var(--serif);
 	color: var(--lightdark);
 	font-size: var(--xlarge)
 }
@@ -430,7 +430,7 @@ fslarge {
 lblprs {
 	text-transform: uppercase;
 	font-weight: 300;
-	font-family: var(--play);
+	font-family: var(--serif);
 	color: var(--group-color, var(--co2));
 	display: flex;
 	align-items: center;
@@ -456,7 +456,7 @@ lblqst {
 	font-weight: 700;
 	margin: 0.25rem 0.5rem;
 	padding-left: 1px;
-	font-family: var(--alumni);
+	font-family: var(--var);
 	font-size: var(--large);
 	width: fit-content;
 	letter-spacing: 1px;
@@ -483,7 +483,7 @@ lblchrn {
 
 lblfvr {
 	font-style: italic;
-	font-family: var(--play);
+	font-family: var(--serif);
 	text-transform: lowercase;
 	color: var(--group-color, var(--co3))
 }
@@ -508,7 +508,7 @@ lbldvrs {
 }
 
 lblplyr {
-	font-family: var(--inc);
+	font-family: var(--mono);
 	text-transform: lowercase;
 	color: var(--group-color, var(--co1));
 }
@@ -636,14 +636,14 @@ lblplyr {
 .blocpl.one {
 	background-color: var(--white);
 	padding: var(--large);
-	font-family: var(--play);
+	font-family: var(--serif);
 	font-style: italic;
 	letter-spacing: 1px;
 	text-align: center !important
 }
 
 .blocpl.one strong {
-	font-family: var(--inc);
+	font-family: var(--mono);
 	font-style: normal;
 	text-transform: uppercase;
 	color: var(--co2);
@@ -665,7 +665,7 @@ lblplyr {
 }
 
 .blocpl.three .mentiontag {
-	font-family: var(--play);
+	font-family: var(--serif);
 	text-transform: uppercase;
 	display: block;
 	color: var(--group-color, var(--co2));
@@ -675,7 +675,7 @@ lblplyr {
 
 .attentes strong:first-child {
 	text-transform: uppercase;
-	font-family: var(--alumni);
+	font-family: var(--var);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-size: var(--large);
@@ -714,7 +714,7 @@ lblplyr {
 	gap: var(--large);
 	width: 90%;
 	display: flex;
-	font-family: var(--play);
+	font-family: var(--serif);
 	font-size: var(--xlarge);
 	text-align: center;
 	align-items: center;
@@ -749,7 +749,7 @@ lblplyr {
 }
 
 .lien .pseudorec i {
-	font-family: var(--inc);
+	font-family: var(--mono);
 	font-size: var(--large)
 }
 
@@ -772,7 +772,7 @@ reclinks {
 
 recdtls i {
 	color: var(--group-color-300, var(--co3-300));
-	font-family: var(--inc);
+	font-family: var(--mono);
 	font-style: normal;
 	text-transform: lowercase;
 	font-weight: 300
@@ -1331,7 +1331,7 @@ lbackgc,
 lbackbgc,
 lbackigc,
 lbackbigc {
-	font-family: var(--inc)
+	font-family: var(--mono)
 }
 
 grad1,
@@ -1633,7 +1633,7 @@ playbi4,
 playbin,
 playbid,
 playbigc {
-	font-family: var(--play)
+	font-family: var(--serif)
 }
 
 play1,
@@ -1741,7 +1741,7 @@ alumbi4,
 alumbin,
 alumbid,
 alumbigc {
-	font-family: var(--alumni);
+	font-family: var(--var);
 	font-size: var(--large)
 }
 
@@ -1773,7 +1773,7 @@ incbi4,
 incbin,
 incbid,
 incbigc {
-	font-family: var(--inc)
+	font-family: var(--mono)
 }
 
 alum1,
@@ -2316,7 +2316,7 @@ sstitgc {
 	color: transparent;
 	font-style: italic;
 	font-weight: 700;
-	font-family: var(--play)
+	font-family: var(--serif)
 }
 
 sstit1 {
@@ -2475,7 +2475,7 @@ majgc::first-letter {
 	font-weight: 900 !important;
 	font-size: var(--xlarge) !important;
 	text-transform: lowercase !important;
-	font-family: var(--play);
+	font-family: var(--serif);
 	font-style: italic
 }
 
@@ -2915,12 +2915,12 @@ majgc::first-letter {
 
 #postprofile-libre i,
 .postprofile-libre i {
-	font-family: var(--play)
+	font-family: var(--serif)
 }
 
 #postprofile-libre u,
 .postprofile-libre u {
-	font-family: var(--alumni);
+	font-family: var(--var);
 	font-size: var(--large);
 }
 
@@ -2934,7 +2934,7 @@ majgc::first-letter {
 	background-color: var(--group-color-50, var(--co2-50));
 	padding: 0 var(--xsmall);
 	color: var(--group-color, var(--co2)) !important;
-	font-family: var(--inc)
+	font-family: var(--mono)
 }
 
 #postprofile-libre a:hover,
@@ -2992,7 +2992,7 @@ majgc::first-letter {
 	font-size: var(--small);
 	width: 232px;
 	padding: var(--large);
-	font-family: var(--inc)
+	font-family: var(--mono)
 }
 
 #postprofile-libre li::marker,
@@ -3071,7 +3071,7 @@ majgc::first-letter {
 	margin: 0 auto;
 	width: 600px;
 	text-transform: lowercase;
-	font-family: var(--inc);
+	font-family: var(--mono);
 	font-weight: 300;
 	display: flex;
 	align-items: center;
@@ -3490,7 +3490,7 @@ pblocgc,
 
 .tooltipster-content {
 	padding: var(--large) !important;
-	font-family: var(--rale) !important
+	font-family: var(--main) !important
 }
 
 .tooltip-rank an:before {
@@ -3577,7 +3577,7 @@ pblocgc,
 .indivquote {
 	text-transform: lowercase;
 	font-size: var(--small);
-	font-family: var(--play);
+	font-family: var(--serif);
 	font-style: italic;
 }
 
@@ -3592,7 +3592,7 @@ blockquote.indiv {
 	background-color: var(--group-color-50);
 	line-height: var(--xlarge);
 	letter-spacing: 1px;
-	font-family: var(--inc)
+	font-family: var(--mono)
 }
 
 blockquote.indiv a {
@@ -3605,7 +3605,7 @@ chronodate {
 	align-items: center;
 	justify-content: space-between;
 	color: var(--group-color, var(--darkneutral));
-	font-family: var(--inc);
+	font-family: var(--mono);
 	width: 100px;
 }
 
@@ -3633,7 +3633,7 @@ chronoevent {
 }
 
 chronoevent strong {
-	font-family: var(--alumni);
+	font-family: var(--var);
 	font-size: var(--large);
 	color: var(--white);
 	background-color: var(--group-color, var(--darkneutral));
@@ -3693,7 +3693,7 @@ chronoevent strong {
 	background: var(--co4);
 	color: var(--white);
 	padding: var(--2xsmall) var(--2xlarge);
-	font-family: var(--play);
+	font-family: var(--serif);
 	text-decoration: none !important;
 	font-style: italic
 }
@@ -3730,7 +3730,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	width: 100% !important;
-	font-family: var(--inc);
+	font-family: var(--mono);
 	text-transform: uppercase;
 	font-weight: 300
 }
@@ -3741,7 +3741,7 @@ p {
 }
 
 .postprofile.cam .postprofile-rank {
-	font-family: var(--play)
+	font-family: var(--serif)
 }
 
 .ficval {
@@ -3760,7 +3760,7 @@ p {
 .ficval border1 {
 	font-size: var(--2xlarge);
 	letter-spacing: 2.5px;
-	font-family: var(--alumni);
+	font-family: var(--var);
 	font-weight: 800
 }
 
@@ -3773,7 +3773,7 @@ p {
 	background: var(--gradient12);
 	color: var(--white) !important;
 	padding: 0 var(--xsmall);
-	font-family: var(--play)
+	font-family: var(--serif)
 }
 
 
@@ -3800,7 +3800,7 @@ p {
 	font-weight: 300;
 	font-size: var(--xlarge);
 	text-transform: capitalize;
-	font-family: var(--play);
+	font-family: var(--serif);
 	width: 100%;
 	font-style: italic;
 	color: var(--group-color, var(--co1))
@@ -3816,7 +3816,7 @@ p {
 .head-data {
 	text-align: center;
 	color: var(--group-color-700, var(--co1-700));
-	font-family: var(--inc);
+	font-family: var(--mono);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding-left: 1px;
@@ -3866,7 +3866,7 @@ p {
 	color: var(--group-color, var(--co1)) !important;
 	text-transform: lowercase;
 	font-weight: 300;
-	font-family: var(--inc);
+	font-family: var(--mono);
 	letter-spacing: 1.5px;
 	display: flex;
 	align-items: center;
@@ -4043,7 +4043,7 @@ firstdts:before {
 }
 
 .ficheinsta.mini a {
-	font-family: var(--inc);
+	font-family: var(--mono);
 	color: var(--co3, var(--group-color));
 	text-transform: uppercase;
 	text-transform: 1px
@@ -4102,7 +4102,7 @@ instadata {
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	font-family: var(--alumni)
+	font-family: var(--var)
 }
 
 instadata strong {
@@ -4121,7 +4121,7 @@ statusinsta {
 
 .followsinsta {
 	color: var(--lighterdark);
-	font-family: var(--inc);
+	font-family: var(--mono);
 	width: 100%;
 	text-align: center;
 	text-transform: lowercase;
