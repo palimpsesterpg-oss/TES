@@ -109,7 +109,7 @@ fslarge {
 
 .group-7,
 .wedring {
-    --wedring: #307b84;
+	--wedring: #307b84;
 	--group-color-50: #d6eef0;
 	--group-color-100: #aedde2;
 	--group-color-200: #aedde2;
@@ -126,7 +126,7 @@ fslarge {
 
 .group-8,
 .phoalb {
-    --phoalb: #0e6f9c;
+	--phoalb: #0e6f9c;
 	--group-color-50: #cbebfa;
 	--group-color-100: #96d8f6;
 	--group-color-200: #62c4f1;
@@ -230,7 +230,7 @@ fslarge {
 
 .quoteperso {
 	font-style: italic;
-	letter-spacing: 1px;
+	text-transform: lowercase;
 	width: 100%;
 	text-align: center;
 	font-size: var(--small)
@@ -239,24 +239,21 @@ fslarge {
 .pseudoperso {
 	display: flex;
 	align-items: center;
-	text-transform: lowercase;
-	color: var(--darkneutral);
 	justify-content: center;
+	color: var(--lightdark);
+	font-size: var(--xlarge);
 	flex-direction: column
 }
 
 .pseudoperso nom {
-	font-style: italic;
+	font-weight: 900;
 	font-family: var(--serif);
-	color: var(--lightdark);
-	font-size: var(--xlarge)
+	text-transform: lowercase
 }
 
 .pseudoperso prenom {
-	font-weight: 300;
+	font-weight: 100;
 	text-transform: uppercase;
-	font-size: var(--large);
-	color: var(--lightdark);
 	letter-spacing: 2.5px
 }
 
@@ -668,12 +665,16 @@ reclinks a:after {
 	border: 0.5px solid var(--neutral)
 }
 
-.dotlist:before {content: '•';
-margin: var(--large);
-color: var(--co4)}
+.dotlist:before {
+	content: '•';
+	margin: var(--large);
+	color: var(--co4)
+}
 
-.inneradmin .dotlist:before {margin-right: var(--large);
-margin-left: 0px !important;}
+.inneradmin .dotlist:before {
+	margin-right: var(--large);
+	margin-left: 0px !important;
+}
 
 border1,
 border2,
@@ -2373,6 +2374,19 @@ majgc::first-letter {
 	background-color: var(--co1)
 }
 
+.brf1,
+.brf2 {
+	background-color: var(--group-color, var(--black))
+}
+
+.brf1:before {
+	color: var(--group-color, var(--black))
+}
+
+.brf2 {
+	background: linear-gradient(to right, var(--light), var(--group-color, var(--black)), var(--light))
+}
+
 .brf1:before,
 .br11:before,
 .br12:before,
@@ -3776,7 +3790,7 @@ p {
 .ficheperso.first {
 	width: 90%;
 	align-items: stretch;
-	border: 1px solid var(--group-color-50);
+	border: 1px solid var(--group-color);
 	flex-direction: row !important;
 	justify-content: center;
 	margin: 0 auto
