@@ -3673,8 +3673,8 @@ p {
 .head-pseudo {
 	text-align: center;
 	font-weight: 100;
-	font-size: var(--3xlarge);
-	font-family: var(--spe);
+	font-size: var(--2xlarge);
+	font-family: var(--serif);
 	width: 100%;
 	color: var(--group-color, var(--co1))
 }
