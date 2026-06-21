@@ -3324,7 +3324,7 @@ pblocgc,
 }
 
 .tooltip-details a {
-	color: var(--group-color, var(--co2))
+	color: var(--group-color, var(--co2)) !important
 }
 
 .tooltip-content {
@@ -3349,9 +3349,10 @@ pblocgc,
 .tooltip-pseudo {
 	font-size: var(--xlarge);
 	width: 100%;
+	font-weight: 700;
 	margin: var(--small) 0;
 	text-align: center;
-	font-family: var(--spe)
+	font-family: var(--serif)
 }
 
 .tooltipster-default {
@@ -3671,12 +3672,10 @@ p {
 
 .head-pseudo {
 	text-align: center;
-	font-weight: 300;
-	font-size: var(--xlarge);
-	text-transform: capitalize;
-	font-family: var(--serif);
+	font-weight: 100;
+	font-size: var(--3xlarge);
+	font-family: var(--spe);
 	width: 100%;
-	font-style: italic;
 	color: var(--group-color, var(--co1))
 }
 
@@ -3718,7 +3717,7 @@ p {
 }
 
 .links-container a {
-	color: var(--group-color, var(--co1));
+	color: var(--group-color, var(--co1)) !important;
 	font-style: normal;
 	text-transform: lowercase;
 	font-weight: 700
@@ -3755,7 +3754,7 @@ p {
 }
 
 .head-rps:before {
-	font-family: var(--spe);
+	font-weight: 100;
 	text-transform: uppercase;
 	color: var(--group-color, var(--co1));
 	margin-bottom: var(--xsmall);

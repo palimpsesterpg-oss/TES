@@ -87,14 +87,13 @@
 
 .cam cam7 {
     font-family: var(--serif);
-    color: var(--group-color-400);
+    color: var(--group-color);
     display: inline-block;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .cam cam7::first-letter {
-    color: var(--group-color-600);
     font-size: var(--xlarge);
     font-family: var(--spe);
     font-weight: 700;
@@ -147,7 +146,6 @@
 .cam .quoterpcam div {
     flex: 1;
     font-family: var(--serif);
-    font-style: italic;
 }
 
 .cam .inforpcam {
