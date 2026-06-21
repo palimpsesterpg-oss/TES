@@ -58,16 +58,16 @@ fslarge {
 
 .group-4,
 .bunkbed {
-	--bunkbed: #86678A;
-	--group-color-50: #EBE5EC;
-	--group-color-100: #D7CBD9;
-	--group-color-200: #C3B1C6;
-	--group-color-300: #AF97B2;
-	--group-color-400: #9B7D9F;
-	--group-color: #86678A;
-	--group-color-600: #6F5573;
-	--group-color-700: #59445C;
-	--group-color-800: #433345;
+	--bunkbed: #c29a0a;
+	--group-color-50: #fcf3cf;
+	--group-color-100: #fae69e;
+	--group-color-200: #f7da6e;
+	--group-color-300: #f5cd3d;
+	--group-color-400: #f2c10d;
+	--group-color: #c29a0a;
+	--group-color-600: #a28008;
+	--group-color-700: #816707;
+	--group-color-800: #614d05;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -75,16 +75,16 @@ fslarge {
 
 .group-5,
 .meltmar {
-	--meltmar: #804963;
-	--group-color-50: #ECDEE5;
-	--group-color-100: #D9BDCA;
-	--group-color-200: #C69CB0;
-	--group-color-300: #B37B95;
-	--group-color-400: #9F5C7B;
-	--group-color: #804963;
-	--group-color-600: #693C51;
-	--group-color-700: #543041;
-	--group-color-800: #3F2431;
+	--meltmar: #8a9137;
+	--group-color-50: #eff1d9;
+	--group-color-100: #dfe2b4;
+	--group-color-200: #ced48e;
+	--group-color-300: #bec669;
+	--group-color-400: #acb645;
+	--group-color: #8a9137;
+	--group-color-600: #72782e;
+	--group-color-700: #5b6024;
+	--group-color-800: #44481b;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -92,16 +92,16 @@ fslarge {
 
 .group-6,
 .dintab {
-	--dintab: #792432;
-	--group-color-50: #F2D2D7;
-	--group-color-100: #E4A5AF;
-	--group-color-200: #D77887;
-	--group-color-300: #C94A5F;
-	--group-color-400: #A73245;
-	--group-color: #792432;
-	--group-color-600: #651E2A;
-	--group-color-700: #511822;
-	--group-color-800: #3D1219;
+	--dintab: #4d895d;
+	--group-color-50: #dfede3;
+	--group-color-100: #c0dcc7;
+	--group-color-200: #a0caab;
+	--group-color-300: #81b890;
+	--group-color-400: #61a674;
+	--group-color: #4d895d;
+	--group-color-600: #40724e;
+	--group-color-700: #335b3e;
+	--group-color-800: #27452f;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -109,16 +109,16 @@ fslarge {
 
 .group-7,
 .wedring {
-	--wedring: #863331;
-	--group-color-50: #F0D8D7;
-	--group-color-100: #E2B0B0;
-	--group-color-200: #D38988;
-	--group-color-300: #C46260;
-	--group-color-400: #AE4240;
-	--group-color: #863331;
-	--group-color-600: #702A29;
-	--group-color-700: #592221;
-	--group-color-800: #431919;
+    --wedring: #307b84;
+	--group-color-50: #d6eef0;
+	--group-color-100: #aedde2;
+	--group-color-200: #aedde2;
+	--group-color-300: #5dbac4;
+	--group-color-400: #3ea1ac;
+	--group-color: #307b84;
+	--group-color-600: #27666d;
+	--group-color-700: #205257;
+	--group-color-800: #183d42;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
@@ -126,16 +126,16 @@ fslarge {
 
 .group-8,
 .phoalb {
-	--phoalb: #903F31;
-	--group-color-50: #F2DCD8;
-	--group-color-100: #E4B8B0;
-	--group-color-200: #D79589;
-	--group-color-300: #C97162;
-	--group-color-400: #B8513F;
-	--group-color: #903F31;
-	--group-color-600: #783529;
-	--group-color-700: #602A21;
-	--group-color-800: #482019;
+    --phoalb: #0e6f9c;
+	--group-color-50: #cbebfa;
+	--group-color-100: #96d8f6;
+	--group-color-200: #62c4f1;
+	--group-color-300: #2db0ed;
+	--group-color-400: #1293cf;
+	--group-color: #0e6f9c;
+	--group-color-600: #0b5c81;
+	--group-color-700: #094967;
+	--group-color-800: #07374d;
 	--gradientgc1: linear-gradient(to right, var(--group-color-50), var(--group-color-100), var(--group-color-50));
 	--gradientgc2: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
 	--gradientgc3: linear-gradient(to right, var(--group-color-600), var(--group-color-800), var(--group-color-600))
