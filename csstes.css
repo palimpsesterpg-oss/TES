@@ -2138,7 +2138,7 @@ titgc {
 	font-size: var(--2xlarge);
 	letter-spacing: 2.5px;
 	color: transparent;
-	font-weight: 900
+	font-weight: 500
 }
 
 tit1 {
@@ -2179,8 +2179,7 @@ sstitgc {
 	font-size: var(--2xlarge);
 	letter-spacing: 1px;
 	color: transparent;
-	font-style: italic;
-	font-weight: 700;
+	font-weight: 900;
 	font-family: var(--serif)
 }
 
@@ -2232,6 +2231,8 @@ spcln,
 spcld,
 spclgc {
 	font-family: var(--spe);
+	font-weight: 100;
+	font-size: var(--large);
 	letter-spacing: 1px;
 }
 
