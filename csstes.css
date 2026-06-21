@@ -19,24 +19,6 @@ fslarge {
 	font-size: var(--large)
 }
 
-.fichefam incb2 {
-	border-bottom: 2px solid var(--co2-50);
-}
-
-.fichefam base2 {
-	font-weight: 300;
-	text-transform: lowercase;
-	letter-spacing: 1px
-}
-
-.fichefam lback1 {
-	font-size: var(--large);
-	text-transform: uppercase;
-	letter-spacing: 2.5px;
-	font-weight: 300;
-	margin-left: var(--2xlarge);
-}
-
 .posttabsystem {
 	width: 100%
 }
