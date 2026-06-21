@@ -23,7 +23,7 @@
 .cam .blocperso.one strong,
 .cam .blocrec.two i,
 .cam .blocrec.two strong {
-    font-family: var(--play)
+    font-family: var(--serif)
 }
 
 .cam i:not(.ph),
@@ -53,7 +53,7 @@
 .cam cam3 {
     color: var(--group-color-100);
     background-color: var(--group-color);
-    font-family: var(--alumni);
+    font-family: var(--var);
     letter-spacing: 2.5px;
     font-weight: 100;
     font-size: var(--large);
@@ -64,7 +64,7 @@
 .cam cam4 {
     color: var(--group-color);
     border-bottom: 2.5px solid var(--group-color-50);
-    font-family: var(--play);
+    font-family: var(--serif);
 }
 
 .cam cam5 {
@@ -86,7 +86,7 @@
 }
 
 .cam cam7 {
-    font-family: var(--play);
+    font-family: var(--serif);
     color: var(--group-color-400);
     display: inline-block;
     text-transform: uppercase;
@@ -114,7 +114,7 @@
     padding: var(--2xsmall) var(--medium);
     color: var(--group-color-700);
     text-shadow: 0.5px 0.5px var(--white);
-    font-family: var(--play);
+    font-family: var(--serif);
 }
 
 .cam .rpcam {
@@ -146,7 +146,7 @@
 
 .cam .quoterpcam div {
     flex: 1;
-    font-family: var(--play);
+    font-family: var(--serif);
     font-style: italic;
 }
 
@@ -159,7 +159,7 @@
     justify-content: space-around;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-    font-family: var(--inc);
+    font-family: var(--mono);
     font-weight: 300;
     width: 100%;
 }
@@ -217,7 +217,7 @@
 
 
 .cam #postprofile-libre div[align="left"] {
-    font-family: var(--play);
+    font-family: var(--serif);
     text-transform: uppercase;
     display: flex;
     color: var(--group-color-400);
@@ -303,7 +303,7 @@
 }
 
 .signcam div {
-    font-family: var(--play);
+    font-family: var(--serif);
     text-align: justify;
     color: var(--darkneutral);
     font-weight: 100
