@@ -668,6 +668,10 @@ reclinks a:after {
 	border: 0.5px solid var(--neutral)
 }
 
+.dotlist:before {content: '•';
+margin: var(--2xlarge);
+color: var(--co4)}
+
 border1,
 border2,
 border3,
