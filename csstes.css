@@ -240,19 +240,23 @@ fslarge {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: var(--lightdark);
-	font-size: var(--xlarge);
+	color: var(--neutral);
+	font-size: var(--small);
 	flex-direction: column
 }
 
 .pseudoperso nom {
 	font-weight: 900;
 	font-family: var(--serif);
+		color: var(--lightdark);
+	font-size: var(--xlarge);
 	text-transform: lowercase
 }
 
 .pseudoperso prenom {
 	font-weight: 100;
+		color: var(--lightdark);
+	font-size: var(--xlarge);
 	text-transform: uppercase;
 	letter-spacing: 2.5px
 }
