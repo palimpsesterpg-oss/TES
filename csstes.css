@@ -333,7 +333,6 @@ lblchrn {
 }
 
 lblfvr {
-	font-style: italic;
 	font-family: var(--serif);
 	text-transform: lowercase;
 	color: var(--group-color, var(--co3))
@@ -353,7 +352,7 @@ lbldvrs {
 	text-transform: uppercase;
 	font-size: var(--small);
 	font-weight: 700;
-	color: var(--group-color-400, var(--co2-400));
+	color: var(--group-color, var(--co2));
 	background: var(--group-color-50, var(--co2-50));
 	padding: 1px 5px 1px 7.5px;
 }
