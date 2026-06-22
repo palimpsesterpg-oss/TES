@@ -248,14 +248,14 @@ fslarge {
 .pseudoperso nom {
 	font-weight: 900;
 	font-family: var(--serif);
-		color: var(--lightdark);
+	color: var(--lightdark);
 	font-size: var(--xlarge);
 	text-transform: lowercase
 }
 
 .pseudoperso prenom {
 	font-weight: 100;
-		color: var(--lightdark);
+	color: var(--lightdark);
 	font-size: var(--xlarge);
 	text-transform: uppercase;
 	letter-spacing: 2.5px
@@ -499,8 +499,7 @@ lblplyr {
 
 .blocpl.one strong {
 	font-style: normal;
-	color: var(--main);
-		font-weight: 700;
+	font-weight: 700;
 }
 
 .blocpl.one strong:before {
@@ -2056,7 +2055,9 @@ wbacki3,
 wbacki4,
 wbackin,
 wbackid,
-wbackigc {font-weight: 500}
+wbackigc {
+	font-weight: 500
+}
 
 lbackbi1,
 lbackbi2,
@@ -3280,10 +3281,10 @@ pblocgc,
 .fichefam center:has(.logo50),
 .fichefam center:has(.logo75),
 .fichefam center:has(.logo100) {
-display: flex;
-    width: 100%;
-    margin: var(--large) 0;
-    justify-content: space-evenly;
+	display: flex;
+	width: 100%;
+	margin: var(--large) 0;
+	justify-content: space-evenly;
 }
 
 .fichefam .icon50,
