@@ -96,7 +96,7 @@
 .cam cam7::first-letter {
     font-size: var(--xlarge);
     font-family: var(--spe);
-    font-weight: 700;
+    font-weight: 100;
     text-transform: lowercase;
 }
 
