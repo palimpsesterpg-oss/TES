@@ -3260,8 +3260,9 @@ pblocgc,
 .fichefam center:has(.logo75),
 .fichefam center:has(.logo100) {
 display: flex;
-gap: var(--xlarge);
-margin: var(--large) 0
+    width: 100%;
+    margin: var(--large) 0;
+    justify-content: space-evenly;
 }
 
 .fichefam .icon50,
