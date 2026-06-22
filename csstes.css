@@ -3253,13 +3253,14 @@ pblocgc,
 	height: 100px
 }
 
-.icon50,
-.icon75,
-.icon100,
-.logo50,
-.logo75,
-.logo100 {
-	margin-right: var(--large)
+.fichefam div:has(.icon50),
+.fichefam div:has(.icon75),
+.fichefam div:has(.icon100),
+.fichefam div:has(.logo50),
+.fichefam div:has(.logo75),
+.fichefam div:has(.logo100) {
+display: flex;
+gap: var(--xlarge);
 }
 
 .fichefam .icon50,
@@ -3268,22 +3269,9 @@ pblocgc,
 .fichefam .logo50,
 .fichefam .logo75,
 .fichefam .logo100 {
-	margin: var(--2xlarge);
 	outline: var(--small) solid var(--white);
 }
 
-.fichefam .icon75:last-of-type {
-	margin-right: var(--2xlarge) !important
-}
-
-.icon50:last-of-type,
-.icon75:last-of-type,
-.icon100:last-of-type,
-.logo50:last-of-type,
-.logo75:last-of-type,
-.logo100:last-of-type {
-	margin-right: 0px !important
-}
 
 .logo50,
 .logo75,
