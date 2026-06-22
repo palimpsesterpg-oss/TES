@@ -3261,6 +3261,7 @@ pblocgc,
 .fichefam center:has(.logo100) {
 display: flex;
 gap: var(--xlarge);
+margin: var(--large) 0
 }
 
 .fichefam .icon50,
@@ -3270,6 +3271,7 @@ gap: var(--xlarge);
 .fichefam .logo75,
 .fichefam .logo100 {
 	outline: var(--small) solid var(--white);
+	margin: var(--small)
 }
 
 
