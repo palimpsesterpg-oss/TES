@@ -490,18 +490,17 @@ lblplyr {
 .blocpl.one {
 	background-color: var(--white);
 	padding: var(--large);
+	font-weight: 500;
 	font-family: var(--serif);
+	text-transform: lowercase;
 	font-style: italic;
-	letter-spacing: 1px;
 	text-align: center !important
 }
 
 .blocpl.one strong {
-	font-family: var(--mono);
 	font-style: normal;
-	text-transform: uppercase;
-	color: var(--co2);
-	font-weight: 700
+	color: var(--main);
+		font-weight: 700;
 }
 
 .blocpl.one strong:before {
