@@ -3253,12 +3253,12 @@ pblocgc,
 	height: 100px
 }
 
-.fichefam div:has(.icon50),
-.fichefam div:has(.icon75),
-.fichefam div:has(.icon100),
-.fichefam span:has(.logo50),
-.fichefam span:has(.logo75),
-.fichefam span:has(.logo100) {
+.fichefam center:has(.icon50),
+.fichefam center:has(.icon75),
+.fichefam center:has(.icon100),
+.fichefam center:has(.logo50),
+.fichefam center:has(.logo75),
+.fichefam center:has(.logo100) {
 display: flex;
 gap: var(--xlarge);
 }
