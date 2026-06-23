@@ -216,7 +216,7 @@ fslarge {
 }
 
 .fichefam.noprof {
-	margin: var(--2xlarge)
+	margin: var(--large) var(--2xlarge)
 }
 
 .headperso,
@@ -2967,6 +2967,13 @@ majgc::first-letter {
 	letter-spacing: 1px;
 	text-transform: uppercase
 }
+
+.fichefam lback1 {text-transform: uppercase;
+letter-spacing: 1px;
+padding-left: 1px;
+font-size: var(--large)}
+
+
 
 .tabicon {
 	margin: 0 auto;
