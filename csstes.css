@@ -677,6 +677,15 @@ reclinks a:after {
 	margin-left: 0px !important;
 }
 
+.blocmsmall {margin-left: var(--small)}
+.blocmmedium {margin-left: var(--medium)}
+.blocmlarge {margin-left: var(--large)}
+.blocmxlarge {margin-left: var(--xlarge)}
+.blocm2xlarge {margin-left: var(--2xlarge)}
+.blocm3xlarge {margin-left: var(--3xlarge)}
+.blocm4xlarge {margin-left: var(--4xlarge)}
+.blocm5xlarge {margin-left: var(--5xlarge)}
+
 border1,
 border2,
 border3,
