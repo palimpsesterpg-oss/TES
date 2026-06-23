@@ -2970,7 +2970,7 @@ majgc::first-letter {
 
 .fichefam lback1 {text-transform: uppercase;
 letter-spacing: 1px;
-padding-left: 1px;
+margin-left: var(--large);
 font-size: var(--large)}
 
 
