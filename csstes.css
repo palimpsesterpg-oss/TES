@@ -686,6 +686,8 @@ reclinks a:after {
 .blocm4xlarge {margin-left: var(--4xlarge)}
 .blocm5xlarge {margin-left: var(--5xlarge)}
 
+.fichefam.noprof mainb2 {font-weight: 500;}
+
 border1,
 border2,
 border3,
@@ -2979,6 +2981,8 @@ majgc::first-letter {
 
 .fichefam lback1 {text-transform: uppercase;
 letter-spacing: 1px;
+padding-left: calc(var(--medium) + 1px);
+padding-right: var(--medium);
 margin-left: var(--large);
 font-size: var(--large)}
 
