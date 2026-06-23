@@ -216,7 +216,7 @@ fslarge {
 }
 
 .fichefam.noprof {
-	margin: var(--large) var(--2xlarge)
+	margin: 0 var(--3xlarge)
 }
 
 .headperso,
