@@ -399,7 +399,7 @@ lblplyr {
 .blocperso blockquote {
 	margin: 2rem 1rem;
 	padding: var(--large);
-	border: 1px solid var(--co4-50, var(--group-color-50));
+	border: 1px solid var(--group-color-50, var(--co4-50));
 	outline: var(--large) solid var(--white);
 }
 
