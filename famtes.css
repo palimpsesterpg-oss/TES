@@ -25,8 +25,8 @@
     font-size: var(--medium);
     background: var(--light);
     position: fixed;
-    height: 75%;
-    width: 75%;
+    height: 85%;
+    width: 50%;
     min-height: 400px;
     min-width: 300px;
     left: 0;
@@ -98,7 +98,7 @@
 
 #FAM-toolbar {
     display: flex;
-    width:100%;
+    width: 100%;
     padding: var(--small);
     gap: var(--large);
     color: var(--white);
@@ -152,7 +152,7 @@
 }
 
 #FAM-content {
-flex: 1;
+    flex: 1;
     overflow-y: auto;
     overflow-x: hidden
 }
@@ -797,7 +797,7 @@ a.FAM-attachment-thumb {
 }
 
 #FAM-msg-container {
-    border-left: 1px solid var(--darkneutral);
+    border-left: 1px solid var(--co1-50);
     display: inline-block;
     height: 40px;
     width: calc(100% - 120px);
@@ -824,7 +824,7 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat-icon {
-position: absolute;
+    position: absolute;
     display: flex;
     left: -5px;
     border-radius: 50%;
@@ -838,7 +838,7 @@ position: absolute;
 }
 
 .FAM-chat-avatar {
-position: relative;
+    position: relative;
     height: 50px;
     width: 50px;
 }
@@ -899,8 +899,10 @@ strong.FAM-page-link {
 }
 
 .FAM-msg {
-    position: relative;
-    padding: 12px
+    display: flex;
+    align-items: center;
+    padding: var(--large);
+    gap: var(--large)
 }
 
 .FAM-msg:after {
@@ -908,18 +910,16 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-avatar {
-    border: 2px solid var(--darkneutral);
-    width: 48px;
-    height: 48px;
-    padding: 2px;
-    margin-top: 16px;
+    border: 1px solid var(--group-color-100, var(--darkneutral));
+    width: 50px;
+    height: 50px;
+    padding: var(--2xsmall);
     border-radius: 100%;
     overflow: hidden;
-    float: left
 }
 
 .FAM-msg-online .FAM-msg-avatar {
-    border-color: var(--co1)
+    border-color: var(--group-color, var(--co1))
 }
 
 .FAM-msg-avatar img {
@@ -929,29 +929,15 @@ strong.FAM-page-link {
     border-radius: 100%
 }
 
-.FAM-my-msg .FAM-msg-avatar {
-    margin-top: -4px;
-    float: right
-}
-
 .FAM-msg-box {
-    float: right;
-    width: 80%;
-    width: calc(100% - 48px);
-    padding-left: 15px
-}
+    flex: 1;
 
-.FAM-my-msg .FAM-msg-box {
-    float: left;
-    padding: 0 15px 0 0
 }
 
 .FAM-msg-content {
-    color: var(--lightdark);
     background: var(--darklight);
     padding: var(--medium);
-    min-height: 36px;
-    max-width: 80%;
+    min-height: 50px;
     position: relative;
     float: left
 }
@@ -960,40 +946,9 @@ strong.FAM-page-link {
     width: 100%
 }
 
-.FAM-msg-content:before {
-    height: 0;
-    width: 0;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-right: 10px solid var(--darkneutral);
-    position: absolute;
-    top: 13px;
-    left: -10px
-}
-
-.FAM-my-msg .FAM-msg-content {
-    color: var(--light);
-    background: #07C;
-    float: right
-}
-
-.FAM-my-msg .FAM-msg-content:before {
-    border-right: none;
-    border-left: 10px solid #07C;
-    top: 12px;
-    left: auto;
-    right: -10px
-}
-
 .FAM-msg-text {
-    font-size: var(--medium);
-    line-height: 20px;
     white-space: pre-wrap;
     word-wrap: break-word
-}
-
-.FAM-msg-text .fa-circle-o-notch {
-    font-size: var(--xlarge)
 }
 
 #FAM .FAM-msg-text a {
@@ -1368,7 +1323,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-tabs {
- flex: 1
+    flex: 1
 }
 
 #FAM-menu-avatar,
@@ -1398,6 +1353,7 @@ blockquote.FAM-codebox>div {
 
 .FAM-tab.FAM-tab-active {
     font-weight: 700;
+    letter-spacing: 0px !important;
     cursor: default
 }
 
