@@ -677,16 +677,41 @@ reclinks a:after {
 	margin-left: 0px !important;
 }
 
-.blocmsmall {margin-left: var(--small)}
-.blocmmedium {margin-left: var(--medium)}
-.blocmlarge {margin-left: var(--large)}
-.blocmxlarge {margin-left: var(--xlarge)}
-.blocm2xlarge {margin-left: var(--2xlarge)}
-.blocm3xlarge {margin-left: var(--3xlarge)}
-.blocm4xlarge {margin-left: var(--4xlarge)}
-.blocm5xlarge {margin-left: var(--5xlarge)}
+.blocmsmall {
+	margin-left: var(--small)
+}
 
-.fichefam.noprof mainb2 {font-weight: 500;}
+.blocmmedium {
+	margin-left: var(--medium)
+}
+
+.blocmlarge {
+	margin-left: var(--large)
+}
+
+.blocmxlarge {
+	margin-left: var(--xlarge)
+}
+
+.blocm2xlarge {
+	margin-left: var(--2xlarge)
+}
+
+.blocm3xlarge {
+	margin-left: var(--3xlarge)
+}
+
+.blocm4xlarge {
+	margin-left: var(--4xlarge)
+}
+
+.blocm5xlarge {
+	margin-left: var(--5xlarge)
+}
+
+.fichefam.noprof mainb2 {
+	font-weight: 500;
+}
 
 border1,
 border2,
@@ -748,9 +773,9 @@ bborderbi4,
 bborderbin,
 bborderbid,
 bborderbigc {
-border-bottom: 2.5px solid;
-    padding: 0 var(--small);
-    background-color: var(--white);
+	border-bottom: 2.5px solid;
+	padding: 0 var(--small);
+	background-color: var(--white);
 }
 
 border1,
@@ -1378,10 +1403,10 @@ dbackbgc,
 dbackigc,
 dbackbigc {
 	padding-left: calc(var(--large) + 2.5px);
-    padding-right: var(--large);
-    letter-spacing: 2.5px;
-    font-size: var(--small);
-    text-transform: uppercase;
+	padding-right: var(--large);
+	letter-spacing: 2.5px;
+	font-size: var(--small);
+	text-transform: uppercase;
 	color: var(--white)
 }
 
@@ -3210,12 +3235,14 @@ majgc::first-letter {
 	text-transform: uppercase
 }
 
-.fichefam lback1 {text-transform: uppercase;
-letter-spacing: 1px;
-padding: 2.5px var(--xlarge) 2.5px calc(var(--xlarge) + 1px);
-padding-right: var(--medium);
-margin-left: var(--large);
-font-size: var(--large)}
+.fichefam lback1 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 2.5px var(--xlarge) 2.5px calc(var(--xlarge) + 1px);
+	padding-right: var(--medium);
+	margin-left: var(--large);
+	font-size: var(--large)
+}
 
 
 
@@ -3649,9 +3676,7 @@ pblocgc,
 	display: flex;
 	align-items: center;
 	gap: var(--2xsmall);
-	text-transform: lowercase;
 	margin-top: var(--large);
-	color: var(--group-color, var(--co4));
 	justify-content: center
 }
 
@@ -3667,7 +3692,19 @@ pblocgc,
 	color: var(--group-color, var(--darkneutral))
 }
 
-.fa_like_list a {color: var(--group-color, var(--co4));}
+.fa_like_list {
+	max-width: 300px;
+	max-height: 32px;
+	min-height: 16px;
+	overflow: auto;
+}
+
+.fa_like_list a {
+	color: var(--group-color, var(--co4)) !important;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
 
 .rep-button:after {
 	content: "\E46A";
