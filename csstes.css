@@ -1006,28 +1006,28 @@ mback1,
 mbackb1,
 mbacki1,
 mbackbi1 {
-	background-color: var(--co1-200)
+	background-color: var(--co1-300)
 }
 
 mback2,
 mbackb2,
 mbacki2,
 mbackbi2 {
-	background-color: var(--co2-200)
+	background-color: var(--co2-300)
 }
 
 mback3,
 mbackb3,
 mbacki3,
 mbackbi3 {
-	background-color: var(--co3-200)
+	background-color: var(--co3-300)
 }
 
 mback4,
 mbackb4,
 mbacki4,
 mbackbi4 {
-	background-color: var(--co4-200)
+	background-color: var(--co4-300)
 }
 
 mbackn,
@@ -1048,7 +1048,7 @@ mbackgc,
 mbackbgc,
 mbackigc,
 mbackbigc {
-	background-color: var(--group-color-200)
+	background-color: var(--group-color-300)
 }
 
 wback1,
@@ -1488,7 +1488,7 @@ mbackbgc,
 mbackigc,
 mbackbigc {
 	padding-left: calc(var(--2xsmall) + 5px);
-	padding-right: var(--large);
+	padding-right: var(--2xsmall);
 	letter-spacing: 5px;
 	font-size: var(--small);
 	text-transform: lowercase;
