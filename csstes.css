@@ -1002,6 +1002,55 @@ dbackbigc {
 	background-color: var(--group-color-700)
 }
 
+mback1,
+mbackb1,
+mbacki1,
+mbackbi1 {
+	background-color: var(--co1-200)
+}
+
+mback2,
+mbackb2,
+mbacki2,
+mbackbi2 {
+	background-color: var(--co2-200)
+}
+
+mback3,
+mbackb3,
+mbacki3,
+mbackbi3 {
+	background-color: var(--co3-200)
+}
+
+mback4,
+mbackb4,
+mbacki4,
+mbackbi4 {
+	background-color: var(--co4-200)
+}
+
+mbackn,
+mbackbn,
+mbackin,
+mbackbin {
+	background-color: var(--neutral)
+}
+
+mbackd,
+mbackbd,
+mbackid,
+mbackbid {
+	background-color: var(--black)
+}
+
+mbackgc,
+mbackbgc,
+mbackigc,
+mbackbigc {
+	background-color: var(--group-color-200)
+}
+
 wback1,
 wbackb1,
 wbacki1,
@@ -1407,6 +1456,42 @@ dbackbigc {
 	letter-spacing: 2.5px;
 	font-size: var(--small);
 	text-transform: uppercase;
+	color: var(--white)
+}
+
+mback1,
+mbackb1,
+mbacki1,
+mbackbi1,
+mback2,
+mbackb2,
+mbacki2,
+mbackbi2,
+mback3,
+mbackb3,
+mbacki3,
+mbackbi3,
+mback4,
+mbackb4,
+mbacki4,
+mbackbi4,
+mbackn,
+mbackbn,
+mbackin,
+mbackbin,
+mbackd,
+mbackbd,
+mbackid,
+mbackbid,
+mbackgc,
+mbackbgc,
+mbackigc,
+mbackbigc {
+	padding-left: calc(var(--2xsmall) + 5px);
+	padding-right: var(--large);
+	letter-spacing: 5px;
+	font-size: var(--small);
+	text-transform: lowercase;
 	color: var(--white)
 }
 
@@ -2082,6 +2167,13 @@ dbackb4,
 dbackbn,
 dbackbd,
 dbackbgc,
+mbackb1,
+mbackb2,
+mbackb3,
+mbackb4,
+mbackbn,
+mbackbd,
+mbackbgc,
 gradb1,
 gradb2,
 gradb3,
@@ -2190,6 +2282,13 @@ dbacki4,
 dbackin,
 dbackid,
 dbackigc,
+mbacki1,
+mbacki2,
+mbacki3,
+mbacki4,
+mbackin,
+mbackid,
+mbackigc,
 gradi1,
 gradi2,
 gradi3,
@@ -2322,6 +2421,13 @@ dbackbi4,
 dbackbin,
 dbackbid,
 dbackbigc,
+mbackbi1,
+mbackbi2,
+mbackbi3,
+mbackbi4,
+mbackbin,
+mbackbid,
+mbackbigc,
 gradbi1,
 gradbi2,
 gradbi3,
