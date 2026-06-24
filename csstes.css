@@ -720,52 +720,113 @@ borderbigc {
 	padding: 0.25rem var(--xlarge)
 }
 
+bborder1,
+bborder2,
+bborder3,
+bborder4,
+bbordern,
+bborderd,
+bbordergc,
+bborderb1,
+bborderb2,
+bborderb3,
+bborderb4,
+bborderbn,
+bborderbd,
+bborderbgc,
+bborderi1,
+bborderi2,
+bborderi3,
+bborderi4,
+bborderin,
+bborderid,
+bborderigc,
+bborderbi1,
+bborderbi2,
+bborderbi3,
+bborderbi4,
+bborderbin,
+bborderbid,
+bborderbigc {
+border-bottom: 2.5px solid;
+    padding: 0 var(--small);
+    background-color: var(--white);
+}
+
 border1,
 borderb1,
 borderi1,
-borderbi1 {
+borderbi1,
+bborder1,
+bbborderb1,
+bborderi1,
+bborderbi1 {
 	color: var(--co1)
 }
 
 border2,
 borderb2,
 borderi2,
-borderbi2 {
+borderbi2,
+bborder2,
+bborderb2,
+bborderi2,
+bborderbi2 {
 	color: var(--co2)
 }
 
 border3,
 borderb3,
 borderi3,
-borderbi3 {
+borderbi3,
+bborder3,
+bborderb3,
+bborderi3,
+bborderbi3 {
 	color: var(--co3)
 }
 
 border4,
 borderb4,
 borderi4,
-borderbi4 {
+borderbi4,
+bborder4,
+bborderb4,
+bborderi4,
+bborderbi4 {
 	color: var(--co4)
 }
 
 bordern,
 borderbn,
 borderin,
-borderbin {
+borderbin,
+bbordern,
+bborderbn,
+bborderin,
+bborderbin {
 	color: var(--darkneutral)
 }
 
 borderd,
 borderbd,
 borderid,
-borderbid {
+borderbid,
+bborderd,
+bborderbd,
+bborderid,
+bborderbid {
 	color: var(--dark)
 }
 
 bordergc,
 borderbgc,
 borderigc,
-borderbigc {
+borderbigc,
+bbordergc,
+bborderbgc,
+bborderigc,
+bborderbigc {
 	color: var(--group-color, var(--lightdark))
 }
 
