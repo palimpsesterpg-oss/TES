@@ -4541,6 +4541,14 @@ statusinsta {
 	justify-content: flex-start
 }
 
+.ficheinsta.post {
+	background: var(--white)
+}
+
+.posttext {
+	width: 100%
+}
+
 .ficheinsta.story .contentstory .miniconinsta {
 	border: 0.5px solid var(--white);
 	height: 35px;
