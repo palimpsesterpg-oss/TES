@@ -19,6 +19,7 @@
 
 #FAM {
     color: var(--lightdark);
+    border: var(--small) solid var(--co1-50);
     font-size: var(--medium);
     background: var(--light);
     position: fixed;
@@ -1162,22 +1163,13 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-button {
-    font-size: 16px;
-    padding: 0 6px;
+    font-size: var(--large);
+    padding: 0 var(--small);
     cursor: pointer
 }
 
 .FAM-msg-button:hover {
     opacity: .7
-}
-
-.FAM-msg-button i {
-    line-height: 25px
-}
-
-#FAM-tab-add i,
-.FAM-tab {
-    line-height: 30px
 }
 
 .FAM-msg-text .FAM-attachment td:after {
@@ -1412,13 +1404,11 @@ blockquote.FAM-codebox>div {
 #FAM-tab-container {
     height: 30px;
     position: relative;
-    border-bottom: 1px solid var(--darkneutral)
 }
 
 #FAM-tab-add {
-    font-size: 18px;
+    font-size: var(--large);
     text-align: center;
-    border-left: 1px solid var(--darkneutral);
     position: absolute;
     right: 0;
     top: 0;
@@ -1430,7 +1420,6 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-tabs {
-    width: 80%;
     width: calc(100% - 30px)
 }
 
@@ -1467,7 +1456,7 @@ blockquote.FAM-codebox>div {
 }
 
 .FAM-tab-name {
-    width: 80%;
+    padding: 0 var(--2xsmall);
     width: calc(100% - 16px);
     white-space: nowrap;
     text-overflow: ellipsis
