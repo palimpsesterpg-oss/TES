@@ -96,14 +96,20 @@
 }
 
 #FAM-button {
-    color: var(--white);
+color: var(--white);
     position: fixed;
     left: 0;
+    bottom: 0;
+    font-size: var(--large);
     height: 51.5px;
+    width: 51.5px;
+    display: flex;
     cursor: pointer;
     z-index: 99999;
     transition-property: right;
-    transition-duration: 500ms
+    transition-duration: 500ms;
+    align-items: center;
+    justify-content: center;
 }
 
 #FAM.FAM-fullscreen[data-hidden=false]+#FAM-button {
