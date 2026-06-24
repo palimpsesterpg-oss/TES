@@ -45,10 +45,10 @@
 }
 
 #FAM {
-    color: #333;
+    color: var(--lightdark);
     font-size: 13px;
-    background: #FFF;
-    border: 1px solid #DDD;
+    background: var(--light);
+    border: 1px solid var(--darkneutral);
     position: fixed;
     height: 70%;
     width: 40%;
@@ -96,34 +96,14 @@
 }
 
 #FAM-button {
-    color: #FFF;
-    background: #39F;
+    color: var(--white);
     position: fixed;
-    width: 30px;
-    height: 30px;
-    right: 3px;
-    bottom: 3px;
+    left: 0;
+    height: 51.5px;
     cursor: pointer;
     z-index: 99999;
     transition-property: right;
     transition-duration: 500ms
-}
-
-#FAM-button i {
-    line-height: 30px
-}
-
-#FAM-toolbar,
-.FAM-toolbar-button i {
-    line-height: 40px
-}
-
-#FAM-button:hover {
-    background-color: #28E
-}
-
-#FAM-button:active {
-    background-color: #17D
 }
 
 #FAM.FAM-fullscreen[data-hidden=false]+#FAM-button {
@@ -134,23 +114,23 @@
 }
 
 #FAM.FAM-fullscreen[data-hidden=false]+#FAM-button:hover {
-    color: #EEE
+    color: var(--darkneutral)
 }
 
 #FAM.FAM-fullscreen[data-hidden=false]+#FAM-button:active {
-    color: #DDD
+    color: var(--darkneutral)
 }
 
 #FAM-toolbar {
-    color: #FFF;
-    background: #39F;
-    border-bottom: 1px solid #28E;
+    color: var(--light);
+    background: var(--co1);
+    border-bottom: 1px solid var(--co1);
     height: 40px;
     margin: -1px -1px 0
 }
 
 .FAM-maintitle {
-    color: #FFF;
+    color: var(--light);
     width: 70%;
     margin: 0 auto;
     white-space: nowrap;
@@ -159,7 +139,7 @@
 }
 
 .FAM-toolbar-button {
-    color: #FFF;
+    color: var(--light);
     font-size: 24px;
     position: absolute;
     top: -1px;
@@ -168,11 +148,11 @@
 }
 
 .FAM-toolbar-button i:hover {
-    color: #EEE
+    color: var(--darkneutral)
 }
 
 .FAM-toolbar-button i:active {
-    color: #DDD
+    color: var(--darkneutral)
 }
 
 #FAM-back {
@@ -184,9 +164,9 @@
 }
 
 #FAM-menu {
-    color: #666;
-    background: #FFF;
-    border: 1px solid #CCC;
+    color: var(--lightdark);
+    background: var(--light);
+    border: 1px solid var(--darkneutral);
     position: absolute;
     right: -1px;
     top: 39px;
@@ -196,7 +176,7 @@
 
 #FAM-idle,
 .FAM-button {
-    color: #FFF;
+    color: var(--light);
     cursor: pointer
 }
 
@@ -209,12 +189,12 @@
 
 .FAM-menu-option:hover {
     opacity: .9;
-    background: #EEE
+    background: var(--darkneutral)
 }
 
 .FAM-menu-option:active {
     opacity: .8;
-    background: #DDD
+    background: var(--darkneutral)
 }
 
 #FAM-back[style*=none]~#FAM-menu .FAM-menu-option:first-child {
@@ -254,7 +234,7 @@
 }
 
 .FAM-border-box {
-    border: 1px solid #DDD;
+    border: 1px solid var(--darkneutral);
     border-radius: 5px;
     padding: 3px;
     margin: 12px 6px
@@ -305,7 +285,7 @@
 .FAM-button {
     font-size: 16px;
     font-weight: 700;
-    background: #39F;
+    background: var(--co1);
     border: none;
     border-radius: 4px;
     display: block;
@@ -316,11 +296,11 @@
 }
 
 .FAM-button:hover {
-    background: #28E
+    background: var(--co1)
 }
 
 .FAM-button:active {
-    background: #17D
+    background: var(--co1)
 }
 
 .FAM-inline-buttons .FAM-button {
@@ -329,10 +309,10 @@
 }
 
 #FAM .FAM-inputbox {
-    color: #333;
+    color: var(--lightdark);
     font-size: 14px;
-    background: #FFF;
-    border: 1px solid #DDD;
+    background: var(--light);
+    border: 1px solid var(--darkneutral);
     border-radius: 4px;
     padding: 8px;
     width: 100%;
@@ -354,11 +334,11 @@
 }
 
 #FAM .FAM-inputbox:hover {
-    border-color: #CCC
+    border-color: var(--darkneutral)
 }
 
 #FAM .FAM-inputbox:focus {
-    border-color: #39F
+    border-color: var(--co1)
 }
 
 #FAM .FAM-button-input .FAM-inputbox {
@@ -411,17 +391,17 @@
 }
 
 .FAM-section-title {
-    color: #39F;
+    color: var(--co1);
     font-size: 18px;
     font-weight: 700;
-    border-bottom: 2px solid #39F;
+    border-bottom: 2px solid var(--co1);
     margin: 12px auto;
     padding-bottom: 3px
 }
 
 hr.FAM-hr {
     border: none;
-    border-top: 2px solid #DDD;
+    border-top: 2px solid var(--darkneutral);
     margin: 24px 0
 }
 
@@ -446,7 +426,7 @@ hr.FAM-hr {
 
 #FAM .FAM-list li:before {
     content: "";
-    background: #39F;
+    background: var(--co1);
     position: absolute;
     width: 8px;
     height: 8px;
@@ -461,9 +441,9 @@ hr.FAM-hr {
 }
 
 #FAM .FAM-connected-buttons a {
-    color: #333;
-    background: #FFF;
-    border: 1px solid #DDD;
+    color: var(--lightdark);
+    background: var(--light);
+    border: 1px solid var(--darkneutral);
     display: inline-block;
     height: 30px;
     line-height: 28px;
@@ -473,13 +453,13 @@ hr.FAM-hr {
 }
 
 #FAM .FAM-connected-buttons a:hover {
-    background: #EEE;
-    border-color: #CCC;
+    background: var(--darkneutral);
+    border-color: var(--darkneutral);
     position: relative
 }
 
 #FAM .FAM-connected-buttons a:active {
-    background: #DDD;
+    background: var(--darkneutral);
     border-color: #BBB;
     position: relative
 }
@@ -593,7 +573,7 @@ hr.FAM-hr {
 
 .FAM-separator:after {
     content: " ";
-    color: #CCC
+    color: var(--darkneutral)
 }
 
 .FAM-forum .FAM-separator:after {
@@ -612,7 +592,7 @@ hr.FAM-hr {
 }
 
 #FAM ::-webkit-scrollbar-track {
-    background-color: #DDD
+    background-color: var(--darkneutral)
 }
 
 #FAM ::-webkit-scrollbar-thumb {
@@ -635,7 +615,7 @@ hr.FAM-hr {
 
 #FAM-actions {
     height: 41px;
-    border-top: 1px solid #DDD;
+    border-top: 1px solid var(--darkneutral);
     display: none
 }
 
@@ -665,23 +645,23 @@ hr.FAM-hr {
 }
 
 #FAM-new-topic .fa-circle {
-    color: #39F
+    color: var(--co1)
 }
 
 #FAM-new-topic:hover .fa-circle {
-    color: #28E
+    color: var(--co1)
 }
 
 #FAM-new-topic:active .fa-circle {
-    color: #17D
+    color: var(--co1)
 }
 
 #FAM-actions>button {
-    color: #333;
+    color: var(--lightdark);
     font-size: 18px;
-    background: #FFF;
+    background: var(--light);
     border: none;
-    border-left: 1px solid #DDD;
+    border-left: 1px solid var(--darkneutral);
     height: 40px;
     width: 40px;
     cursor: pointer;
@@ -689,11 +669,11 @@ hr.FAM-hr {
 }
 
 #FAM-actions>button:hover {
-    background: #EEE
+    background: var(--darkneutral)
 }
 
 #FAM-actions>button:active {
-    background: #DDD
+    background: var(--darkneutral)
 }
 
 #FAM-actions>button[data-disabled=true] {
@@ -710,10 +690,10 @@ hr.FAM-hr {
 }
 
 #FAM-attachment-total {
-    color: #FFF;
+    color: var(--light);
     font-size: 12px;
     font-weight: 700;
-    background: #39F;
+    background: var(--co1);
     border-radius: 4px;
     position: absolute;
     bottom: 1px;
@@ -722,7 +702,7 @@ hr.FAM-hr {
 }
 
 #FAM-attach-success {
-    color: #FFF;
+    color: var(--light);
     font-size: 16px;
     background: #8B5;
     position: absolute;
@@ -741,8 +721,8 @@ hr.FAM-hr {
 }
 
 #FAM-actions .FAM-dropdown {
-    background: #FFF;
-    border: 1px solid #DDD;
+    background: var(--light);
+    border: 1px solid var(--darkneutral);
     position: absolute;
     left: 0;
     bottom: 40px;
@@ -763,10 +743,10 @@ hr.FAM-hr {
 }
 
 .FAM-dropdown-title {
-    color: #FFF;
+    color: var(--light);
     font-weight: 700;
     font-size: 18px;
-    background: #39F;
+    background: var(--co1);
     padding: 0 6px;
     margin: -1px -1px 0
 }
@@ -780,21 +760,21 @@ hr.FAM-hr {
 }
 
 .FAM-block-option {
-    color: #666;
+    color: var(--lightdark);
     font-size: 16px;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid var(--darkneutral);
     width: 100%;
     cursor: pointer
 }
 
 .FAM-block-option:hover {
-    color: #333;
-    background: #EEE
+    color: var(--lightdark);
+    background: var(--darkneutral)
 }
 
 .FAM-block-option:active {
-    color: #000;
-    background: #DDD
+    color: var(--lightdark);
+    background: var(--darkneutral)
 }
 
 .FAM-option-icon {
@@ -852,7 +832,7 @@ hr.FAM-hr {
 
 .FAM-attachment-thumb {
     text-align: center;
-    border: 1px solid #DDD;
+    border: 1px solid var(--darkneutral);
     border-radius: 4px;
     display: inline-block;
     width: 50px;
@@ -881,7 +861,7 @@ a.FAM-attachment-thumb {
 }
 
 #FAM-msg {
-    color: #333;
+    color: var(--lightdark);
     font-size: 14px;
     background: 0 0;
     border: none;
@@ -895,11 +875,11 @@ a.FAM-attachment-thumb {
 
 .FAM-chat,
 .FAM-pagination {
-    border-bottom: 2px solid #DDD
+    border-bottom: 2px solid var(--darkneutral)
 }
 
 #FAM-msg-container {
-    border-left: 1px solid #DDD;
+    border-left: 1px solid var(--darkneutral);
     display: inline-block;
     height: 40px;
     width: calc(100% - 120px);
@@ -908,7 +888,7 @@ a.FAM-attachment-thumb {
 }
 
 #FAM-timeout-bar {
-    background: #CCC;
+    background: var(--darkneutral);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -917,7 +897,7 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat {
-    color: #333;
+    color: var(--lightdark);
     position: relative;
     padding: 12px;
     height: 80px;
@@ -925,7 +905,7 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat:hover {
-    background-color: #EEE
+    background-color: var(--darkneutral)
 }
 
 .FAM-chat-icon {
@@ -940,7 +920,7 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat-icon.FAM-new-post .fa-circle {
-    color: #39F
+    color: var(--co1)
 }
 
 .FAM-chat-avatar {
@@ -985,11 +965,11 @@ a.FAM-attachment-thumb {
 
 #FAM a.FAM-page-link,
 .FAM-page-link {
-    color: #FFF;
+    color: var(--light);
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
-    background: #39F;
+    background: var(--co1);
     display: inline-block;
     height: 25px;
     line-height: 26px;
@@ -998,11 +978,11 @@ a.FAM-attachment-thumb {
 }
 
 #FAM a.FAM-page-link:hover {
-    background: #28E
+    background: var(--co1)
 }
 
 #FAM a.FAM-page-link:active {
-    background: #17D
+    background: var(--co1)
 }
 
 b.FAM-page-link,
@@ -1020,7 +1000,7 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-avatar {
-    border: 2px solid #CCC;
+    border: 2px solid var(--darkneutral);
     width: 48px;
     height: 48px;
     padding: 2px;
@@ -1031,7 +1011,7 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-online .FAM-msg-avatar {
-    border-color: #39F
+    border-color: var(--co1)
 }
 
 .FAM-msg-avatar img {
@@ -1058,8 +1038,8 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-content {
-    color: #000;
-    background: #DDD;
+    color: var(--lightdark);
+    background: var(--darkneutral);
     border-radius: 4px;
     padding: 8px 12px;
     margin: 3px 0;
@@ -1078,14 +1058,14 @@ strong.FAM-page-link {
     width: 0;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 10px solid #DDD;
+    border-right: 10px solid var(--darkneutral);
     position: absolute;
     top: 13px;
     left: -10px
 }
 
 .FAM-my-msg .FAM-msg-content {
-    color: #FFF;
+    color: var(--light);
     background: #07C;
     float: right
 }
@@ -1171,7 +1151,7 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-text .FAM-attachment tr {
-    background: #FFF;
+    background: var(--light);
     width: 100%;
     max-height: 200px;
     padding: 3px;
@@ -1189,7 +1169,7 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-text .FAM-attachment td {
-    color: #333;
+    color: var(--lightdark);
     font-size: 18px;
     min-height: 20px;
     line-height: 20px;
@@ -1284,9 +1264,9 @@ strong.FAM-page-link {
 
 .FAM-codebox,
 .FAM-spoiler {
-    color: #333;
-    background: #FFF;
-    border: 1px solid #CCC;
+    color: var(--lightdark);
+    background: var(--light);
+    border: 1px solid var(--darkneutral);
     border-radius: 4px;
     padding: 0;
     margin: 12px 0;
@@ -1295,16 +1275,16 @@ strong.FAM-page-link {
 
 .FAM-codebox cite a,
 .FAM-codebox dt a {
-    color: #333 !important
+    color: var(--lightdark) !important
 }
 
 .FAM-codebox cite,
 .FAM-codebox dt,
 .FAM-spoiler dt {
-    color: #333;
+    color: var(--lightdark);
     font-size: 14px;
     font-weight: 700;
-    background: #CCC;
+    background: var(--darkneutral);
     padding: 3px;
     margin: 0;
     cursor: auto !important
@@ -1394,7 +1374,7 @@ blockquote.FAM-codebox>div {
 
 .FAM-spoiler_content:after {
     content: "";
-    background: #000;
+    background: var(--lightdark);
     position: absolute;
     top: 0;
     left: 0;
@@ -1424,11 +1404,11 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-new-msg-notif {
-    color: #FFF;
+    color: var(--light);
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    background: #39F;
+    background: var(--co1);
     position: absolute;
     height: 30px;
     line-height: 30px;
@@ -1457,7 +1437,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-new-msg-divider {
-    color: #39F;
+    color: var(--co1);
     font-size: 18px;
     text-align: center;
     margin: 12px
@@ -1466,7 +1446,7 @@ blockquote.FAM-codebox>div {
 #FAM-new-msg-divider:after,
 #FAM-new-msg-divider:before {
     content: "";
-    background: #39F;
+    background: var(--co1);
     display: inline-block;
     width: 25%;
     height: 2px;
@@ -1485,13 +1465,13 @@ blockquote.FAM-codebox>div {
 #FAM-tab-container {
     height: 30px;
     position: relative;
-    border-bottom: 1px solid #DDD
+    border-bottom: 1px solid var(--darkneutral)
 }
 
 #FAM-tab-add {
     font-size: 18px;
     text-align: center;
-    border-left: 1px solid #DDD;
+    border-left: 1px solid var(--darkneutral);
     position: absolute;
     right: 0;
     top: 0;
@@ -1499,7 +1479,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-tab-add:hover {
-    color: #39F
+    color: var(--co1)
 }
 
 #FAM-tabs {
@@ -1521,8 +1501,8 @@ blockquote.FAM-codebox>div {
 }
 
 .FAM-tab {
-    background: #EEE;
-    border: 1px solid #DDD;
+    background: var(--darkneutral);
+    border: 1px solid var(--darkneutral);
     border-left: none;
     border-top: none;
     position: relative;
@@ -1531,18 +1511,18 @@ blockquote.FAM-codebox>div {
 }
 
 .FAM-tab:hover {
-    background: #FFF
+    background: var(--light)
 }
 
 .FAM-tab.FAM-tab-active {
     font-weight: 700;
-    background: #FFF;
+    background: var(--light);
     cursor: default
 }
 
 .FAM-tab.FAM-tab-active:after {
     content: "";
-    background: #39F;
+    background: var(--co1);
     position: absolute;
     left: 0;
     right: 0;
@@ -1585,7 +1565,7 @@ blockquote.FAM-codebox>div {
     width: 108px;
     height: 108px;
     padding: 2px;
-    border: 2px solid #DDD;
+    border: 2px solid var(--darkneutral);
     border-radius: 100px
 }
 
@@ -1603,7 +1583,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM #FAM-service-title a {
-    color: #333;
+    color: var(--lightdark);
     font-weight: 400
 }
 
@@ -1614,11 +1594,11 @@ blockquote.FAM-codebox>div {
 
 #FAM-service-title b:last-child,
 #FAM-version-status-icon .fa-check-circle {
-    color: #39F
+    color: var(--co1)
 }
 
 #FAM-version-card {
-    border: 1px solid #DDD;
+    border: 1px solid var(--darkneutral);
     border-radius: 4px;
     text-align: left;
     width: 80%;
@@ -1675,7 +1655,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-search-results {
-    border: 1px solid #DDD;
+    border: 1px solid var(--darkneutral);
     max-height: 300px;
     overflow: auto
 }
@@ -1716,7 +1696,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-media-viewer {
-    background: #FFF;
+    background: var(--light);
     border-radius: 8px;
     position: relative;
     min-width: 100px;
@@ -1759,7 +1739,7 @@ blockquote.FAM-codebox>div {
 }
 
 .FAM-modal-controls:hover {
-    color: #FFF
+    color: var(--light)
 }
 
 .FAM-modal-arrows {
