@@ -1,8 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 .FAM-clear,
-.FAM-msg-date
- {
+.FAM-msg-date {
     clear: both
 }
 
@@ -219,7 +218,10 @@
     background: var(--co1);
     display: block;
     padding: var(--2xsmall);
-    margin: 0 auto;
+    margin: var(--2xsmall) auto;
+    border: 0;
+    outline: 0;
+    text-transform: lowercase;
 }
 
 .FAM-button:hover {
@@ -1279,12 +1281,14 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-tab-container {
-display: flex;
+    display: flex;
     align-items: center;
 }
 
 #FAM-tab-add {
     font-size: var(--large);
+    padding: var(--small);
+    color: var(--co1);
 }
 
 #FAM-tabs {
@@ -1307,7 +1311,7 @@ display: flex;
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
-    width: 120px
+    border-right: 1px solid var(--co1)
 }
 
 .FAM-tab:hover,
