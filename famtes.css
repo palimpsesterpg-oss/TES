@@ -811,13 +811,11 @@ a.FAM-attachment-thumb {
 
 #FAM-msg {
     color: var(--lightdark);
-    font-size: 14px;
     background: 0 0;
     border: none;
     height: 40px;
     width: 100%;
     margin: 0;
-    padding: 6px;
     outline: 0;
     resize: none
 }
@@ -847,36 +845,31 @@ a.FAM-attachment-thumb {
 
 .FAM-chat {
     color: var(--lightdark);
-    position: relative;
-    padding: var(--medium);
-    height: 80px;
+    padding: var(--large);
+    gap: var(--large);
     display: flex;
-        align-items: center;
+    align-items: center;
     cursor: pointer
-}
-
-.FAM-chat:hover {
-    background-color: var(--darkneutral)
 }
 
 .FAM-chat-icon {
 position: absolute;
-    left: 0;
-    bottom: 0;
+    display: flex;
+    left: -5px;
+    border-radius: 50%;
+    bottom: -5;
     z-index: 1;
     height: 20px;
     width: 20px;
-    background: var(--white);
+    background: var(--co1);
     color: var(--white);
+    align-items: center;
 }
 
 .FAM-chat-avatar {
-    position: relative;
-    left: 10px;
-    top: 50%;
-    margin-top: -20px;
-    height: 40px;
-    width: 40px;
+
+    height: 50px;
+    width: 50px;
 }
 
 .FAM-chat-avatar img {
@@ -885,7 +878,9 @@ position: absolute;
     width: 100%
 }
 
-.FAM-chat-box {flex: 1}
+.FAM-chat-box {
+    flex: 1
+}
 
 .FAM-chat-date,
 .FAM-chat-title {
@@ -899,8 +894,7 @@ position: absolute;
     font-weight: 700;
 }
 
-.FAM-chat-date {
-}
+.FAM-chat-date {}
 
 .FAM-pagination:empty {
     display: none
@@ -1134,11 +1128,9 @@ strong.FAM-page-link {
 
 #FAM .FAM-msg-actions {
     background: inherit;
-    border-radius: 4px;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 25px;
     white-space: nowrap;
     visibility: hidden;
     opacity: 0;
@@ -1435,7 +1427,7 @@ blockquote.FAM-codebox>div {
     position: relative;
     color: var(--co1);
     display: inline-flex;
-        align-items: center;
+    align-items: center;
     justify-content: flex-start;
     width: 120px
 }
