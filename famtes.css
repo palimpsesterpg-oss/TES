@@ -50,22 +50,16 @@
     background: var(--light);
     position: fixed;
     height: 75%;
-    width: 50%;
+    width: 75%;
     min-height: 400px;
     min-width: 300px;
     left: 0;
     z-index: 99999;
     visibility: visible;
     opacity: 1;
-    bottom: 0;
+    bottom: 51.5px;
     transition-property: top, right, bottom, left, height, width, margin, opacity, visibility;
     transition-duration: 500ms
-}
-
-#FAM-button,
-.FAM-maintitle {
-    text-align: center;
-    font-size: 18px
 }
 
 #FAM[data-hidden=true] {
@@ -127,68 +121,42 @@ color: var(--white);
 }
 
 #FAM-toolbar {
-    color: var(--light);
+display: flex;
+padding: var(--small);
+gap: var(--large);
+    color: var(--white);
     background: var(--co1);
-    border-bottom: 1px solid var(--co1);
-    height: 40px;
-    margin: -1px -1px 0
+    height: 50px;
+        font-size: var(--xlarge);
+    align-items: center;
+    justify-content: center;
 }
 
 .FAM-maintitle {
     color: var(--light);
-    width: 70%;
+text-transform: lowercase;
+font-weight: 900;
     margin: 0 auto;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis
 }
 
-.FAM-toolbar-button {
-    color: var(--light);
-    font-size: 24px;
-    position: absolute;
-    top: -1px;
-    height: 40px;
+.FAM-toolbar-button,
+.FAM-menu-option {
     cursor: pointer
 }
 
-.FAM-toolbar-button i:hover {
-    color: var(--darkneutral)
-}
-
-.FAM-toolbar-button i:active {
-    color: var(--darkneutral)
-}
-
-#FAM-back {
-    left: 10px
-}
-
-#FAM-menu-toggle {
-    right: 10px
-}
-
 #FAM-menu {
-    color: var(--lightdark);
-    background: var(--light);
-    border: 1px solid var(--darkneutral);
+    color: var(--white);
+    background: var(--co1);
     position: absolute;
-    right: -1px;
-    top: 39px;
-    min-width: 75px;
-    z-index: 2
+    right: 0px;
+    top: 50px;
+    padding: var(--small);
+    z-index: 2;
 }
 
 #FAM-idle,
 .FAM-button {
     color: var(--light);
-    cursor: pointer
-}
-
-.FAM-menu-option {
-    font-size: 30px;
-    text-align: center;
-    padding: 4px;
     cursor: pointer
 }
 
@@ -234,7 +202,6 @@ color: var(--white);
 }
 
 .FAM-content-block {
-    font-size: 14px;
     padding: 12px
 }
 
@@ -247,7 +214,7 @@ color: var(--white);
 
 .FAM-loading,
 .FAM-loading p {
-    font-size: 18px;
+    font-size: var(--large);
     font-weight: 700
 }
 
@@ -288,7 +255,7 @@ color: var(--white);
 }
 
 .FAM-button {
-    font-size: 16px;
+    font-size: var(--large);
     font-weight: 700;
     background: var(--co1);
     border: none;
@@ -645,9 +612,10 @@ hr.FAM-hr {
     cursor: pointer
 }
 
-#FAM-new-topic .fa-plus {
-    line-height: 57px
-}
+.absoleft {position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;}
 
 #FAM-new-topic .fa-circle {
     color: var(--co1)
@@ -1505,38 +1473,24 @@ blockquote.FAM-codebox>div {
 }
 
 .FAM-tab {
-    background: var(--darkneutral);
-    border: 1px solid var(--darkneutral);
-    border-left: none;
-    border-top: none;
+    background: var(--co1-50);
     position: relative;
+    color: var(--co1);
     display: inline-block;
     width: 120px
 }
 
-.FAM-tab:hover {
-    background: var(--light)
+.FAM-tab:hover, .FAM-tab.FAM-tab-active {
+    background: var(--co1-200);
+    color: var(--white)
 }
 
 .FAM-tab.FAM-tab-active {
     font-weight: 700;
-    background: var(--light);
     cursor: default
 }
 
-.FAM-tab.FAM-tab-active:after {
-    content: "";
-    background: var(--co1);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -1px;
-    height: 4px
-}
-
 .FAM-tab-name {
-    font-size: 12px;
-    padding: 0 3px;
     width: 80%;
     width: calc(100% - 16px);
     white-space: nowrap;
@@ -1544,7 +1498,7 @@ blockquote.FAM-codebox>div {
 }
 
 .FAM-tab-close {
-    font-size: 16px;
+    font-size: var(--large);
     position: absolute;
     top: 50%;
     margin-top: -8px !important;
@@ -1593,7 +1547,7 @@ blockquote.FAM-codebox>div {
 
 #FAM-service-title b,
 #FAM-service-title i {
-    color: #39C
+    color: var(--co1)
 }
 
 #FAM-service-title b:last-child,
