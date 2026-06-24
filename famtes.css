@@ -1381,6 +1381,8 @@ blockquote.FAM-codebox>div {
 .FAM-tab {
     background: var(--co1-50);
     position: relative;
+    gap: var(--small);
+    padding: 0 var(--small);
     color: var(--co1);
     display: inline-flex;
     align-items: center;
@@ -1400,10 +1402,9 @@ blockquote.FAM-codebox>div {
 }
 
 .FAM-tab-name {
-    padding: 0 var(--2xsmall);
     letter-spacing: 1px;
     text-transform: uppercase;
-    width: calc(100% - 16px);
+    flex: 1;
     white-space: nowrap;
     text-overflow: ellipsis
 }

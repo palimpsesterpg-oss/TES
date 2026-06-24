@@ -3649,9 +3649,7 @@ pblocgc,
 	display: flex;
 	align-items: center;
 	gap: var(--2xsmall);
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	text-transform: lowercase;
 	margin-top: var(--large);
 	color: var(--group-color, var(--co4));
 	justify-content: center
@@ -3668,6 +3666,8 @@ pblocgc,
 	font-family: "Phosphor" !important;
 	color: var(--group-color, var(--darkneutral))
 }
+
+.fa_like_list a {color: var(--group-color, var(--co4));}
 
 .rep-button:after {
 	content: "\E46A";
