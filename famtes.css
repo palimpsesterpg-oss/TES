@@ -850,6 +850,8 @@ a.FAM-attachment-thumb {
     position: relative;
     padding: var(--medium);
     height: 80px;
+    display: flex;
+        align-items: center;
     cursor: pointer
 }
 
@@ -858,22 +860,18 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat-icon {
-    position: absolute;
-    left: 1px;
+position: absolute;
+    left: 0;
     bottom: 0;
-    z-index: 1
-}
-
-.FAM-chat-icon .fa-circle {
-    color: #999
-}
-
-.FAM-chat-icon.FAM-new-post .fa-circle {
-    color: var(--co1)
+    z-index: 1;
+    height: 20px;
+    width: 20px;
+    background: var(--white);
+    color: var(--white);
 }
 
 .FAM-chat-avatar {
-    position: absolute;
+    position: relative;
     left: 10px;
     top: 50%;
     margin-top: -20px;
@@ -887,25 +885,21 @@ a.FAM-attachment-thumb {
     width: 100%
 }
 
+.FAM-chat-box {flex: 1}
+
 .FAM-chat-date,
 .FAM-chat-title {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 0 12px 0 60px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis
 }
 
 .FAM-chat-title {
-    font-size: 14px;
+    font-size: var(--large);
     font-weight: 700;
-    top: 20px
 }
 
 .FAM-chat-date {
-    bottom: 20px
 }
 
 .FAM-pagination:empty {
@@ -1440,7 +1434,9 @@ blockquote.FAM-codebox>div {
     background: var(--co1-50);
     position: relative;
     color: var(--co1);
-    display: inline-block;
+    display: inline-flex;
+        align-items: center;
+    justify-content: flex-start;
     width: 120px
 }
 
@@ -1464,10 +1460,6 @@ blockquote.FAM-codebox>div {
 
 .FAM-tab-close {
     font-size: var(--large);
-    position: absolute;
-    top: 50%;
-    margin-top: -8px !important;
-    right: 3px;
     cursor: pointer
 }
 
