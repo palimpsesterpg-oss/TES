@@ -1183,35 +1183,6 @@ blockquote.FAM-codebox>div {
     content: ""
 }
 
-.FAM-attachbox>dt:before,
-.FAM-codebox cite:before,
-.FAM-codebox>dt:before,
-.FAM-spoiler dt:before {
-    content: "\\f086";
-    font-family: FontAwesome;
-    margin-right: 3px
-}
-
-.FAM-codebox cite:before {
-    content: "\\f10d"
-}
-
-.FAM-codebox>dt:before {
-    content: "\\f121"
-}
-
-.FAM-spoiler>dt:before {
-    content: "\\f071"
-}
-
-.FAM-hidecode>dt:before {
-    content: "\\f070"
-}
-
-.FAM-attachbox>dt:before {
-    content: "\\f0c6"
-}
-
 .FAM-spoiler_content {
     position: relative;
     display: inline-block
