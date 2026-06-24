@@ -867,6 +867,55 @@ lbackbigc {
 	background-color: var(--group-color-50)
 }
 
+dback1,
+dbackb1,
+dbacki1,
+dbackbi1 {
+	background-color: var(--co1-700)
+}
+
+dback2,
+dbackb2,
+dbacki2,
+dbackbi2 {
+	background-color: var(--co2-700)
+}
+
+dback3,
+dbackb3,
+dbacki3,
+dbackbi3 {
+	background-color: var(--co3-700)
+}
+
+dback4,
+dbackb4,
+dbacki4,
+dbackbi4 {
+	background-color: var(--co4-700)
+}
+
+dbackn,
+dbackbn,
+dbackin,
+dbackbin {
+	background-color: var(--darklight)
+}
+
+dbackd,
+dbackbd,
+dbackid,
+dbackbid {
+	background-color: var(--neutral)
+}
+
+dbackgc,
+dbackbgc,
+dbackigc,
+dbackbigc {
+	background-color: var(--group-color-700)
+}
+
 wback1,
 wbackb1,
 wbacki1,
@@ -1206,6 +1255,41 @@ lbackbgc,
 lbackigc,
 lbackbigc {
 	font-family: var(--mono)
+}
+
+dback1,
+dbackb1,
+dbacki1,
+dbackbi1,
+dback2,
+dbackb2,
+dbacki2,
+dbackbi2,
+dback3,
+dbackb3,
+dbacki3,
+dbackbi3,
+dback4,
+dbackb4,
+dbacki4,
+dbackbi4,
+dbackn,
+dbackbn,
+dbackin,
+dbackbin,
+dbackd,
+dbackbd,
+dbackid,
+dbackbid,
+dbackgc,
+dbackbgc,
+dbackigc,
+dbackbigc {
+	padding-left: calc(var(--large) + 2.5px);
+    padding-right: var(--large);
+    letter-spacing: 2.5px;
+    font-size: var(--small);
+    text-transform: uppercase;
 }
 
 grad1,
