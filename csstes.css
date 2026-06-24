@@ -899,14 +899,14 @@ dbackn,
 dbackbn,
 dbackin,
 dbackbin {
-	background-color: var(--darklight)
+	background-color: var(--darkneutral)
 }
 
 dbackd,
 dbackbd,
 dbackid,
 dbackbid {
-	background-color: var(--neutral)
+	background-color: var(--black)
 }
 
 dbackgc,
@@ -1290,6 +1290,7 @@ dbackbigc {
     letter-spacing: 2.5px;
     font-size: var(--small);
     text-transform: uppercase;
+	color: var(--white)
 }
 
 grad1,
@@ -1957,6 +1958,13 @@ lbackb4,
 lbackbn,
 lbackbd,
 lbackbgc,
+dbackb1,
+dbackb2,
+dbackb3,
+dbackb4,
+dbackbn,
+dbackbd,
+dbackbgc,
 gradb1,
 gradb2,
 gradb3,
@@ -2047,6 +2055,13 @@ lbacki4,
 lbackin,
 lbackid,
 lbackigc,
+dbacki1,
+dbacki2,
+dbacki3,
+dbacki4,
+dbackin,
+dbackid,
+dbackigc,
 gradi1,
 gradi2,
 gradi3,
@@ -2161,6 +2176,13 @@ lbackbi4,
 lbackbin,
 lbackbid,
 lbackbigc,
+dbackbi1,
+dbackbi2,
+dbackbi3,
+dbackbi4,
+dbackbin,
+dbackbid,
+dbackbigc,
 gradbi1,
 gradbi2,
 gradbi3,
