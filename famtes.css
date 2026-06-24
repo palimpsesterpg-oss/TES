@@ -1,41 +1,14 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
-.FAM-button,
-.FAM-title {
-    text-transform: uppercase
-}
-
-#FAM,
-#FAM .FAM-inputbox,
-#FAM-msg {
-    font-family: Arial, sans-serif
-}
-
 .FAM-clear,
 .FAM-msg-date,
 .FAM-msg:after {
     clear: both
 }
 
-#modernbb #FAM i.fa,
-#modernbb #FAM-button i.fa,
-#modernbb #FAM-send {
-    margin: initial;
-    vertical-align: initial
-}
-
 #FAM a {
     color: var(--co1);
     text-decoration: none
-}
-
-#FAM a:hover {
-    color: #04A;
-    text-decoration: underline
-}
-
-#FAM a:active {
-    color: #028
 }
 
 #FAM,
@@ -89,7 +62,7 @@
 }
 
 #FAM-button {
-color: var(--white);
+    color: var(--white);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -121,21 +94,21 @@ color: var(--white);
 }
 
 #FAM-toolbar {
-display: flex;
-padding: var(--small);
-gap: var(--large);
+    display: flex;
+    padding: var(--small);
+    gap: var(--large);
     color: var(--white);
     background: var(--co1);
     height: 50px;
-        font-size: var(--xlarge);
+    font-size: var(--xlarge);
     align-items: center;
     justify-content: center;
 }
 
 .FAM-maintitle {
     color: var(--light);
-text-transform: lowercase;
-font-weight: 900;
+    text-transform: lowercase;
+    font-weight: 900;
     margin: 0 auto;
 }
 
@@ -612,10 +585,12 @@ hr.FAM-hr {
     cursor: pointer
 }
 
-.absoleft {position: absolute;
+.absoleft {
+    position: absolute;
     left: 0;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+}
 
 #FAM-new-topic .fa-circle {
     color: var(--co1)
@@ -907,7 +882,7 @@ a.FAM-attachment-thumb {
 
 .FAM-chat-avatar img {
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     width: 100%
 }
 
@@ -1480,7 +1455,8 @@ blockquote.FAM-codebox>div {
     width: 120px
 }
 
-.FAM-tab:hover, .FAM-tab.FAM-tab-active {
+.FAM-tab:hover,
+.FAM-tab.FAM-tab-active {
     background: var(--co1-200);
     color: var(--white)
 }
