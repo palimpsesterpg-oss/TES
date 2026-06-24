@@ -1138,7 +1138,6 @@ strong.FAM-page-link {
 
 #FAM-tab-add,
 .FAM-tab {
-    height: 30px;
     cursor: pointer
 }
 
@@ -1309,8 +1308,8 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-tab-container {
-    height: 30px;
-    display: flex;
+display: flex;
+    align-items: center;
 }
 
 #FAM-tab-add {
@@ -1332,7 +1331,7 @@ blockquote.FAM-codebox>div {
     background: var(--co1-50);
     position: relative;
     gap: var(--small);
-    padding: 0 var(--small);
+    padding: var(--small);
     color: var(--co1);
     display: inline-flex;
     align-items: center;
