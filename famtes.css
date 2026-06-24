@@ -18,6 +18,8 @@
 }
 
 #FAM {
+    display: flex;
+    flex-direction: column;
     color: var(--lightdark);
     border: var(--small) solid var(--co1-50);
     font-size: var(--medium);
@@ -96,6 +98,7 @@
 
 #FAM-toolbar {
     display: flex;
+    width:100%;
     padding: var(--small);
     gap: var(--large);
     color: var(--white);
@@ -149,8 +152,7 @@
 }
 
 #FAM-content {
-    height: 90%;
-    height: calc(100% - 69px);
+flex: 1;
     overflow-y: auto;
     overflow-x: hidden
 }
@@ -161,22 +163,6 @@
     white-space: nowrap;
     font-weight: 700;
     overflow: hidden
-}
-
-#FAM-content.FAM-reply-open {
-    height: calc(100% - 110px)
-}
-
-#FAM-tab-container[style*=none]+#FAM-content {
-    height: calc(100% - 39px)
-}
-
-#FAM-tab-container[style*=none]+#FAM-content.FAM-reply-open {
-    height: calc(100% - 80px)
-}
-
-.FAM-content-block {
-    padding: 12px
 }
 
 .FAM-border-box {
@@ -229,16 +215,11 @@
 }
 
 .FAM-button {
-    font-size: var(--large);
     font-weight: 700;
     background: var(--co1);
-    border: none;
-    border-radius: 4px;
     display: block;
-    height: 40px;
-    padding: 0 12px;
-    margin: 3px auto;
-    outline: 0
+    padding: var(--2xsmall);
+    margin: 0 auto;
 }
 
 .FAM-button:hover {
@@ -251,12 +232,11 @@
 
 .FAM-inline-buttons .FAM-button {
     display: inline-block;
-    margin: 3px
 }
 
 #FAM .FAM-inputbox {
     color: var(--lightdark);
-    font-size: 14px;
+    font-size: var(--medium);
     background: var(--light);
     border: 1px solid var(--darkneutral);
     border-radius: 4px;
@@ -296,7 +276,7 @@
 }
 
 #FAM .FAM-button-input .FAM-button {
-    font-size: 24px;
+    font-size: var(--2xlarge);
     vertical-align: -4px;
     width: 40px;
     height: 40px;
@@ -314,14 +294,14 @@
 }
 
 #FAM .FAM-button-input-small .FAM-button {
-    font-size: 18px;
+    font-size: var(--xlarge);
     width: 30px;
     height: 30px;
     padding: 0
 }
 
 .FAM-title {
-    font-size: 24px;
+    font-size: var(--2xlarge);
     font-weight: 700;
     margin-bottom: 12px
 }
@@ -331,14 +311,14 @@
 }
 
 .FAM-title i {
-    font-size: 36px;
+    font-size: var(--3xlarge);
     vertical-align: -2px;
     margin-right: 3px
 }
 
 .FAM-section-title {
     color: var(--co1);
-    font-size: 18px;
+    font-size: var(--xlarge);
     font-weight: 700;
     border-bottom: 2px solid var(--co1);
     margin: 12px auto;
@@ -352,7 +332,7 @@ hr.FAM-hr {
 }
 
 .FAM-icon-link {
-    font-size: 18px;
+    font-size: var(--xlarge);
     vertical-align: middle;
     display: inline-block;
     margin: 0 6px
@@ -422,7 +402,7 @@ hr.FAM-hr {
 }
 
 #FAM .FAM-connected-buttons i {
-    font-size: 20px;
+    font-size: var(--xlarge);
     margin-right: 3px;
     vertical-align: -2px
 }
@@ -453,7 +433,7 @@ hr.FAM-hr {
 }
 
 .FAM-init-tab-controls .FAM-icon-link {
-    font-size: 24px
+    font-size: var(--2xlarge)
 }
 
 .FAM-symmetrical-label .FAM-label,
@@ -560,8 +540,8 @@ hr.FAM-hr {
 }
 
 #FAM-actions {
-    height: 41px;
-    border-top: 1px solid var(--darkneutral);
+    height: 40px;
+    border-top: 1px solid var(--co1-50);
     display: none
 }
 
@@ -607,22 +587,14 @@ hr.FAM-hr {
 
 #FAM-actions>button {
     color: var(--lightdark);
-    font-size: 18px;
+    font-size: var(--xlarge);
     background: var(--light);
     border: none;
-    border-left: 1px solid var(--darkneutral);
+    border-left: 1px solid var(--co1-50);
     height: 40px;
     width: 40px;
     cursor: pointer;
     outline: 0
-}
-
-#FAM-actions>button:hover {
-    background: var(--darkneutral)
-}
-
-#FAM-actions>button:active {
-    background: var(--darkneutral)
 }
 
 #FAM-actions>button[data-disabled=true] {
@@ -640,7 +612,7 @@ hr.FAM-hr {
 
 #FAM-attachment-total {
     color: var(--light);
-    font-size: 12px;
+    font-size: var(--medium);
     font-weight: 700;
     background: var(--co1);
     border-radius: 4px;
@@ -652,7 +624,7 @@ hr.FAM-hr {
 
 #FAM-attach-success {
     color: var(--light);
-    font-size: 16px;
+    font-size: var(--large);
     background: #8B5;
     position: absolute;
     top: -1px;
@@ -664,7 +636,7 @@ hr.FAM-hr {
 }
 
 #FAM-attach-success i {
-    font-size: 26px;
+    font-size: var(--2xlarge);
     margin-right: 6px;
     vertical-align: -3px
 }
@@ -694,7 +666,7 @@ hr.FAM-hr {
 .FAM-dropdown-title {
     color: var(--light);
     font-weight: 700;
-    font-size: 18px;
+    font-size: var(--xlarge);
     background: var(--co1);
     padding: 0 6px;
     margin: -1px -1px 0
@@ -710,7 +682,7 @@ hr.FAM-hr {
 
 .FAM-block-option {
     color: var(--lightdark);
-    font-size: 16px;
+    font-size: var(--large);
     border-bottom: 1px solid var(--darkneutral);
     width: 100%;
     cursor: pointer
@@ -727,7 +699,7 @@ hr.FAM-hr {
 }
 
 .FAM-option-icon {
-    font-size: 20px;
+    font-size: var(--xlarge);
     font-weight: 400;
     display: inline-block;
     width: 50px;
@@ -739,7 +711,7 @@ hr.FAM-hr {
 }
 
 .FAM-option-icon.FAM-text-icon {
-    font-size: 18px;
+    font-size: var(--xlarge);
     font-weight: 700;
     font-stretch: condensed
 }
@@ -796,7 +768,7 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-attachment-thumb i {
-    font-size: 24px;
+    font-size: var(--2xlarge);
     line-height: 50px
 }
 
@@ -810,7 +782,6 @@ a.FAM-attachment-thumb {
 }
 
 #FAM-msg {
-    color: var(--lightdark);
     background: 0 0;
     border: none;
     height: 40px;
@@ -867,7 +838,7 @@ position: absolute;
 }
 
 .FAM-chat-avatar {
-
+position: relative;
     height: 50px;
     width: 50px;
 }
@@ -903,7 +874,7 @@ position: absolute;
 #FAM a.FAM-page-link,
 .FAM-page-link {
     color: var(--light);
-    font-size: 18px;
+    font-size: var(--xlarge);
     font-weight: 700;
     text-decoration: none;
     background: var(--co1);
@@ -1015,14 +986,14 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-text {
-    font-size: 14px;
+    font-size: var(--medium);
     line-height: 20px;
     white-space: pre-wrap;
     word-wrap: break-word
 }
 
 .FAM-msg-text .fa-circle-o-notch {
-    font-size: 20px
+    font-size: var(--xlarge)
 }
 
 #FAM .FAM-msg-text a {
@@ -1045,7 +1016,7 @@ strong.FAM-page-link {
 
 .FAM-msg-date,
 .FAM-msg-name {
-    font-size: 12px;
+    font-size: var(--medium);
     width: 100%;
     height: 20px;
     line-height: 20px;
@@ -1106,7 +1077,7 @@ strong.FAM-page-link {
 
 .FAM-msg-text .FAM-attachment td {
     color: var(--lightdark);
-    font-size: 18px;
+    font-size: var(--xlarge);
     min-height: 20px;
     line-height: 20px;
     position: relative;
@@ -1207,7 +1178,7 @@ strong.FAM-page-link {
 .FAM-codebox dt,
 .FAM-spoiler dt {
     color: var(--lightdark);
-    font-size: 14px;
+    font-size: var(--medium);
     font-weight: 700;
     background: var(--darkneutral);
     padding: 3px;
@@ -1323,14 +1294,14 @@ blockquote.FAM-codebox>div {
 
 .FAM-captcha p:first-child b,
 .FAM-captcha p:first-child strong {
-    font-size: 24px;
+    font-size: var(--2xlarge);
     display: inline-block;
     margin-bottom: 6px
 }
 
 #FAM-new-msg-notif {
     color: var(--light);
-    font-size: 14px;
+    font-size: var(--medium);
     font-weight: 700;
     text-align: center;
     background: var(--co1);
@@ -1346,7 +1317,7 @@ blockquote.FAM-codebox>div {
 
 #FAM-new-msg-notif:after {
     content: "\\f00d";
-    font-size: 18px;
+    font-size: var(--xlarge);
     font-weight: 400;
     font-family: FontAwesome;
     position: absolute;
@@ -1363,7 +1334,7 @@ blockquote.FAM-codebox>div {
 
 #FAM-new-msg-divider {
     color: var(--co1);
-    font-size: 18px;
+    font-size: var(--xlarge);
     text-align: center;
     margin: 12px
 }
@@ -1389,30 +1360,15 @@ blockquote.FAM-codebox>div {
 
 #FAM-tab-container {
     height: 30px;
-    position: relative;
+    display: flex;
 }
 
 #FAM-tab-add {
     font-size: var(--large);
-    text-align: center;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 30px
-}
-
-#FAM-tab-add:hover {
-    color: var(--co1)
 }
 
 #FAM-tabs {
-    width: calc(100% - 30px)
-}
-
-#FAM-tabs:hover {
-    overflow-x: auto;
-    position: relative;
-    z-index: 2
+ flex: 1
 }
 
 #FAM-menu-avatar,
@@ -1445,6 +1401,8 @@ blockquote.FAM-codebox>div {
 
 .FAM-tab-name {
     padding: 0 var(--2xsmall);
+    letter-spacing: 1px;
+    text-transform: uppercase;
     width: calc(100% - 16px);
     white-space: nowrap;
     text-overflow: ellipsis
@@ -1460,7 +1418,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-profile-username {
-    font-size: 18px;
+    font-size: var(--xlarge);
     font-weight: 700
 }
 
@@ -1525,7 +1483,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-version-status-icon i {
-    font-size: 36px
+    font-size: var(--3xlarge)
 }
 
 #FAM-version-status-icon .fa-exclamation-circle {
@@ -1551,12 +1509,12 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-creator-info i {
-    font-size: 18px;
+    font-size: var(--xlarge);
     vertical-align: middle
 }
 
 #FAM #FAM-search-keywords {
-    font-size: 18px;
+    font-size: var(--xlarge);
     height: 40px;
     padding: 0 8px
 }
@@ -1630,7 +1588,7 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-media-list>a {
-    font-size: 24px;
+    font-size: var(--2xlarge);
     max-width: 90%;
     display: inline-block;
     white-space: nowrap;
