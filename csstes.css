@@ -1255,7 +1255,10 @@ wbackbigc,
 backgc,
 backbgc,
 backigc,
-backbigc,
+backbigc {
+	padding: 0 var(--small)
+}
+
 bgrad1,
 bgrad2,
 bgrad3,
@@ -1312,7 +1315,7 @@ lbgradb4,
 lbgradb5,
 lbgradb6,
 lbgradbgc {
-	padding: 0 var(--small)
+	padding: 0 var(--medium)
 }
 
 lback1,
