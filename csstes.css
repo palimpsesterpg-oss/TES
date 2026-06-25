@@ -3357,8 +3357,6 @@ majgc::first-letter {
 	font-size: var(--large)
 }
 
-
-
 .tabicon {
 	margin: 0 auto;
 	width: 600px;
@@ -3824,7 +3822,7 @@ pblocgc,
 .rep-button:after {
 	content: "\E46A";
 	font-family: "Phosphor-Fill" !important;
-	color: var(--group-color-50, var(--co4-50))
+	color: var(--group-color-100, var(--co4-100))
 }
 
 .rep-nb {
