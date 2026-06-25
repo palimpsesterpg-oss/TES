@@ -111,7 +111,7 @@
 .cam cam9 {
     background: var(--group-color-50);
     padding: var(--2xsmall) var(--medium);
-    color: var(--group-color-700);
+    color: var(--group-color);
     text-shadow: 0.5px 0.5px var(--white);
     font-family: var(--serif);
 }
@@ -155,16 +155,18 @@
     padding: var(--2xsmall);
     display: flex;
     align-items: center;
-    padding-left:2.5px;
+    padding-left: 2.5px;
     justify-content: space-around;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     width: 100%;
 }
 
-.cam .inforpcam {    display: flex;
+.cam .inforpcam span {
+    display: flex;
     align-items: center;
-    gap: var(--xsmall);}
+    gap: var(--xsmall);
+}
 
 .cam .bodyrpcam i,
 .cam .inforpcam a {
@@ -223,7 +225,7 @@
     font-family: var(--serif);
     text-transform: uppercase;
     display: flex;
-    color: var(--group-color-400);
+    color: var(--group-color);
     align-items: center;
     justify-content: center;
     letter-spacing: 0.5px;
@@ -289,7 +291,7 @@
 }
 
 .cam #postprofile-libre div[align="justify"] a:hover {
-    background-color: var(--group-color-300);
+    background-color: var(--group-color-50);
     color: var(--white) !important
 }
 
@@ -308,9 +310,9 @@
 .signcam div {
     font-family: var(--serif);
     text-align: justify;
-    color: var(--darkneutral);
-    font-weight: 100
 }
+
+.signcam div i {font-weight: 500 !important}
 
 .signcam div i,
 .signcam div strong {
