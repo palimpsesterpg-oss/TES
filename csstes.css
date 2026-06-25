@@ -3739,7 +3739,7 @@ pblocgc,
 .tooltip-avatar {
 	object-fit: cover;
 	height: 100px;
-	width: 75px
+	width: 100px
 }
 
 .tooltip-details {
@@ -3777,7 +3777,7 @@ pblocgc,
 }
 
 .tooltipster-arrow {
-	display: none
+	display: none !important
 }
 
 .fa_like_div {
