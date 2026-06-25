@@ -1,3 +1,16 @@
+.d-flex {
+ display: flex;
+}
+
+x2small, .x2small {font-size: var(--2xsmall)}
+xsmall, .xsmall {font-size: var(--xsmall)}
+small, .small {font-size: var(--small)}
+medium, .medium {font-size: var(--medium)}
+large, .large {font-size: var(--large)}
+xlarge, .xlarge {font-size: var(--xlarge)}
+x2large, .x2large {font-size: var(--2xlarge)}
+
+
 .reverse {
 	--gradient12: linear-gradient(to left, var(--co1), var(--co2));
 	--gradient13: linear-gradient(to left, var(--co1), var(--co3));
