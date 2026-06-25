@@ -1,14 +1,41 @@
 .d-flex {
- display: flex;
+	display: flex;
 }
 
-x2small, .x2small {font-size: var(--2xsmall)}
-xsmall, .xsmall {font-size: var(--xsmall)}
-small, .small {font-size: var(--small)}
-medium, .medium {font-size: var(--medium)}
-large, .large {font-size: var(--large)}
-xlarge, .xlarge {font-size: var(--xlarge)}
-x2large, .x2large {font-size: var(--2xlarge)}
+x2small,
+.x2small {
+	font-size: var(--2xsmall)
+}
+
+xsmall,
+.xsmall {
+	font-size: var(--xsmall)
+}
+
+small,
+.small {
+	font-size: var(--small)
+}
+
+medium,
+.medium {
+	font-size: var(--medium)
+}
+
+large,
+.large {
+	font-size: var(--large)
+}
+
+xlarge,
+.xlarge {
+	font-size: var(--xlarge)
+}
+
+x2large,
+.x2large {
+	font-size: var(--2xlarge)
+}
 
 
 .reverse {
@@ -289,7 +316,8 @@ fslarge {
 	flex-direction: column;
 }
 
-.fichefam.noprof {
+.fichefam.noprof,
+.ficheadmin.noprof {
 	margin: 0 var(--3xlarge);
 }
 
