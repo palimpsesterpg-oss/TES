@@ -51,7 +51,7 @@
 }
 
 .cam cam3 {
-    color: var(--group-color-100);
+    color: var(--group-color-50);
     background-color: var(--group-color);
     font-family: var(--var);
     letter-spacing: 2.5px;
@@ -109,7 +109,7 @@
 }
 
 .cam cam9 {
-    background: var(--group-color-100);
+    background: var(--group-color-50);
     padding: var(--2xsmall) var(--medium);
     color: var(--group-color-700);
     text-shadow: 0.5px 0.5px var(--white);
@@ -245,8 +245,8 @@
 }
 
 .cam #postprofile-libre h4 {
-    background-color: var(--group-color-100);
-    color: var(--group-color-600) !important;
+    background-color: var(--group-color-50);
+    color: var(--group-color) !important;
     margin: 0 auto !important;
     width: fit-content;
     font-style: italic;
@@ -269,7 +269,7 @@
 .cam #postprofile-libre div[align="justify"] {
     padding: var(--xsmall);
     background: var(--group-color-50);
-    color: var(--group-color-600);
+    color: var(--group-color);
     font-weight: 300;
     border: 0.5px solid var(--group-color-200);
 }
@@ -280,12 +280,12 @@
 }
 
 .cam #postprofile-libre div[align="justify"] strong {
-    color: var(--group-color-600) !important
+    color: var(--group-color) !important
 }
 
 .cam #postprofile-libre div[align="justify"] a {
     background-color: var(--white);
-    color: var(--group-color-600) !important;
+    color: var(--group-color) !important;
 }
 
 .cam #postprofile-libre div[align="justify"] a:hover {
@@ -314,7 +314,7 @@
 
 .signcam div i,
 .signcam div strong {
-    color: var(--group-color-600) !important;
+    color: var(--group-color) !important;
 }
 
 .signcam div strong {
@@ -326,7 +326,7 @@
 }
 
 .cam .blocpl.one strong {
-    color: var(--group-color-600)
+    color: var(--group-color)
 }
 
 .cam .blocpl {
