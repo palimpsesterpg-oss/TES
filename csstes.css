@@ -3759,6 +3759,8 @@ pblocgc,
 
 .tooltipster-default {
 	background: var(--light) !important;
+	box-shadow: 0px;
+	border: var(--small) solid var(--darkerlight);
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
