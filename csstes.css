@@ -329,6 +329,10 @@ fslarge {
 	color: var(--co2-700);
 }
 
+.fichefam.noprof .textlisting {
+	padding: var(--2xlarge);
+}
+
 .headperso,
 .headpl,
 .headrec {
