@@ -1,5 +1,4 @@
 .cam camhd {
-    font-family: var(--spe);
     text-transform: uppercase;
     letter-spacing: 2.5px;
     padding-left: 2.5px;
@@ -9,14 +8,6 @@
 
 .cam camhd i {
     font-style: normal !important;
-    color: var(--group-color) !important
-}
-
-.cam camhd:after,
-.cam camhd:before {
-    content: '';
-    border-bottom: 1px solid var(--whiteop5);
-    flex: 1
 }
 
 .cam .blocperso.one i,
@@ -51,7 +42,7 @@
 }
 
 .cam cam3 {
-    color: var(--group-color-50);
+    color: var(--white);
     background-color: var(--group-color);
     font-family: var(--var);
     letter-spacing: 2.5px;
@@ -63,7 +54,7 @@
 
 .cam cam4 {
     color: var(--group-color);
-    border-bottom: 2.5px solid var(--group-color-50);
+    border-bottom: 2.5px solid var(--group-color-300);
     font-family: var(--serif);
 }
 
@@ -80,9 +71,10 @@
 
 .cam cam6 {
     color: var(--group-color);
-    font-family: var(--spe);
+    font-weight:100;
+    padding-left:2.5px;
     font-size: var(--large);
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
 }
 
 .cam cam7 {
@@ -95,16 +87,16 @@
 
 .cam cam7::first-letter {
     font-size: var(--xlarge);
-    font-family: var(--spe);
-    font-weight: 100;
+    font-weight: 900;
     text-transform: lowercase;
 }
 
 .cam cam8 {
     font-style: italic;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1px;
+    padding-left:1px;
     color: var(--group-color);
 }
 
@@ -114,6 +106,16 @@
     color: var(--group-color);
     text-shadow: 0.5px 0.5px var(--white);
     font-family: var(--serif);
+}
+
+.cam cam10 {    color: var(--white);
+    background-color: var(--group-color-700);
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-size: var(--small);
+    padding-left:calc(var(--large) + 1px);
+    padding-right: var(--large);
+    font-weight: 700;
 }
 
 .cam .rpcam {
