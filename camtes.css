@@ -299,6 +299,7 @@
     display: flex;
     gap: var(--large);
     width: 325px;
+    color: var(--group-color) !important;
     align-items: center;
 }
 
@@ -312,11 +313,13 @@
     text-align: justify;
 }
 
-.signcam div i {font-weight: 500 !important}
+.signcam div i {
+    font-weight: 500 !important
+}
 
 .signcam div i,
 .signcam div strong {
-    color: var(--group-color) !important;
+    color: var(--group-color-700) !important;
 }
 
 .signcam div strong {
