@@ -2888,18 +2888,18 @@ majgc::first-letter {
 
 .brf1,
 .brf2 {
-	background-color: var(--group-color, var(--black));
+	background-color: var(--group-color, var(--black)) !important;
 }
 
 .brf1:before {
-	color: var(--group-color, var(--black));
+	color: var(--group-color, var(--black)) !important;
 }
 
 .brf2 {
 	background: linear-gradient(to right,
 			var(--light),
 			var(--group-color, var(--black)),
-			var(--light));
+			var(--light)) !important;
 }
 
 .brf1:before,
