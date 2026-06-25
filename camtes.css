@@ -121,11 +121,12 @@
     outline: 2px solid var(--group-color-50);
     box-shadow: 0px 0px 0px 6px var(--white);
     background: var(--white);
-    padding: var(--large);
+    padding: var(--xlarge);
     display: flex;
+    width: 90%;
     margin: 0 auto;
     flex-direction: column;
-    gap: var(--large);
+    gap: var(--xlarge);
     align-items: center;
 }
 
@@ -133,7 +134,7 @@
     display: flex;
     align-items: center;
     width: 90%;
-    color: var(--group-color-600);
+    color: var(--group-color);
     gap: var(--large)
 }
 
@@ -149,22 +150,25 @@
 }
 
 .cam .inforpcam {
-    color: var(--group-color-600) !important;
+    color: var(--group-color) !important;
     background: var(--group-color-50);
     padding: var(--2xsmall);
     display: flex;
     align-items: center;
+    padding-left:2.5px;
     justify-content: space-around;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-    font-family: var(--mono);
-    font-weight: 300;
     width: 100%;
 }
 
+.cam .inforpcam {    display: flex;
+    align-items: center;
+    gap: var(--xsmall);}
+
 .cam .bodyrpcam i,
 .cam .inforpcam a {
-    color: var(--group-color-600) !important;
+    color: var(--group-color) !important;
 }
 
 
@@ -173,6 +177,7 @@
     color: var(--white) !important;
     padding: var(--2xsmall);
     text-align: center;
+    text-transform: lowercase;
     font-weight: 700;
     width: 100%
 }
@@ -182,8 +187,8 @@
 }
 
 .cam .bodyrpcam i {
-    margin: var(--small);
-    font-weight: 600;
+    margin: var(--large);
+    font-weight: 700;
 }
 
 .cam .bodyrpcam i:before {
