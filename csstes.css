@@ -219,6 +219,14 @@ fslarge {
 	margin: 0 var(--3xlarge)
 }
 
+.fichefam.noprof serifi1 {
+	color: var(--co1-700);
+}
+
+.fichefam.noprof serifi2 {
+	color: var(--co2-700);
+}
+
 .headperso,
 .headpl,
 .headrec {
