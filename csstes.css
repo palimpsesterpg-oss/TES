@@ -3759,7 +3759,7 @@ pblocgc,
 
 .tooltipster-default {
 	background: var(--light) !important;
-	box-shadow: 0px;
+	box-shadow: 0px !important;
 	border: var(--small) solid var(--darkerlight);
 	border-radius: 0px !important;
 	width: fit-content !important;
