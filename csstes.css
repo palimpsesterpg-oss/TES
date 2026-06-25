@@ -3785,6 +3785,9 @@ pblocgc,
 	align-items: center;
 	gap: var(--2xsmall);
 	margin-top: var(--large);
+	color: var(--group-color, var(--darkneutral));
+	letter-spacing: 1px;
+	text-transform: uppercase;
 	justify-content: center
 }
 
@@ -3809,9 +3812,6 @@ pblocgc,
 
 .fa_like_list a {
 	color: var(--group-color, var(--co4)) !important;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-weight: 200;
 }
 
 .rep-button:after {
