@@ -3,12 +3,14 @@
     letter-spacing: 2.5px;
     padding-left: 2.5px;
     display: block;
+    font-size: var(--large);
     text-align: center;
 }
 
 .cam camhd:before {font-family: 'TES';
     content: '\E052';
-    font-size: var(--xlarge);
+    font-size: var(--2xlarge);
+    margin-bottom: var(--large);
     display:block}
 
 .cam camhd i {
@@ -16,7 +18,9 @@
 }
 
 .cam camhd i:before, .cam camhd i:after {font-family: 'TES';
-    content: '\E011';}
+    content: '\E011';
+    padding: var(--xlarge);
+font-size: var(--xlarge);}
 
 .cam .blocperso.one i,
 .cam .blocperso.one strong,
