@@ -19,6 +19,10 @@
     content: '\E026';
 }
 
+#209.cam camhd:before {
+    content: '\E044';
+}
+
 .cam camhd upp {
     font-family: var(--serif);
     display: flex;
