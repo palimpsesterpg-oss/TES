@@ -4330,7 +4330,7 @@ p {
 	width: fit-content;
 	text-transform: uppercase;
 	color: var(--group-color);
-	font-size: var(--large)
+	font-size: var(--large);
 	font-weight: 900;
 }
 
