@@ -1,39 +1,42 @@
 .cam camhd {
-    text-transform: uppercase;
     display: block;
-    font-size: var(--large);
     text-align: center;
+    color: var(--group-color);
 }
 
 .cam camhd:before {
     font-family: 'TES';
-    content: '\E052';
     font-size: var(--xlarge);
     margin-bottom: var(--small);
-    color: var(--group-color);
     display: block
 }
 
-.cam camhd i {
-    font-style: normal !important;
+#u2.cam camhd:before {
+    content: '\E052';
+}
+
+#u60.cam camhd:before {
+    content: '\E026';
+}
+
+.cam camhd upp {
     display: flex;
-    font-weight: 200;
     align-items: center;
     justify-content: center;
 }
 
-.cam camhd i:before,
-.cam camhd i:after {
+.cam camhd upp:before,
+.cam camhd upp:after {
     font-family: 'TES';
     content: '\E011';
     font-size: var(--xlarge);
 }
 
-.cam camhd i:before {
+.cam camhd upp:before {
     padding-right: var(--large);
 }
 
-.cam camhd i:after {
+.cam camhd upp:after {
     padding-left: var(--large);
 }
 
@@ -44,7 +47,9 @@
     font-family: var(--serif)
 }
 
-.cam i {font-weight: 500}
+.cam i {
+    font-weight: 500
+}
 
 .cam i:not(.ph),
 .cam .content a:not(.mentiontag, .ficheperso.first a),
