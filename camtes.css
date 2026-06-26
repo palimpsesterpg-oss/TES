@@ -17,6 +17,7 @@
 .cam camhd i {
     font-style: normal !important;
     display: flex;
+    font-weight: 200;
     align-items: center;
     justify-content: center;
 }
