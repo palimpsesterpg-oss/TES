@@ -1,20 +1,22 @@
 .cam camhd {
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    padding-left: 2.5px;
     display: block;
     font-size: var(--large);
+    color: var(--group-color);
     text-align: center;
 }
 
 .cam camhd:before {font-family: 'TES';
     content: '\E052';
     font-size: var(--2xlarge);
-    margin-bottom: var(--large);
     display:block}
 
 .cam camhd i {
     font-style: normal !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cam camhd i:before, .cam camhd i:after {font-family: 'TES';
