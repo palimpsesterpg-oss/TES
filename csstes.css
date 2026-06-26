@@ -4330,8 +4330,8 @@ p {
 	width: fit-content;
 	text-transform: uppercase;
 	color: var(--group-color);
+	font-size: var(--large)
 	font-weight: 900;
-	border-bottom: 2.5px solid var(--group-color-50);
 }
 
 firstdts {
@@ -4339,19 +4339,17 @@ firstdts {
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	color: var(--group-color-300);
 }
 
 firstdts:before {
 	padding-right: 2.5px;
 	content: "—";
-	color: var(--group-color-50);
 }
 
 .ficheperso.first a {
 	background: linear-gradient(to right,
-			var(--group-color-100),
-			var(--group-color-400));
+			var(--group-color-200),
+			var(--group-color));
 	color: var(--white);
 	padding: 0 var(--large);
 	text-transform: uppercase;
