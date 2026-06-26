@@ -8,9 +8,9 @@
 .cam camhd:before {
     font-family: 'TES';
     content: '\E052';
-    font-size: var(--large);
-    margin-bottom: var(--large);
-        color: var(--group-color-700);
+    font-size: var(--xlarge);
+    margin-bottom: var(--medium);
+    color: var(--group-color-700);
     display: block
 }
 
@@ -29,11 +29,11 @@
 }
 
 .cam camhd i:before {
-    padding-left: var(--large);
+    padding-right: var(--large);
 }
 
 .cam camhd i:after {
-    padding: var(--large);
+    padding-left: var(--large);
 }
 
 .cam .blocperso.one i,
