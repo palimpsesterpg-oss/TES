@@ -11,15 +11,15 @@
     display: block
 }
 
-#203.cam camhd:before {
+.cam#203 camhd:before {
     content: '\E052';
 }
 
-#2968.cam camhd:before {
+.cam#2968 camhd:before {
     content: '\E026';
 }
 
-#209.cam camhd:before {
+.cam#209 camhd:before {
     content: '\E044';
 }
 
