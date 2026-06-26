@@ -11,7 +11,7 @@
     display: block
 }
 
-.cam#203 camhd:before {
+#203.cam camhd:before {
     content: '\E052';
 }
 
