@@ -8,19 +8,16 @@
     font-family: 'TES';
     font-size: var(--xlarge);
     margin-bottom: var(--small);
+    content: '\E044';
     display: block
 }
 
-#203.cam camhd:before {
-    content: '\E052';
+[data-user-id="u2"].cam camhd:before {
+    content: '\E052' !important;
 }
 
-.cam#2968 camhd:before {
-    content: '\E026';
-}
-
-.cam#209 camhd:before {
-    content: '\E044';
+[data-user-id="u60"].cam camhd:before {
+    content: '\E026' !important;
 }
 
 .cam camhd upp {
