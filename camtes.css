@@ -6,9 +6,17 @@
     text-align: center;
 }
 
+.cam camhd:before {font-family: 'TES';
+    content: '\E052';
+    font-size: var(--xlarge);
+    display:block}
+
 .cam camhd i {
     font-style: normal !important;
 }
+
+.cam camhd i:before, .cam camhd i:after {font-family: 'TES';
+    content: '\E011';}
 
 .cam .blocperso.one i,
 .cam .blocperso.one strong,
