@@ -10,6 +10,7 @@
     content: '\E052';
     font-size: var(--xlarge);
     margin-bottom: var(--small);
+    color: var(--group-color);
     display: block
 }
 
