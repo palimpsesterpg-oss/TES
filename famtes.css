@@ -902,6 +902,7 @@ strong.FAM-page-link {
 .FAM-msg {
     display: flex;
     align-items: center;
+    position: relative;
     padding: var(--large);
     gap: var(--large)
 }
@@ -934,9 +935,6 @@ strong.FAM-page-link {
 .FAM-msg-content {
     background: var(--darklight);
     padding: var(--medium);
-    min-height: 50px;
-    position: relative;
-    float: left
 }
 
 .FAM-msg-editing .FAM-msg-content {
@@ -970,9 +968,6 @@ strong.FAM-page-link {
 .FAM-msg-name {
     font-size: var(--medium);
     width: 100%;
-    height: 20px;
-    line-height: 20px;
-    padding: 0 3px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden
@@ -984,10 +979,6 @@ strong.FAM-page-link {
 
 .FAM-my-msg .FAM-msg-name {
     display: none
-}
-
-.FAM-my-msg .FAM-msg-date {
-    text-align: right
 }
 
 .FAM-msg-error .FAM-msg-content {
