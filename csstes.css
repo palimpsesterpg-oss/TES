@@ -4611,7 +4611,7 @@ statusinsta {
 }
 
 .ficheinsta.story .contentstory div:first-child {
-	padding-bottom: var(--large);
+	padding: var(--small);
 	border-bottom: 1px solid white;
 }
 
@@ -4622,7 +4622,7 @@ statusinsta {
 .ficheinsta.story .contentstory div:last-child {
 	display: block;
 	height: -webkit-fill-available;
-	padding-top: var(--large);
+	padding: var(--small);
 }
 
 .ficheinsta.story .contentstory div,
