@@ -4092,15 +4092,13 @@ chronoevent strong {
 	font-size: var(--large)
 }
 
-.rules.content u {
+.rules.content i {
 	background: var(--co4);
 	font-size: var(--large);
 	font-weight: 500;
 	color: var(--white);
 	padding: var(--2xsmall) var(--2xlarge);
 	font-family: var(--serif);
-	text-decoration: none !important;
-	font-style: italic;
 }
 
 .listcult .posttab:not(.active) borderb1,
