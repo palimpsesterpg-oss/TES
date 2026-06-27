@@ -4092,7 +4092,7 @@ chronoevent strong {
 	font-size: var(--large)
 }
 
-.rules.content i {
+.rules.content i:not(.ph) {
 	background: var(--co4);
 	font-size: var(--large);
 	font-weight: 500;
