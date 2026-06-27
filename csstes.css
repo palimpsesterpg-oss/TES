@@ -4338,7 +4338,7 @@ firstdts {
 	text-transform: lowercase;
 	font-weight: 300;
 	letter-spacing: 2.5px;
-	padding-left: 2.5px;
+	color: var(--group-color)
 }
 
 firstdts:before {
