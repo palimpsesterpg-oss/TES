@@ -57,7 +57,6 @@
 }
 
 .cam i:not(.ph),
-.cam .content a:not(.mentiontag, .ficheperso.first a),
 .cam strong:not(chronoevent strong) {
     color: var(--group-color);
 }
