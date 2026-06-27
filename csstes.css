@@ -4642,6 +4642,7 @@ statusinsta {
 
 .ficheinsta.post {
 	background: var(--white);
+	padding-top: 0px !important;
 }
 
 .posttext {
