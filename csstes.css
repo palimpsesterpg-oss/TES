@@ -4433,6 +4433,10 @@ firstdts:before {
 	text-transform: 1px;
 }
 
+.ficheinsta.mini>div {
+	flex:1
+}
+
 .headinsta {
 	display: flex;
 	align-items: center;
