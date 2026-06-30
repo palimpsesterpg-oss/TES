@@ -52,7 +52,8 @@
     font-family: var(--serif)
 }
 
-.cam i {
+.cam .blocperso.one i,
+.cam .blocrec.two i {
     font-weight: 500
 }
 
