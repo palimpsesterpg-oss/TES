@@ -88,6 +88,12 @@ fslarge {
 	display: block;
 }
 
+.posttab.active back3 {
+	font-weight: 700;
+	color: var(--co3);
+	background: var(--white)
+}
+
 .group-2 {
 	--group-color-50: #e1e1e1;
 	--group-color-100: #c3c3c3;
@@ -4434,7 +4440,7 @@ firstdts:before {
 }
 
 .ficheinsta.mini>div {
-	flex:1
+	flex: 1
 }
 
 .headinsta {
