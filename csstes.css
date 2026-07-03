@@ -4032,7 +4032,7 @@ chronodate:after {
 	border-radius: 100%;
 	margin-right: -5px;
 	background-color: var(--white);
-	z-index: 9999;
+	z-index: 9;
 }
 
 chronoevent {
