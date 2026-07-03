@@ -429,12 +429,11 @@ lblprs:before {
 
 lblqst {
 	font-weight: 700;
-	margin: 0.25rem 0.5rem;
-	padding-left: 1px;
+	padding-left: 1.5px;
 	font-family: var(--var);
 	font-size: var(--large);
 	width: fit-content;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
 	color: var(--group-color, var(--co1));
 	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50));
 }
