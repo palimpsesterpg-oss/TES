@@ -3858,7 +3858,7 @@ pblocgc,
 .tooltip-avatar {
 	object-fit: cover;
 	height: 115px;
-	width: 115px;
+	width: 85px;
 }
 
 .tooltip-details {
@@ -3879,12 +3879,13 @@ pblocgc,
 
 .tooltipster-default {
 	background: var(--light) !important;
-	padding: var(--2xsmall);
+	padding: var(--2xsmall) !important;
 	box-shadow: none !important;
 	border: 1px solid var(--darkerlight);
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
+	min-width: 50px !important;
 	display: flex;
 }
 
