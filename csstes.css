@@ -3876,8 +3876,9 @@ pblocgc,
 
 .tooltipster-default {
 	background: var(--light) !important;
+	padding: var(--2xsmall);
 	box-shadow: none !important;
-	border: var(--2xsmall) solid var(--darkerlight);
+	border: 0.05rem solid var(--darkerlight);
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
@@ -3886,6 +3887,7 @@ pblocgc,
 }
 
 .tooltipster-content {
+	background: var(--white) !important;
 	font-family: var(--main) !important;
     font-size: var(--medium) !important;
     display: flex;
