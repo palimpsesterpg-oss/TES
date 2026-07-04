@@ -854,7 +854,7 @@ a.FAM-attachment-thumb {
 
 .FAM-chat-date strong {font-weight: 300}
 
-.FAM-chat-date a:before {
+.FAM-chat-date a:has(img):before {
     content: "\e0ea";
     font-family: "Phosphor" !important;
 }
