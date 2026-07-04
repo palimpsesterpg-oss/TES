@@ -852,7 +852,9 @@ a.FAM-attachment-thumb {
     align-items: center;
 }
 
-.sprite-icon_topic_latest:before {
+.FAM-chat-date strong {font-weight: 300}
+
+.FAM-chat-date a:before {
     content: "\e0ea";
     font-family: "Phosphor" !important;
 }
