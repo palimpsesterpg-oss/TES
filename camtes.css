@@ -373,10 +373,6 @@
     height: 60px
 }
 
-.cam .blocpl.one strong {
-    color: var(--group-color)
-}
-
 .cam .blocperso.one {
     padding: var(--2xlarge)
 }
