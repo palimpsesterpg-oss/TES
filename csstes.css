@@ -3850,24 +3850,27 @@ pblocgc,
 
 .tooltip-content {
 	display: flex;
-	gap: var(--small);
-	align-items: center;
+	height: 115px;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .tooltip-avatar {
 	object-fit: cover;
-	height: 100px;
-	width: 100px;
+	height: 115px;
+	width: 115px;
 }
 
 .tooltip-details {
 	display: flex;
+	width: 100%;
 	justify-content: space-around;
 	color: var(--group-color, var(--dark));
 }
 
 .tooltip-pseudo {
 	font-size: var(--large);
+	width: 100%;
 	font-weight: 700;
 	text-align: center;
 	text-transform: capitalize;
@@ -3878,12 +3881,11 @@ pblocgc,
 	background: var(--light) !important;
 	padding: var(--2xsmall);
 	box-shadow: none !important;
-	border: 0.05rem solid var(--darkerlight);
+	border: 1px solid var(--darkerlight);
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
 	display: flex;
-	padding: 0px !important;
 }
 
 .tooltipster-content {
