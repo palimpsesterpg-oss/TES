@@ -811,7 +811,7 @@ a.FAM-attachment-thumb {
     z-index: 1;
     height: 20px;
     width: 20px;
-    background: var(--group-color, var(--co1));
+    background: var(--group-color, var(--co3));
     color: var(--white);
     align-items: center;
 }
@@ -851,6 +851,8 @@ a.FAM-attachment-thumb {
     text-transform: uppercase;
     align-items: center;
 }
+
+.FAM-chat-date a, .FAM-msg-name a {color: var(--group-color, var(--co3));}
 
 .FAM-chat-date strong {font-weight: 300}
 
@@ -908,7 +910,7 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-online .FAM-msg-avatar {
-    border-color: var(--group-color, var(--co1))
+    border-color: var(--group-color, var(--co3))
 }
 
 .FAM-msg-avatar img {
@@ -940,7 +942,7 @@ strong.FAM-page-link {
 }
 
 #FAM .FAM-msg-text a {
-    color: var(--group-color, var(--co1)) !important;
+    color: var(--group-color, var(--co3)) !important;
 }
 
 #FAM .FAM-msg-text a:hover {
