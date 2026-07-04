@@ -864,9 +864,12 @@ a.FAM-attachment-thumb {
 .FAM-chat-title {
     font-size: var(--large);
     font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: 1px;
 }
 
-.FAM-chat-date {}
+.FAM-chat-date {text-transform: uppercase;
+    letter-spacing: 1px;}
 
 .FAM-pagination:empty {
     display: none
