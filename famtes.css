@@ -171,31 +171,15 @@
     margin: 12px 6px
 }
 
-.FAM-loading,
-.FAM-loading p {
-    font-size: var(--large);
-    font-weight: 700
-}
-
 .FAM-loading {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0
-}
-
-.FAM-loading i {
-    display: block;
-    margin-bottom: 12px
+    height: 100%;
+    flex-direction: column;
 }
 
 #FAM-no-tabs {
-    top: 69px;
     cursor: pointer
 }
 
@@ -473,11 +457,6 @@ hr.FAM-hr {
     content: "";
     display: table;
     clear: both
-}
-
-#FAM p,
-.FAM-row {
-    margin: 12px 0
 }
 
 #FAM .FAM-center-block {
