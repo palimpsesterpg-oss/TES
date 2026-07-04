@@ -500,12 +500,8 @@ hr.FAM-hr {
 }
 
 .FAM-separator:after {
-    content: " ";
+    content: " • ";
     color: var(--darkneutral)
-}
-
-.FAM-forum .FAM-separator:after {
-    content: " | "
 }
 
 
