@@ -222,6 +222,7 @@
 
 .FAM-inline-buttons {
     display: flex;
+    gap: var(--large)
 }
 
 #FAM .FAM-inputbox {
