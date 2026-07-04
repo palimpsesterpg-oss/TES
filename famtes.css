@@ -179,6 +179,8 @@
     flex-direction: column;
 }
 
+FAM-loading .ph {font-size: var(--3xlarge)}
+
 #FAM-no-tabs {
     cursor: pointer
 }
@@ -216,8 +218,8 @@
     background: var(--co1)
 }
 
-.FAM-inline-buttons .FAM-button {
-    display: inline-block;
+.FAM-inline-buttons {
+    display: flex;
 }
 
 #FAM .FAM-inputbox {
