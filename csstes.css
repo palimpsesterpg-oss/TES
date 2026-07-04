@@ -3886,7 +3886,6 @@ pblocgc,
 }
 
 .tooltipster-content {
-	padding: var(--small) !important;
 	font-family: var(--main) !important;
 	font-size: var(--medium) !important;
 }
