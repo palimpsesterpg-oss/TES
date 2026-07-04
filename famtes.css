@@ -863,7 +863,8 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat-date a:has(img):before {
-    content: " • ";
+    content: "•";
+    padding: 0 var(--xsmall);
     color: var(--darkneutral) !important;
 }
 
