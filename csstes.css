@@ -624,14 +624,8 @@ lblplyr {
 	content: "ft. ";
 }
 
-.blocpl.two {
-	padding: 0 var(--2xlarge);
-	border-left: var(--large) solid var(--co1-50);
-}
-
-.blocpl.three {
-	padding: 0 var(--2xlarge);
-	border-right: var(--large) solid var(--co3-50);
+.blocpl.two, .blocpl.three {
+	padding: 0px !important
 }
 
 .blocpl.three .mentiontag {
@@ -640,7 +634,6 @@ lblplyr {
 	display: block;
 	color: var(--group-color, var(--co2));
 	letter-spacing: 5px;
-	font-weight: 300;
 }
 
 .attentes strong:first-child {
