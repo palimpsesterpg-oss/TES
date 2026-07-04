@@ -179,7 +179,9 @@
     flex-direction: column;
 }
 
-FAM-loading .ph {font-size: var(--3xlarge)}
+FAM-loading .ph {
+    font-size: var(--3xlarge)
+}
 
 #FAM-no-tabs {
     cursor: pointer
@@ -845,8 +847,10 @@ a.FAM-attachment-thumb {
     letter-spacing: 1px;
 }
 
-.FAM-chat-date {text-transform: uppercase;
-    letter-spacing: 1px;}
+.FAM-chat-date {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 .FAM-pagination:empty {
     display: none
@@ -915,6 +919,7 @@ strong.FAM-page-link {
 .FAM-msg-content {
     background: var(--darklight);
     padding: var(--medium);
+    position: relative
 }
 
 .FAM-msg-editing .FAM-msg-content {
@@ -927,9 +932,7 @@ strong.FAM-page-link {
 }
 
 #FAM .FAM-msg-text a {
-    color: inherit !important;
-    text-decoration: underline;
-    cursor: pointer
+    color: var(--group-color, var(--co1)) !important;
 }
 
 #FAM .FAM-msg-text a:hover {
@@ -951,6 +954,12 @@ strong.FAM-page-link {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden
+}
+
+.FAM-msg-date {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--darkneutral)
 }
 
 .FAM-name-mention {
@@ -1285,7 +1294,9 @@ blockquote.FAM-codebox>div {
     border-right: 1px solid var(--co1-200)
 }
 
-.FAM-tab:last-of-type {border: 0px !important}
+.FAM-tab:last-of-type {
+    border: 0px !important
+}
 
 .FAM-tab:hover,
 .FAM-tab.FAM-tab-active {
