@@ -682,8 +682,7 @@ hr.FAM-hr {
     font-size: var(--xlarge);
     font-weight: 400;
     display: inline-block;
-    width: 50px;
-    float: left
+    width: 50px
 }
 
 .FAM-option-icon i {
@@ -848,13 +847,15 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat-date {
-display: flex;
+    display: flex;
     text-transform: uppercase;
     align-items: center;
 }
 
-.sprite-icon_topic_latest:before {content: "\e0ea";
-font-family: "Phosphor" !important;}
+.sprite-icon_topic_latest:before {
+    content: "\e0ea";
+    font-family: "Phosphor" !important;
+}
 
 .FAM-pagination:empty {
     display: none
@@ -932,7 +933,7 @@ strong.FAM-page-link {
 
 .FAM-msg-text {
     white-space: pre-wrap;
-        text-align: justify;
+    text-align: justify;
     word-wrap: break-word
 }
 
@@ -960,13 +961,14 @@ strong.FAM-page-link {
     overflow: hidden
 }
 
-.FAM-msg-name {    font-size: var(--large);
-margin-bottom: var(--small);
-margin-left: var(--small);
+.FAM-msg-name {
+    font-size: var(--large);
+    margin-bottom: var(--small);
+    margin-left: var(--small);
 }
 
 .FAM-msg-date {
-        font-size: var(--medium);
+    font-size: var(--medium);
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--darkneutral)
