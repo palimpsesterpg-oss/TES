@@ -3889,6 +3889,7 @@ pblocgc,
 	font-family: var(--main) !important;
     font-size: var(--medium) !important;
     display: flex;
+	color: var(--lightdark) !important;
     align-items: center;
     padding: var(--small) !important;
     gap: var(--small) !important;
