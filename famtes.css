@@ -179,7 +179,7 @@
     flex-direction: column;
 }
 
-FAM-loading .ph {
+.FAM-loading .ph {
     font-size: var(--3xlarge)
 }
 
@@ -811,7 +811,7 @@ a.FAM-attachment-thumb {
     z-index: 1;
     height: 20px;
     width: 20px;
-    background: var(--group-color, var(--co3));
+    background: var(--group-color, var(--co2));
     color: var(--white);
     align-items: center;
 }
@@ -852,7 +852,7 @@ a.FAM-attachment-thumb {
     align-items: center;
 }
 
-.FAM-chat-date a, .FAM-msg-name a {color: var(--group-color, var(--co3));}
+.FAM-chat-date a, .FAM-msg-name a {color: var(--group-color, var(--co2)) !important;}
 
 .FAM-chat-date strong {font-weight: 300}
 
@@ -910,7 +910,7 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-online .FAM-msg-avatar {
-    border-color: var(--group-color, var(--co3))
+    border-color: var(--group-color, var(--co2))
 }
 
 .FAM-msg-avatar img {
@@ -942,7 +942,7 @@ strong.FAM-page-link {
 }
 
 #FAM .FAM-msg-text a {
-    color: var(--group-color, var(--co3)) !important;
+    color: var(--group-color, var(--co2)) !important;
 }
 
 #FAM .FAM-msg-text a:hover {
