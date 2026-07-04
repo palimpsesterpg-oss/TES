@@ -3807,7 +3807,7 @@ pblocgc,
 	border-radius: 100%;
 }
 
-.tooltip-rank, .tooltipster-content {
+.tooltip-rank, .tooltip-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -3850,8 +3850,7 @@ pblocgc,
 
 .tooltip-content {
 	display: flex;
-	gap: var(--large);
-	margin: var(--large) 0;
+	gap: var(--small);
 	align-items: center;
 }
 
@@ -3871,6 +3870,7 @@ pblocgc,
 	font-size: var(--large);
 	font-weight: 700;
 	text-align: center;
+	text-transform: capitalize;
 	font-family: var(--serif);
 }
 
@@ -3887,7 +3887,11 @@ pblocgc,
 
 .tooltipster-content {
 	font-family: var(--main) !important;
-	font-size: var(--medium) !important;
+    font-size: var(--medium) !important;
+    display: flex;
+    align-items: center;
+    padding: var(--small) !important;
+    gap: var(--small) !important;
 }
 
 .tooltip-rank an:before {
