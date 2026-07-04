@@ -3812,8 +3812,6 @@ pblocgc,
 	flex-direction: column;
 	justify-content: space-between;
 	text-transform: lowercase;
-	height: -webkit-fill-available !important;
-	font-weight: 300 !important;
 }
 
 .tooltip-rank:empty {display:none}
