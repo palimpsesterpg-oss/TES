@@ -377,10 +377,6 @@
     color: var(--group-color)
 }
 
-.cam .blocpl {
-    border-color: var(--group-color-50)
-}
-
 .cam .blocperso.one {
     padding: var(--2xlarge)
 }
