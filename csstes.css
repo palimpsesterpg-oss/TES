@@ -3816,6 +3816,8 @@ pblocgc,
 	font-weight: 300 !important;
 }
 
+.tooltip-rank:empty {display:none}
+
 .tooltip-rank age:before {
 	content: "\e780";
 	font-family: "Phosphor" !important;
@@ -3871,15 +3873,14 @@ pblocgc,
 	font-size: var(--xlarge);
 	width: 100%;
 	font-weight: 700;
-	margin: var(--small) 0;
 	text-align: center;
 	font-family: var(--serif);
 }
 
 .tooltipster-default {
 	background: var(--light) !important;
-	box-shadow: 0px !important;
-	border: var(--small) solid var(--darkerlight);
+	box-shadow: none !important;
+	border: var(--2xsmall) solid var(--darkerlight);
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
@@ -3887,8 +3888,9 @@ pblocgc,
 }
 
 .tooltipster-content {
-	padding: var(--large) !important;
+	padding: var(--small) !important;
 	font-family: var(--main) !important;
+	font-size: var(--medium) !important;
 }
 
 .tooltip-rank an:before {
