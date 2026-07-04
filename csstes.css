@@ -3807,7 +3807,7 @@ pblocgc,
 	border-radius: 100%;
 }
 
-.tooltip-rank {
+.tooltip-rank, .tooltipster-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -3868,8 +3868,7 @@ pblocgc,
 }
 
 .tooltip-pseudo {
-	font-size: var(--xlarge);
-	width: 100%;
+	font-size: var(--large);
 	font-weight: 700;
 	text-align: center;
 	font-family: var(--serif);
@@ -3882,6 +3881,7 @@ pblocgc,
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
+	display: flex;
 	padding: 0px !important;
 }
 
