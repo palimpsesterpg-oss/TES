@@ -310,6 +310,7 @@ fslarge {
 }
 
 .ficheperso,
+.ficherp,
 .fichepl,
 .ficherec,
 .fichefam,
@@ -4730,3 +4731,37 @@ statusinsta {
 	height: 35px;
 	width: 35px;
 }
+
+.ficherpbody strong {color: var(--group-color)}
+
+.ficherphead img {height: 100px;
+object-fit: cover}
+
+.ficherphead {display: flex;
+flex-direction: column;}
+
+.ficherphead ficherptitle {font-size: var(--large)}
+
+.ficherphead ficherpsstitle {font-size: var(--small)}
+
+.ficherphead.one ficherptitle {font-family: var(--spe);
+text-transform: lowercase;
+font-weight: 700}
+
+.ficherphead.one ficherpsstitle {letter-spacing: 2.5px;
+text-transform: lowercase}
+
+.ficherphead.two ficherptitle {font-family: var(--spe);
+text-transform: uppercase;
+font-weight: 200}
+
+.ficherphead.two ficherpsstitle {letter-spacing: 5px;
+text-transform: uppercase}
+
+.ficherphead.three ficherptitle {letter-spacing: 5px;
+text-transform: lowercase;
+font-weight: 200}
+
+.ficherphead.three ficherpsstitle {font-family: var(--mono);
+letter-spacing: 1.5px;
+text-transform: uppercase}
