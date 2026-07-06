@@ -3764,11 +3764,11 @@ pblocgc,
 	width: 127px
 }
 
-.fichemoodboard.mix.one img:nth-child(7) {
+.fichemoodboard.mix.one img:nth-child(8) {
 	width: 150px
 }
 
-.fichemoodboard.mix.one img:nth-child(8) {
+.fichemoodboard.mix.one img:nth-child(9) {
 	width: 234px
 }
 
@@ -3777,7 +3777,7 @@ pblocgc,
 	width: calc(384px / 2)
 }
 
-.fichemoodboard.mix.one img:nth-child(4),
+.fichemoodboard.mix.one img:nth-child(7),
 .fichemoodboard.mix.one img:nth-child(5),
 .fichemoodboard.mix.one img:nth-child(6) {
 	width: calc(368px / 3)
