@@ -4841,8 +4841,6 @@ statusinsta {
 }
 
 .ficherp.six ficherptitle {
-	letter-spacing: 5px;
-	padding-left: 5px;
 	font-family: var(--var);
 	background: var(--gradientgc1);
 	text-transform: lowercase;
