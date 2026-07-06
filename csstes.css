@@ -4756,6 +4756,21 @@ statusinsta {
 	border-radius: 50%
 }
 
+.ficherp.four .ficherphead img {
+	width: 100px;
+	border-radius: 50%;
+	border: 1px solid var(--group-color)
+}
+
+.ficherp.five .ficherphead img {
+	width: 75px;
+	height: 75px;
+	padding: 5px;
+	background: var(--white);
+	border: 1px solid var(--group-color);
+	outline: 5px solid var(--white);
+}
+
 .ficherphead {
 	display: flex;
 	flex-direction: column;
@@ -4779,7 +4794,7 @@ statusinsta {
 
 .ficherp.one ficherpsstitle {
 	letter-spacing: 2.5px;
-	padding-left:2.5px;
+	padding-left: 2.5px;
 	text-transform: lowercase
 }
 
@@ -4796,7 +4811,7 @@ statusinsta {
 
 .ficherp.three ficherptitle {
 	letter-spacing: 5px;
-	padding-left:5px;
+	padding-left: 5px;
 	text-transform: lowercase;
 	font-weight: 200
 }
@@ -4804,7 +4819,7 @@ statusinsta {
 .ficherp.three ficherpsstitle {
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
-	padding-left:1.5px;
+	padding-left: 1.5px;
 	text-transform: uppercase
 }
 
@@ -4837,7 +4852,7 @@ statusinsta {
 
 .ficherp.six ficherptitle {
 	letter-spacing: 5px;
-	padding-left:5px;
+	padding-left: 5px;
 	text-transform: lowercase;
 	font-weight: 200
 }
@@ -4845,7 +4860,7 @@ statusinsta {
 .ficherp.six ficherpsstitle {
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
-	padding-left:1.5px;
+	padding-left: 1.5px;
 	text-transform: uppercase
 }
 
@@ -4881,8 +4896,12 @@ statusinsta {
 }
 
 .ficherpbanner div,
-.ficherpfooter div {	display: flex;
-    align-items: center;}
+.ficherpfooter div {
+	display: flex;
+	align-items: center;
+}
 
 .ficherpbanner i,
-.ficherpfooter i {color: var(--group-color)}
+.ficherpfooter i {
+	color: var(--group-color)
+}
