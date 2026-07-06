@@ -3751,7 +3751,8 @@ pblocgc,
 
 .fichemoodboard.mix.two img:nth-child(1),
 .fichemoodboard.mix.two img:nth-child(2),
-.fichemoodboard.mix.two img:nth-child(4) {
+.fichemoodboard.mix.two img:nth-child(4),
+.fichemoodboard.mix.two img:nth-child(7) {
 	width: 75px
 }
 
@@ -3763,8 +3764,7 @@ pblocgc,
 	width: 127px
 }
 
-.fichemoodboard.mix.one img:nth-child(7),
-.fichemoodboard.mix.two img:nth-child(9) {
+.fichemoodboard.mix.one img:nth-child(7) {
 	width: 150px
 }
 
@@ -3780,11 +3780,11 @@ pblocgc,
 .fichemoodboard.mix.one img:nth-child(4),
 .fichemoodboard.mix.one img:nth-child(5),
 .fichemoodboard.mix.one img:nth-child(6) {
-	flex: calc(368px / 2)
+	flex: calc(368px / 3)
 }
 
-.fichemoodboard.mix.two img:nth-child(7) {
-	width: 50px
+.fichemoodboard.mix.two img:nth-child(9) {
+	width: 193px
 }
 
 
