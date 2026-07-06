@@ -4803,37 +4803,41 @@ statusinsta {
 	text-transform: uppercase
 }
 
-.ficherp.one ficherptitle {
+.ficherp.four ficherptitle {
 	font-family: var(--serif);
-	text-transform: lowercase;
+	text-transform: uppercase;
+	background: var(--gradientgc2);
+	color: var(--white);
+	padding: 0.05rem var(--large);
 	font-weight: 700
 }
 
-.ficherp.one ficherpsstitle {
-	letter-spacing: 2.5px;
-	padding-left:2.5px;
+.ficherp.four ficherpsstitle {
+	letter-spacing: 5px;
+	padding-left: 5px;
+	font-family: var(mono);
 	text-transform: lowercase
 }
 
-.ficherp.two ficherptitle {
+.ficherp.five ficherptitle {
 	font-family: var(--serif);
 	text-transform: uppercase;
 	font-weight: 200
 }
 
-.ficherp.two ficherpsstitle {
+.ficherp.five ficherpsstitle {
 	letter-spacing: 5px;
 	text-transform: uppercase
 }
 
-.ficherp.three ficherptitle {
+.ficherp.six ficherptitle {
 	letter-spacing: 5px;
 	padding-left:5px;
 	text-transform: lowercase;
 	font-weight: 200
 }
 
-.ficherp.three ficherpsstitle {
+.ficherp.six ficherpsstitle {
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
 	padding-left:1.5px;
