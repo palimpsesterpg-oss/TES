@@ -4753,22 +4753,8 @@ statusinsta {
 	height: 75px;
 	border: 5px solid var(--light);
 	outline: 1px solid var(--neutral);
-	border-radius: 50%
-}
-
-.ficherp.five .ficherphead img {
-	width: 100px;
 	border-radius: 50%;
-	border: 1px solid var(--group-color)
-}
-
-.ficherp.six .ficherphead img {
-	width: 75px;
-	height: 75px;
-	padding: 5px;
-	background: var(--white);
-	border: 1px solid var(--group-color);
-	outline: 5px solid var(--white);
+	padding: 0px;
 }
 
 .ficherphead {
@@ -4825,23 +4811,27 @@ statusinsta {
 
 .ficherp.four ficherptitle {
 	font-family: var(--serif);
-	text-transform: uppercase;
-	background: var(--gradientgc2);
-	color: var(--white);
-	padding: 0.05rem var(--large);
-	font-weight: 700
+    text-transform: uppercase;
+    background: var(--gradientgc2);
+    color: var(--white);
+    padding: 0.25rem var(--2xlarge);
+    font-weight: 600;
 }
 
 .ficherp.four ficherpsstitle {
 	letter-spacing: 5px;
 	padding-left: 5px;
-	font-family: var(mono);
+	font-family: var(--mono);
 	text-transform: lowercase
 }
 
 .ficherp.five ficherptitle {
 	font-family: var(--serif);
-	text-transform: uppercase;
+	text-transform: lowercase;
+	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	background: var(--gradientgc2);
 	font-weight: 200
 }
 
@@ -4853,15 +4843,17 @@ statusinsta {
 .ficherp.six ficherptitle {
 	letter-spacing: 5px;
 	padding-left: 5px;
+	font-family: var(--var);
+	background: var(--gradientgc1);
 	text-transform: lowercase;
+	padding: 0.15rem var(--3xlarge);
 	font-weight: 200
 }
 
 .ficherp.six ficherpsstitle {
-	font-family: var(--mono);
-	letter-spacing: 1.5px;
-	padding-left: 1.5px;
-	text-transform: uppercase
+	letter-spacing: .5px;
+	padding-left: .5px;
+	text-transform: lowercase
 }
 
 .ficherpbanner,
