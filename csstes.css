@@ -3739,7 +3739,9 @@ pblocgc,
 }
 
 .fichemoodboard.mix.one img:nth-child(1),
-.fichemoodboard.mix.one img:nth-child(3) {
+.fichemoodboard.mix.one img:nth-child(3),
+.fichemoodboard.mix.two img:nth-child(1),
+.fichemoodboard.mix.two img:nth-child(2) {
 	width: 100px
 }
 
@@ -3758,7 +3760,7 @@ pblocgc,
 .fichemoodboard.mix.one img:nth-child(4),
 .fichemoodboard.mix.one img:nth-child(5),
 .fichemoodboard.mix.one img:nth-child(6) {
-	width: calc(400/3 - 32px)
+	width: calc(368px/3)
 }
 
 
