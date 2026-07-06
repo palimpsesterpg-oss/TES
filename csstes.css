@@ -4892,7 +4892,6 @@ statusinsta {
 }
 
 .ficherpbanner i,
-.ficherpfooter i,
-.ficherpfooter .mentiontag::first-letter {
+.ficherpfooter i {
 	color: var(--group-color)
 }
