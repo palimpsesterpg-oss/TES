@@ -4828,7 +4828,7 @@ statusinsta {
 .ficherp.five ficherptitle {
 	font-family: var(--serif);
 	text-transform: lowercase;
-	-webkit-background-clip: text;
+	-webkit-background-clip: text !important;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 	background: var(--gradientgc2);
@@ -4894,6 +4894,7 @@ statusinsta {
 }
 
 .ficherpbanner i,
-.ficherpfooter i {
+.ficherpfooter i,
+.ficherpfooter .mentiontag::first-letter {
 	color: var(--group-color)
 }
