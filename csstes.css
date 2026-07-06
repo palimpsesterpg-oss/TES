@@ -3727,6 +3727,18 @@ pblocgc,
 	margin: 0 auto;
 }
 
+.fichemoodboard.mix {flex-wrap: wrap;
+width: 500px}
+
+.fichemoodboard.mix img {height: 100px}
+
+.fichemoodboard.mix.one img:nth-child(1),
+.fichemoodboard.mix.one img:nth-child(3) {width: 100px}
+
+.fichemoodboard.mix.one img:nth-child(2) {width: 268px}
+
+
+
 .fichemoodboard div {
 	display: flex;
 	align-items: center;
