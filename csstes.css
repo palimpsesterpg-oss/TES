@@ -3764,11 +3764,11 @@ pblocgc,
 	height: auto;
 }
 
-.gray {
+.gray, .grayh {
 	filter: grayscale(1);
 }
 
-.gray:hover {
+.grayh:hover {
 	filter: grayscale(0);
 }
 
