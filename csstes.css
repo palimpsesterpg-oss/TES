@@ -3733,20 +3733,33 @@ pblocgc,
 	width: 400px
 }
 
-.fichemoodboard.mix img {
+.fichemoodboard.mix.one img {
 	height: 100px;
 	object-fit:cover
 }
 
+.fichemoodboard.mix.two img {
+	height: 75px;
+	object-fit:cover
+}
+
 .fichemoodboard.mix.one img:nth-child(1),
-.fichemoodboard.mix.one img:nth-child(3),
-.fichemoodboard.mix.two img:nth-child(1),
-.fichemoodboard.mix.two img:nth-child(2) {
+.fichemoodboard.mix.one img:nth-child(3) {
 	width: 100px
+}
+
+.fichemoodboard.mix.two img:nth-child(1),
+.fichemoodboard.mix.two img:nth-child(2),
+.fichemoodboard.mix.two img:nth-child(4) {
+	width: 75px
 }
 
 .fichemoodboard.mix.one img:nth-child(2) {
 	width: 168px
+}
+
+.fichemoodboard.mix.two img:nth-child(3) {
+	width: 127px
 }
 
 .fichemoodboard.mix.one img:nth-child(7) {
