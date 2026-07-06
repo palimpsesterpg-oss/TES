@@ -4756,13 +4756,13 @@ statusinsta {
 	border-radius: 50%
 }
 
-.ficherp.four .ficherphead img {
+.ficherp.five .ficherphead img {
 	width: 100px;
 	border-radius: 50%;
 	border: 1px solid var(--group-color)
 }
 
-.ficherp.five .ficherphead img {
+.ficherp.six .ficherphead img {
 	width: 75px;
 	height: 75px;
 	padding: 5px;
