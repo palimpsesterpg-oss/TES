@@ -4803,14 +4803,72 @@ statusinsta {
 	text-transform: uppercase
 }
 
+.ficherp.one ficherptitle {
+	font-family: var(--serif);
+	text-transform: lowercase;
+	font-weight: 700
+}
+
+.ficherp.one ficherpsstitle {
+	letter-spacing: 2.5px;
+	padding-left:2.5px;
+	text-transform: lowercase
+}
+
+.ficherp.two ficherptitle {
+	font-family: var(--serif);
+	text-transform: uppercase;
+	font-weight: 200
+}
+
+.ficherp.two ficherpsstitle {
+	letter-spacing: 5px;
+	text-transform: uppercase
+}
+
+.ficherp.three ficherptitle {
+	letter-spacing: 5px;
+	padding-left:5px;
+	text-transform: lowercase;
+	font-weight: 200
+}
+
+.ficherp.three ficherpsstitle {
+	font-family: var(--mono);
+	letter-spacing: 1.5px;
+	padding-left:1.5px;
+	text-transform: uppercase
+}
+
 .ficherpbanner,
 .ficherpfooter {
 	padding: var(--small);
 	background: var(--white);
 	display: flex;
 	justify-content: space-evenly;
-	text-transform: uppercase;
 	width: 100%;
+}
+
+.ficherpbanner.one,
+.ficherpfooter.one,
+.ficherpbanner.two,
+.ficherpfooter.two,
+.ficherpbanner.three,
+.ficherpfooter.three {
+	padding: var(--small);
+	background: var(--white);
+	text-transform: uppercase;
+}
+
+.ficherpbanner.five,
+.ficherpfooter.five,
+.ficherpbanner.four,
+.ficherpfooter.four,
+.ficherpbanner.six,
+.ficherpfooter.six {
+	padding: var(--2xsmall);
+	background: var(--darklight);
+	text-transform: lowercase;
 }
 
 .ficherpbanner div,
