@@ -4802,9 +4802,14 @@ statusinsta {
 
 .ficherpbanner,
 .ficherpfooter {
-	padding: var(--large);
+	padding: var(--small);
 	background: var(--white);
 	display: flex;
 	justify-content: space-evenly;
+	text-transform: uppercase;
 	width: 100%;
 }
+
+.ficherpbanner div,
+.ficherpfooter div {	display: flex;
+    align-items: center;}
