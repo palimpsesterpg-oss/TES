@@ -3745,7 +3745,7 @@ pblocgc,
 
 .fichemoodboard.mix.one img:nth-child(1),
 .fichemoodboard.mix.one img:nth-child(3),
-.fichemoodboard.mix.two img:nth-child(8) {
+.fichemoodboard.mix.two img:nth-child(9) {
 	width: 100px
 }
 
@@ -3780,10 +3780,10 @@ pblocgc,
 .fichemoodboard.mix.one img:nth-child(4),
 .fichemoodboard.mix.one img:nth-child(5),
 .fichemoodboard.mix.one img:nth-child(6) {
-	flex: calc(368px / 3)
+	width: calc(368px / 3)
 }
 
-.fichemoodboard.mix.two img:nth-child(9) {
+.fichemoodboard.mix.two img:nth-child(8) {
 	width: 193px
 }
 
