@@ -4741,10 +4741,21 @@ statusinsta {
 	object-fit: cover
 }
 
+.ficherphead.two img {
+	width: 100px;
+}
+
+.ficherphead.three img {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%
+}
+
 .ficherphead {
 	display: flex;
 	flex-direction: column;
 	gap: var(--2xsmall);
+	align-items: center;
 }
 
 .ficherphead ficherptitle {
@@ -4756,7 +4767,7 @@ statusinsta {
 }
 
 .ficherp.one ficherptitle {
-	font-family: var(--spe);
+	font-family: var(--serif);
 	text-transform: lowercase;
 	font-weight: 700
 }
@@ -4767,7 +4778,7 @@ statusinsta {
 }
 
 .ficherp.two ficherptitle {
-	font-family: var(--spe);
+	font-family: var(--serif);
 	text-transform: uppercase;
 	font-weight: 200
 }
