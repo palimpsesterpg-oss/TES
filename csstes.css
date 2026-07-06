@@ -3730,7 +3730,7 @@ pblocgc,
 
 .fichemoodboard.mix {
 	flex-wrap: wrap;
-	width: 500px
+	width: 400px
 }
 
 .fichemoodboard.mix img {
@@ -3743,7 +3743,7 @@ pblocgc,
 }
 
 .fichemoodboard.mix.one img:nth-child(2) {
-	width: 268px
+	width: 168px
 }
 
 
