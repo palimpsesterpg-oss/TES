@@ -4738,18 +4738,21 @@ statusinsta {
 
 .ficherphead img {
 	height: 100px;
-	padding: var(--large);
+	padding: var(--xsmall);
 	background: var(--white);
 	object-fit: cover
 }
 
 .ficherp.two .ficherphead img {
 	width: 100px;
+	border: 1px solid var(--neutral)
 }
 
 .ficherp.three .ficherphead img {
 	width: 75px;
 	height: 75px;
+	border: 5px solid var(--light);
+	outline: 1px solid var(--neutral);
 	border-radius: 50%
 }
 
@@ -4848,33 +4851,33 @@ statusinsta {
 
 .ficherpbanner,
 .ficherpfooter {
-	padding: var(--small);
-	background: var(--white);
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
 }
 
-.ficherpbanner.one,
-.ficherpfooter.one,
-.ficherpbanner.two,
-.ficherpfooter.two,
-.ficherpbanner.three,
-.ficherpfooter.three {
+.ficherp.one .ficherpbanner,
+.ficherp.one .ficherpfooter,
+.ficherp.two .ficherpbanner,
+.ficherp.two .ficherpfooter,
+.ficherp.three .ficherpbanner,
+.ficherp.three .ficherpfooter {
 	padding: var(--small);
 	background: var(--white);
 	text-transform: uppercase;
+	font-weight: 200
 }
 
-.ficherpbanner.five,
-.ficherpfooter.five,
-.ficherpbanner.four,
-.ficherpfooter.four,
-.ficherpbanner.six,
-.ficherpfooter.six {
+.ficherp.five .ficherpbanner,
+.ficherp.five .ficherpfooter,
+.ficherp.four .ficherpbanner,
+.ficherp.four .ficherpfooter,
+.ficherp.six .ficherpbanner,
+.ficherp.six .ficherpfooter {
 	padding: var(--2xsmall);
 	background: var(--darklight);
 	text-transform: lowercase;
+	font-weight: 700
 }
 
 .ficherpbanner div,
