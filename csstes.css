@@ -4738,6 +4738,8 @@ statusinsta {
 
 .ficherphead img {
 	height: 100px;
+	padding: var(--large);
+	background: var(--white);
 	object-fit: cover
 }
 
