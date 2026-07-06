@@ -624,7 +624,8 @@ lblplyr {
 	content: "ft. ";
 }
 
-.blocpl.two, .blocpl.three {
+.blocpl.two,
+.blocpl.three {
 	padding: 0px !important
 }
 
@@ -3727,15 +3728,23 @@ pblocgc,
 	margin: 0 auto;
 }
 
-.fichemoodboard.mix {flex-wrap: wrap;
-width: 500px}
+.fichemoodboard.mix {
+	flex-wrap: wrap;
+	width: 500px
+}
 
-.fichemoodboard.mix img {height: 100px}
+.fichemoodboard.mix img {
+	height: 100px
+}
 
 .fichemoodboard.mix.one img:nth-child(1),
-.fichemoodboard.mix.one img:nth-child(3) {width: 100px}
+.fichemoodboard.mix.one img:nth-child(3) {
+	width: 100px
+}
 
-.fichemoodboard.mix.one img:nth-child(2) {width: 268px}
+.fichemoodboard.mix.one img:nth-child(2) {
+	width: 268px
+}
 
 
 
@@ -3819,14 +3828,17 @@ width: 500px}
 	border-radius: 100%;
 }
 
-.tooltip-rank, .tooltip-content {
+.tooltip-rank,
+.tooltip-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	text-transform: lowercase;
 }
 
-.tooltip-rank:empty {display:none}
+.tooltip-rank:empty {
+	display: none
+}
 
 .tooltip-rank age:before {
 	content: "\e780";
@@ -3904,12 +3916,12 @@ width: 500px}
 .tooltipster-content {
 	background: var(--white) !important;
 	font-family: var(--main) !important;
-    font-size: var(--medium) !important;
-    display: flex;
+	font-size: var(--medium) !important;
+	display: flex;
 	color: var(--lightdark) !important;
-    align-items: center;
-    padding: var(--small) !important;
-    gap: var(--small) !important;
+	align-items: center;
+	padding: var(--small) !important;
+	gap: var(--small) !important;
 }
 
 .tooltip-rank an:before {
