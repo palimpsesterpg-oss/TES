@@ -418,3 +418,12 @@
     background: white;
     border: 1px solid var(--neutral);
 }
+
+.cam .ficheperso {font-family: var(--main);
+    font-size: var(--small);
+    text-transform: uppercase;
+    background-color: var(--white);
+    color: var(--group-color, var(--darkneutral));
+    padding-right: 2.5px;
+    padding-left: 4px;
+    letter-spacing: 1.5px;} 
