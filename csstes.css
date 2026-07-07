@@ -4765,6 +4765,13 @@ statusinsta {
 	align-items: center;
 }
 
+.ficherp.seven .ficherphead,
+.ficherp.eight .ficherphead,
+.ficherp.nine .ficherphead {
+	align-items: flex-start !important;
+    width: 100%;
+}
+
 .ficherphead ficherptitle {
 	font-size: var(--xlarge)
 }
@@ -4856,6 +4863,46 @@ statusinsta {
 	text-transform: lowercase
 }
 
+.ficherp.seven ficherptitle {
+    font-size: var(--xlarge);
+    border-left: 5px solid var(--group-color);
+    padding-left: var(--large);
+    text-transform: lowercase;
+    font-weight: 200;
+    letter-spacing: 2.5px;
+}
+
+.ficherp.seven ficherpsstitle {
+font-size: var(--small);
+    letter-spacing: 1.5px;
+    color: var(--darkneutral);
+}
+
+.ficherp.eight ficherptitle {
+	font-family: var(--serif);
+	text-transform: uppercase;
+	font-weight: 200
+}
+
+.ficherp.eight ficherpsstitle {
+	letter-spacing: 5px;
+	text-transform: uppercase
+}
+
+.ficherp.nine ficherptitle {
+	letter-spacing: 5px;
+	padding-left: 5px;
+	text-transform: lowercase;
+	font-weight: 200
+}
+
+.ficherp.nine ficherpsstitle {
+	font-family: var(--mono);
+	letter-spacing: 1.5px;
+	padding-left: 1.5px;
+	text-transform: uppercase
+}
+
 .ficherpbanner,
 .ficherpfooter {
 	display: flex;
@@ -4885,6 +4932,18 @@ statusinsta {
 	background: var(--darklight);
 	text-transform: lowercase;
 	font-weight: 700
+}
+
+.ficherp.seven .ficherpbanner,
+.ficherp.seven .ficherpfooter,
+.ficherp.eight .ficherpbanner,
+.ficherp.eight .ficherpfooter,
+.ficherp.nine .ficherpbanner,
+.ficherp.nine .ficherpfooter {
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 1.5px;
+	font-size: var(--small)
 }
 
 .ficherpbanner div,
