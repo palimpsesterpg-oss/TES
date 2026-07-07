@@ -4894,6 +4894,8 @@ statusinsta {
 }
 
 .ficherpbanner i,
-.ficherpfooter i {
-	color: var(--group-color)
+.ficherpfooter i,
+.ficherpfooter .mention-at {
+	color: var(--group-color);
+	margin-right: var(--large)
 }
