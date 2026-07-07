@@ -152,7 +152,7 @@
     text-transform: lowercase;
 }
 
-.cam .ficheperso.cam cam9::first-letter {
+.ficheperso cam9::first-letter {
     font-size: var(--medium) !important;
 }
 
