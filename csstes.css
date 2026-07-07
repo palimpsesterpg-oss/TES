@@ -3897,6 +3897,8 @@ pblocgc,
 	color: var(--group-color, var(--co1));
 }
 
+.tooltip-rank celeb {text-transform: capitalize !important;}
+
 .tooltip-rank job:before {
 	content: "\e272";
 	font-family: "Phosphor" !important;
