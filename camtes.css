@@ -419,7 +419,7 @@
     border: 1px solid var(--neutral);
 }
 
-.cam .ficheperso {font-family: var(--main);
+.cam .blocperso chronoevent strong {font-family: var(--main);
     font-size: var(--small);
     text-transform: uppercase;
     background-color: var(--white);
