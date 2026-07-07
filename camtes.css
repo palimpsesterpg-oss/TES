@@ -390,3 +390,31 @@
     height: 85px;
     border-radius: 100%;
 }
+
+.cam .blocperso blspgc {
+    font-family: var(--serif)
+}
+
+.cam .blocperso .posttab {
+    text-align: center;
+    color: var(--group-color);
+    font-family: var(--mono);
+    letter-spacing: 2.5px
+}
+
+.animrec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.animrec img {
+    width: 115px;
+    height: 115px;
+    filter: grayscale(1);
+    object-fit: cover;
+    padding: var(--xsmall);
+    background: white;
+    border: 1px solid var(--neutral);
+}
