@@ -676,6 +676,7 @@ lblplyr {
 }
 
 .pseudorec {
+	color: var(--group-color);
 	gap: var(--large);
 	width: 90%;
 	display: flex;
@@ -736,7 +737,7 @@ reclinks {
 }
 
 recdtls i {
-	color: var(--group-color-300, var(--co3-300));
+	color: var(--group-color, var(--co3));
 	font-family: var(--mono);
 	font-style: normal;
 	text-transform: lowercase;
@@ -746,11 +747,11 @@ recdtls i {
 recdtls i:before {
 	content: "•";
 	padding-right: var(--large);
-	color: var(--co3);
+	color: var(--group-color, var(--co3));
 }
 
 reclinks a {
-	color: var(--group-color-300, var(--co2-300)) !important;
+	color: var(--group-color, var(--co3)) !important;
 	text-transform: lowercase;
 	font-weight: 700;
 }
@@ -759,7 +760,7 @@ reclinks a:after {
 	content: "-";
 	padding-left: var(--large);
 	font-weight: 100;
-	color: var(--co2);
+	color: var(--group-color, var(--co3));
 }
 
 .blocrec.one {
