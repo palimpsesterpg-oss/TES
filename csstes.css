@@ -4812,11 +4812,11 @@ statusinsta {
 
 .ficherp.four ficherptitle {
 	font-family: var(--serif);
-    text-transform: uppercase;
-    background: var(--gradientgc2);
-    color: var(--white);
-    padding: 0.25rem var(--2xlarge);
-    font-weight: 600;
+	text-transform: uppercase;
+	background: var(--gradientgc2);
+	color: var(--white);
+	padding: 0.25rem var(--2xlarge);
+	font-weight: 600;
 }
 
 .ficherp.four ficherpsstitle {
@@ -4830,8 +4830,8 @@ statusinsta {
 	font-family: var(--serif);
 	text-transform: lowercase;
 	-webkit-background-clip: text !important;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	background: var(--gradientgc2);
 	font-weight: 200
 }
@@ -4846,6 +4846,7 @@ statusinsta {
 	background: var(--gradientgc1);
 	text-transform: lowercase;
 	padding: 0.15rem var(--3xlarge);
+	color: var(--group-color-700);
 	font-weight: 200
 }
 

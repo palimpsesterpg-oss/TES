@@ -71,7 +71,7 @@
     font-size: var(--small)
 }
 
-.cam cam2 {
+.cam cam7 {
     background-color: var(--group-color-50);
     padding: 0 var(--medium);
     font-family: 'Inconsolata';
@@ -99,7 +99,7 @@
 }
 
 .cam cam5 {
-    background: linear-gradient(to right, var(--group-color-200), var(--group-color), var(--group-color-200));
+    background: linear-gradient(to right, var(--group-color-300), var(--group-color), var(--group-color-300));
     color: var(--white);
     padding-right: var(--xsmall);
     padding-left: calc(var(--xsmall) + 5px);
@@ -117,7 +117,7 @@
     letter-spacing: 2.5px;
 }
 
-.cam cam7 {
+.cam cam2 {
     font-family: var(--serif);
     color: var(--group-color);
     display: inline-block;
@@ -141,7 +141,10 @@
 }
 
 .cam cam9 {
-    background: var(--group-color-50);
+    background: linear-gradient(to right, var(--group-color-300), var(--group-color), var(--group-color-300));
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: var(--2xsmall) var(--medium);
     color: var(--group-color);
     text-shadow: 0.5px 0.5px var(--white);
