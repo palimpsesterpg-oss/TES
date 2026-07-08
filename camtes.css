@@ -370,9 +370,11 @@
 .signcam div {
     font-family: var(--serif);
     text-align: justify;
-    min-width: 200px;
-    max-width: 300px;
 }
+
+.signcam.har div {width: 200px;}
+.signcam.fran div {width: 100px;}
+.signcam.esth div {width: 300px;}
 
 .signcam div i {
     font-weight: 500 !important;
