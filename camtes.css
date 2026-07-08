@@ -370,6 +370,7 @@
 .signcam div {
     font-family: var(--serif);
     text-align: justify;
+    width: 200px;
 }
 
 .signcam div i {
