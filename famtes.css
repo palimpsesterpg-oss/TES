@@ -2,18 +2,18 @@
 
 .FAM-clear,
 .FAM-msg-date {
-    clear: both
+    clear: both;
 }
 
 #FAM a {
     color: var(--co1);
-    text-decoration: none
+    text-decoration: none;
 }
 
 #FAM,
 #FAM * {
     box-sizing: border-box;
-    transition: 0ms
+    transition: 0ms;
 }
 
 #FAM {
@@ -33,14 +33,15 @@
     visibility: visible;
     opacity: 1;
     bottom: 51.5px;
-    transition-property: top, right, bottom, left, height, width, margin, opacity, visibility;
-    transition-duration: 500ms
+    transition-property: top, right, bottom, left, height, width, margin, opacity,
+        visibility;
+    transition-duration: 500ms;
 }
 
-#FAM[data-hidden=true] {
+#FAM[data-hidden="true"] {
     visibility: hidden;
     opacity: 0;
-    bottom: -100%
+    bottom: -100%;
 }
 
 #FAM.FAM-embedded {
@@ -50,7 +51,7 @@
     width: 100%;
     height: 500px;
     margin: 12px auto;
-    z-index: 1
+    z-index: 1;
 }
 
 #FAM.FAM-fullscreen {
@@ -60,7 +61,7 @@
     margin: 0 !important;
     height: 100% !important;
     width: 100% !important;
-    z-index: 99999
+    z-index: 99999;
 }
 
 #FAM-button {
@@ -80,19 +81,19 @@
     justify-content: center;
 }
 
-#FAM.FAM-fullscreen[data-hidden=false]+#FAM-button {
+#FAM.FAM-fullscreen[data-hidden="false"]+#FAM-button {
     background: 0 0;
     top: 5px;
     right: 35px;
-    bottom: auto
+    bottom: auto;
 }
 
-#FAM.FAM-fullscreen[data-hidden=false]+#FAM-button:hover {
-    color: var(--darkneutral)
+#FAM.FAM-fullscreen[data-hidden="false"]+#FAM-button:hover {
+    color: var(--darkneutral);
 }
 
-#FAM.FAM-fullscreen[data-hidden=false]+#FAM-button:active {
-    color: var(--darkneutral)
+#FAM.FAM-fullscreen[data-hidden="false"]+#FAM-button:active {
+    color: var(--darkneutral);
 }
 
 #FAM-toolbar {
@@ -117,7 +118,7 @@
 
 .FAM-toolbar-button,
 .FAM-menu-option {
-    cursor: pointer
+    cursor: pointer;
 }
 
 #FAM-menu {
@@ -133,27 +134,27 @@
 #FAM-idle,
 .FAM-button {
     color: var(--light);
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-menu-option:hover {
-    opacity: .9;
-    background: var(--darkneutral)
+    opacity: 0.9;
+    background: var(--darkneutral);
 }
 
 .FAM-menu-option:active {
-    opacity: .8;
-    background: var(--darkneutral)
+    opacity: 0.8;
+    background: var(--darkneutral);
 }
 
-#FAM-back[style*=none]~#FAM-menu .FAM-menu-option:first-child {
-    display: none
+#FAM-back[style*="none"]~#FAM-menu .FAM-menu-option:first-child {
+    display: none;
 }
 
 #FAM-content {
     flex: 1;
     overflow-y: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 #FAM-attach-success,
@@ -161,14 +162,14 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: 700;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .FAM-border-box {
     border: 1px solid var(--darkneutral);
     border-radius: 5px;
     padding: 3px;
-    margin: 12px 6px
+    margin: 12px 6px;
 }
 
 .FAM-loading {
@@ -180,25 +181,25 @@
 }
 
 .FAM-loading .ph {
-    font-size: var(--3xlarge)
+    font-size: var(--3xlarge);
 }
 
 #FAM-no-tabs {
-    cursor: pointer
+    cursor: pointer;
 }
 
-#FAM-tab-container[style*=none]+#FAM-content #FAM-no-tabs {
-    top: 39px
+#FAM-tab-container[style*="none"]+#FAM-content #FAM-no-tabs {
+    top: 39px;
 }
 
 #FAM-idle {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 10;
-    transition: 300ms
+    transition: 300ms;
 }
 
 #FAM-idle:hover {
-    background: rgba(0, 0, 0, .6)
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .FAM-button {
@@ -213,16 +214,16 @@
 }
 
 .FAM-button:hover {
-    background: var(--co1)
+    background: var(--co1);
 }
 
 .FAM-button:active {
-    background: var(--co1)
+    background: var(--co1);
 }
 
 .FAM-inline-buttons {
     display: flex;
-    gap: var(--large)
+    gap: var(--large);
 }
 
 #FAM .FAM-inputbox {
@@ -237,25 +238,25 @@
     cursor: text;
     outline: 0;
     height: auto;
-    line-height: normal
+    line-height: normal;
 }
 
-#FAM .FAM-inputbox[type=color],
+#FAM .FAM-inputbox[type="color"],
 #FAM select.FAM-inputbox {
-    cursor: pointer
+    cursor: pointer;
 }
 
 #FAM textarea.FAM-inputbox {
     height: 150px;
-    resize: none
+    resize: none;
 }
 
 #FAM .FAM-inputbox:hover {
-    border-color: var(--darkneutral)
+    border-color: var(--darkneutral);
 }
 
 #FAM .FAM-inputbox:focus {
-    border-color: var(--co1)
+    border-color: var(--co1);
 }
 
 #FAM .FAM-button-input .FAM-inputbox {
@@ -263,7 +264,7 @@
     width: calc(100% - 40px);
     height: 40px;
     margin: 0;
-    border-radius: 4px 0 0 4px
+    border-radius: 4px 0 0 4px;
 }
 
 #FAM .FAM-button-input .FAM-button {
@@ -274,37 +275,37 @@
     display: inline-block;
     margin: 0;
     padding: 0;
-    border-radius: 0 4px 4px 0
+    border-radius: 0 4px 4px 0;
 }
 
 #FAM .FAM-button-input-small .FAM-inputbox {
     width: 50px;
     height: 30px;
     padding: 0 2px;
-    vertical-align: top
+    vertical-align: top;
 }
 
 #FAM .FAM-button-input-small .FAM-button {
     font-size: var(--xlarge);
     width: 30px;
     height: 30px;
-    padding: 0
+    padding: 0;
 }
 
 .FAM-title {
     font-size: var(--2xlarge);
     font-weight: 700;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 .FAM-title a {
-    text-decoration: none !important
+    text-decoration: none !important;
 }
 
 .FAM-title i {
     font-size: var(--3xlarge);
     vertical-align: -2px;
-    margin-right: 3px
+    margin-right: 3px;
 }
 
 .FAM-section-title {
@@ -313,32 +314,32 @@
     font-weight: 700;
     border-bottom: 2px solid var(--co1);
     margin: 12px auto;
-    padding-bottom: 3px
+    padding-bottom: 3px;
 }
 
 hr.FAM-hr {
     border: none;
     border-top: 2px solid var(--darkneutral);
-    margin: 24px 0
+    margin: 24px 0;
 }
 
 .FAM-icon-link {
     font-size: var(--xlarge);
     vertical-align: middle;
     display: inline-block;
-    margin: 0 6px
+    margin: 0 6px;
 }
 
 #FAM .FAM-list {
     margin: 0;
     padding: 0 0 0 40px;
-    list-style-type: none
+    list-style-type: none;
 }
 
 #FAM .FAM-list li {
     margin: 0;
     padding: 3px 0;
-    position: relative
+    position: relative;
 }
 
 #FAM .FAM-list li:before {
@@ -350,11 +351,11 @@ hr.FAM-hr {
     left: -16px;
     top: 50%;
     margin-top: -4px;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 #FAM .FAM-list li:hover:before {
-    background: #06C
+    background: #06c;
 }
 
 #FAM .FAM-connected-buttons a {
@@ -366,36 +367,36 @@ hr.FAM-hr {
     line-height: 28px;
     padding: 0 12px;
     margin-left: -1px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #FAM .FAM-connected-buttons a:hover {
     background: var(--darkneutral);
     border-color: var(--darkneutral);
-    position: relative
+    position: relative;
 }
 
 #FAM .FAM-connected-buttons a:active {
     background: var(--darkneutral);
-    border-color: #BBB;
-    position: relative
+    border-color: #bbb;
+    position: relative;
 }
 
 #FAM .FAM-connected-buttons>a:first-child,
 #FAM .FAM-connected-buttons>span:first-child>a {
     border-radius: 4px 0 0 4px;
-    margin-left: 0
+    margin-left: 0;
 }
 
 #FAM .FAM-connected-buttons>a:last-child,
 #FAM .FAM-connected-buttons>span:last-child>a {
-    border-radius: 0 4px 4px 0
+    border-radius: 0 4px 4px 0;
 }
 
 #FAM .FAM-connected-buttons i {
     font-size: var(--xlarge);
     margin-right: 3px;
-    vertical-align: -2px
+    vertical-align: -2px;
 }
 
 .FAM-label {
@@ -406,39 +407,39 @@ hr.FAM-hr {
     display: inline-block;
     width: 30%;
     padding-right: 6px;
-    margin: 0
+    margin: 0;
 }
 
 .FAM-label-value {
     display: inline-block;
-    width: 70%
+    width: 70%;
 }
 
-#FAM .FAM-label-value .FAM-inputbox:not([type=color]) {
-    width: 60%
+#FAM .FAM-label-value .FAM-inputbox:not([type="color"]) {
+    width: 60%;
 }
 
 #FAM .FAM-label-value .FAM-init-tab.FAM-border-box .FAM-inputbox {
     width: 90%;
-    padding: 8px
+    padding: 8px;
 }
 
 .FAM-init-tab-controls .FAM-icon-link {
-    font-size: var(--2xlarge)
+    font-size: var(--2xlarge);
 }
 
 .FAM-symmetrical-label .FAM-label,
 .FAM-symmetrical-label .FAM-label-value {
-    width: 50%
+    width: 50%;
 }
 
 .FAM-left,
 .FAM-symmetrical-label .FAM-label-value {
-    text-align: left
+    text-align: left;
 }
 
 .FAM-right {
-    text-align: right
+    text-align: right;
 }
 
 #FAM-attach-success,
@@ -447,104 +448,103 @@ hr.FAM-hr {
 .FAM-dropdown-title,
 .FAM-option-icon,
 .FAM-pagination {
-    text-align: center
+    text-align: center;
 }
 
 .FAM-float-left {
-    float: left
+    float: left;
 }
 
 .FAM-float-right {
-    float: right
+    float: right;
 }
 
 .FAM-clear:after {
     content: "";
     display: table;
-    clear: both
+    clear: both;
 }
 
 #FAM .FAM-center-block {
     width: 50%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .FAM-error {
-    color: #F66;
-    font-weight: 700
+    color: #f66;
+    font-weight: 700;
 }
 
 .FAM-noclick {
-    pointer-events: none
+    pointer-events: none;
 }
 
 .FAM-clickable {
-    pointer-events: all
+    pointer-events: all;
 }
 
 .FAM-separator:after {
     content: " • ";
-    color: var(--darkneutral)
+    color: var(--darkneutral);
 }
 
-
 .FAM-msg-text .FAM-attachment td:after {
-    content: ""
+    content: "";
 }
 
 #FAM ::-webkit-scrollbar {
     width: 8px;
-    height: 8px
+    height: 8px;
 }
 
 #FAM ::-webkit-scrollbar-track {
-    background-color: var(--darkneutral)
+    background-color: var(--darkneutral);
 }
 
 #FAM ::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, .1);
-    border: none
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
 }
 
 #FAM ::-webkit-scrollbar-button:single-button {
     height: 0;
-    width: 0
+    width: 0;
 }
 
 #FAM ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(0, 0, 0, .2)
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #FAM ::-webkit-scrollbar-thumb:active {
-    background-color: rgba(0, 0, 0, .3)
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #FAM-actions {
     height: 40px;
     border-top: 1px solid var(--co1-50);
-    display: none
+    display: none;
 }
 
 .FAM-viewing-forum+#FAM-actions,
 .FAM-viewing-topic+#FAM-actions {
-    display: block
+    display: block;
 }
 
 .FAM-viewing-forum+#FAM-actions {
     height: 0;
-    border: none
+    border: none;
 }
 
 #FAM-actions:empty {
-    display: none
+    display: none;
 }
 
 #FAM-new-topic {
     position: absolute;
     right: 8px;
     bottom: 3px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .absoleft {
@@ -555,15 +555,15 @@ hr.FAM-hr {
 }
 
 #FAM-new-topic .fa-circle {
-    color: var(--co1)
+    color: var(--co1);
 }
 
 #FAM-new-topic:hover .fa-circle {
-    color: var(--co1)
+    color: var(--co1);
 }
 
 #FAM-new-topic:active .fa-circle {
-    color: var(--co1)
+    color: var(--co1);
 }
 
 #FAM-actions>button {
@@ -575,20 +575,20 @@ hr.FAM-hr {
     height: 40px;
     width: 40px;
     cursor: pointer;
-    outline: 0
+    outline: 0;
 }
 
-#FAM-actions>button[data-disabled=true] {
-    pointer-events: none
+#FAM-actions>button[data-disabled="true"] {
+    pointer-events: none;
 }
 
-#FAM-actions>button[data-disabled=true]>* {
-    opacity: .5
+#FAM-actions>button[data-disabled="true"]>* {
+    opacity: 0.5;
 }
 
 #FAM-actions>button#FAM-attachment {
     border: none;
-    position: relative
+    position: relative;
 }
 
 #FAM-attachment-total {
@@ -600,26 +600,26 @@ hr.FAM-hr {
     position: absolute;
     bottom: 1px;
     left: 1px;
-    padding: 1px 3px
+    padding: 1px 3px;
 }
 
 #FAM-attach-success {
     color: var(--light);
     font-size: var(--large);
-    background: #8B5;
+    background: #8b5;
     position: absolute;
     top: -1px;
     left: -1px;
     right: -1px;
     height: 40px;
     line-height: 40px;
-    padding: 0 6px
+    padding: 0 6px;
 }
 
 #FAM-attach-success i {
     font-size: var(--2xlarge);
     margin-right: 6px;
-    vertical-align: -3px
+    vertical-align: -3px;
 }
 
 #FAM-actions .FAM-dropdown {
@@ -630,18 +630,18 @@ hr.FAM-hr {
     bottom: 40px;
     width: 300px;
     height: 400px;
-    z-index: 2
+    z-index: 2;
 }
 
 .FAM-block-option,
 .FAM-dropdown-title,
 .FAM-option-icon {
     line-height: 40px;
-    height: 40px
+    height: 40px;
 }
 
 .FAM-dropdown .FAM-dropdown-inner {
-    padding: 6px
+    padding: 6px;
 }
 
 .FAM-dropdown-title {
@@ -650,15 +650,15 @@ hr.FAM-hr {
     font-size: var(--xlarge);
     background: var(--co1);
     padding: 0 6px;
-    margin: -1px -1px 0
+    margin: -1px -1px 0;
 }
 
 .FAM-dropdown-back {
-    left: 3px
+    left: 3px;
 }
 
 .FAM-dropdown-inner .FAM-dropdown-title {
-    margin: -7px -7px 12px
+    margin: -7px -7px 12px;
 }
 
 .FAM-block-option {
@@ -666,69 +666,69 @@ hr.FAM-hr {
     font-size: var(--large);
     border-bottom: 1px solid var(--darkneutral);
     width: 100%;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-block-option:hover {
     color: var(--lightdark);
-    background: var(--darkneutral)
+    background: var(--darkneutral);
 }
 
 .FAM-block-option:active {
     color: var(--lightdark);
-    background: var(--darkneutral)
+    background: var(--darkneutral);
 }
 
 .FAM-option-icon {
     font-size: var(--xlarge);
     font-weight: 400;
     display: inline-block;
-    width: 50px
+    width: 50px;
 }
 
 .FAM-option-icon i {
-    line-height: 40px
+    line-height: 40px;
 }
 
 .FAM-option-icon.FAM-text-icon {
     font-size: var(--xlarge);
     font-weight: 700;
-    font-stretch: condensed
+    font-stretch: condensed;
 }
 
 #FAM-giphy-results {
     height: 260px;
     margin: 10px auto;
     overflow-x: hidden;
-    overflow-y: auto
+    overflow-y: auto;
 }
 
 .FAM-giphy-imagelist {
     line-height: 0;
     column-count: 2;
-    column-gap: 3px
+    column-gap: 3px;
 }
 
 .FAM-giphy-imagelist img {
     width: 100%;
     margin-bottom: 3px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 #FAM #FAM-giphy-mark {
     background: url(https://i.servimg.com/u/f35/18/21/60/73/powere11.png) 50% 50% no-repeat;
     height: 22px;
-    width: 100%
+    width: 100%;
 }
 
 #FAM-attachment-manager {
     height: 340px;
     overflow-y: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 #FAM-attachment-manager .FAM-inputbox {
-    width: 65%
+    width: 65%;
 }
 
 .FAM-attachment-thumb {
@@ -740,25 +740,25 @@ hr.FAM-hr {
     height: 50px;
     margin-right: 6px;
     object-fit: cover;
-    vertical-align: -20px
+    vertical-align: -20px;
 }
 
 a.FAM-attachment-thumb {
-    vertical-align: -5px
+    vertical-align: -5px;
 }
 
 .FAM-attachment-thumb i {
     font-size: var(--2xlarge);
-    line-height: 50px
+    line-height: 50px;
 }
 
 .FAM-attachment-delete {
     margin-left: 6px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-attachment-delete:hover .fa-circle {
-    color: #F33
+    color: #f33;
 }
 
 #FAM-msg {
@@ -768,12 +768,12 @@ a.FAM-attachment-thumb {
     width: 100%;
     margin: 0;
     outline: 0;
-    resize: none
+    resize: none;
 }
 
 .FAM-chat,
 .FAM-pagination {
-    border-bottom: 1px solid var(--neutral)
+    border-bottom: 1px solid var(--neutral);
 }
 
 #FAM-msg-container {
@@ -782,7 +782,7 @@ a.FAM-attachment-thumb {
     height: 40px;
     width: calc(100% - 120px);
     vertical-align: top;
-    position: relative
+    position: relative;
 }
 
 #FAM-timeout-bar {
@@ -791,7 +791,7 @@ a.FAM-attachment-thumb {
     left: 0;
     bottom: 0;
     width: 5px;
-    z-index: -1
+    z-index: -1;
 }
 
 .FAM-chat {
@@ -800,7 +800,7 @@ a.FAM-attachment-thumb {
     gap: var(--large);
     display: flex;
     align-items: center;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-chat-icon {
@@ -826,18 +826,18 @@ a.FAM-attachment-thumb {
 .FAM-chat-avatar img {
     height: 100%;
     object-fit: cover;
-    width: 100%
+    width: 100%;
 }
 
 .FAM-chat-box {
-    flex: 1
+    flex: 1;
 }
 
 .FAM-chat-date,
 .FAM-chat-title {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 
 .FAM-chat-title {
@@ -859,7 +859,7 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-chat-date strong {
-    font-weight: 300
+    font-weight: 300;
 }
 
 .FAM-chat-date a:has(img):before {
@@ -869,7 +869,7 @@ a.FAM-attachment-thumb {
 }
 
 .FAM-pagination:empty {
-    display: none
+    display: none;
 }
 
 #FAM a.FAM-page-link,
@@ -883,20 +883,20 @@ a.FAM-attachment-thumb {
     height: 25px;
     line-height: 26px;
     padding: 0 8px;
-    margin: 3px 1px
+    margin: 3px 1px;
 }
 
 #FAM a.FAM-page-link:hover {
-    background: var(--co1)
+    background: var(--co1);
 }
 
 #FAM a.FAM-page-link:active {
-    background: var(--co1)
+    background: var(--co1);
 }
 
 b.FAM-page-link,
 strong.FAM-page-link {
-    background: #999
+    background: #999;
 }
 
 .FAM-msg {
@@ -904,7 +904,7 @@ strong.FAM-page-link {
     align-items: flex-start;
     position: relative;
     padding: var(--large);
-    gap: var(--large)
+    gap: var(--large);
 }
 
 .FAM-msg-avatar {
@@ -917,14 +917,14 @@ strong.FAM-page-link {
 }
 
 .FAM-msg-online .FAM-msg-avatar {
-    border-color: var(--group-color, var(--co2))
+    border-color: var(--group-color, var(--co2));
 }
 
 .FAM-msg-avatar img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 .FAM-msg-box {
@@ -934,17 +934,17 @@ strong.FAM-page-link {
 .FAM-msg-content {
     background: var(--darklight);
     padding: var(--medium);
-    position: relative
+    position: relative;
 }
 
 .FAM-msg-editing .FAM-msg-content {
-    width: 100%
+    width: 100%;
 }
 
 .FAM-msg-text {
     white-space: pre-wrap;
     text-align: justify;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 #FAM .FAM-msg-text a {
@@ -952,15 +952,15 @@ strong.FAM-page-link {
 }
 
 #FAM .FAM-msg-text a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .FAM-msg-text * {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .FAM-msg-text img {
-    max-height: 200px
+    max-height: 200px;
 }
 
 .FAM-msg-date,
@@ -968,7 +968,7 @@ strong.FAM-page-link {
     width: 100%;
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .FAM-msg-name {
@@ -981,34 +981,34 @@ strong.FAM-page-link {
     font-size: var(--medium);
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: var(--darkneutral)
+    color: var(--darkneutral);
 }
 
 .FAM-name-mention {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-my-msg .FAM-msg-name {
-    display: none
+    display: none;
 }
 
 .FAM-msg-error .FAM-msg-content {
-    background: #F33
+    background: #f33;
 }
 
 .FAM-msg-error .FAM-msg-content:before {
-    border-left-color: #F33
+    border-left-color: #f33;
 }
 
 .FAM-msg-text .FAM-attachment,
 .FAM-msg-text .FAM-attachment * {
-    display: block
+    display: block;
 }
 
 .FAM-msg-text .FAM-attachment tbody {
     line-height: 0;
     column-count: 2;
-    column-gap: 5px
+    column-gap: 5px;
 }
 
 .FAM-msg-text .FAM-attachment tr {
@@ -1021,12 +1021,12 @@ strong.FAM-page-link {
     overflow: hidden;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
-    break-inside: avoid
+    break-inside: avoid;
 }
 
 .FAM-msg-text .FAM-attachment tr:only-child {
     column-span: all;
-    margin: 0
+    margin: 0;
 }
 
 .FAM-msg-text .FAM-attachment td {
@@ -1037,18 +1037,18 @@ strong.FAM-page-link {
     position: relative;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 
 .FAM-msg-text .FAM-attachment td * {
     width: 100%;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .FAM-msg-text .FAM-attachment td,
 .FAM-msg-text .FAM-attachment td * {
     border-radius: 4px;
-    max-height: 194px
+    max-height: 194px;
 }
 
 #FAM .FAM-msg-actions {
@@ -1059,28 +1059,28 @@ strong.FAM-page-link {
     white-space: nowrap;
     visibility: hidden;
     opacity: 0;
-    transition: 300ms
+    transition: 300ms;
 }
 
 #FAM .FAM-msg:hover .FAM-msg-actions {
     visibility: visible;
     opacity: 1;
-    bottom: -20px
+    bottom: -20px;
 }
 
 #FAM .FAM-my-msg .FAM-msg-actions {
     left: auto;
-    right: 0
+    right: 0;
 }
 
 .FAM-msg-button {
     font-size: var(--large);
     padding: 0 var(--small);
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-msg-button:hover {
-    opacity: .7
+    opacity: 0.7;
 }
 
 .FAM-msg-text .FAM-attachment td:after {
@@ -1089,27 +1089,27 @@ strong.FAM-page-link {
     left: 0;
     right: 0;
     bottom: 0;
-    cursor: pointer
+    cursor: pointer;
 }
 
 #FAM [onclick="FAM.modal.open(this);"] {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-msg-text .FAM-attachment td a {
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 
 .FAM-msg-text ol,
 .FAM-msg-text ul {
     padding-left: 30px;
-    margin: 12px 0
+    margin: 12px 0;
 }
 
 .FAM-msg-text ol>br:first-child,
 .FAM-msg-text ul>br:first-child {
-    display: none
+    display: none;
 }
 
 .FAM-codebox,
@@ -1120,12 +1120,12 @@ strong.FAM-page-link {
     border-radius: 4px;
     padding: 0;
     margin: 12px 0;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .FAM-codebox cite a,
 .FAM-codebox dt a {
-    color: var(--lightdark) !important
+    color: var(--lightdark) !important;
 }
 
 .FAM-codebox cite,
@@ -1137,18 +1137,18 @@ strong.FAM-page-link {
     background: var(--darkneutral);
     padding: 3px;
     margin: 0;
-    cursor: auto !important
+    cursor: auto !important;
 }
 
 #FAM-tab-add,
 .FAM-tab {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-codebox dd,
 .FAM-spoiler dd {
     padding: 3px;
-    margin: 0
+    margin: 0;
 }
 
 .FAM-codebox code {
@@ -1157,39 +1157,39 @@ strong.FAM-page-link {
     max-width: none;
     padding: 3px;
     margin: -3px;
-    overflow: auto
+    overflow: auto;
 }
 
 #FAM-new-msg-divider,
 #FAM-tabs {
     white-space: nowrap;
-    overflow: hidden
+    overflow: hidden;
 }
 
 blockquote.FAM-codebox {
-    padding: 3px
+    padding: 3px;
 }
 
 blockquote.FAM-codebox cite {
     margin: -3px -3px 0;
-    max-width: none
+    max-width: none;
 }
 
 blockquote.FAM-codebox>div {
-    margin: 0
+    margin: 0;
 }
 
 .FAM-hidecode>dt:after {
-    content: "Hidden:"
+    content: "Hidden:";
 }
 
 .FAM-codebox:before {
-    content: ""
+    content: "";
 }
 
 .FAM-spoiler_content {
     position: relative;
-    display: inline-block
+    display: inline-block;
 }
 
 .FAM-spoiler_content:after {
@@ -1200,27 +1200,27 @@ blockquote.FAM-codebox>div {
     left: 0;
     right: 0;
     bottom: 0;
-    visibility: visible
+    visibility: visible;
 }
 
 .FAM-spoiler_content:hover:after {
-    visibility: hidden
+    visibility: hidden;
 }
 
 .FAM-msg-text .FAM-post-content,
 .FAM-msg-text font[color] {
-    color: inherit
+    color: inherit;
 }
 
 #fc-token.FAM-inputbox {
-    width: 308px
+    width: 308px;
 }
 
 .FAM-captcha p:first-child b,
 .FAM-captcha p:first-child strong {
     font-size: var(--2xlarge);
     display: inline-block;
-    margin-bottom: 6px
+    margin-bottom: 6px;
 }
 
 #FAM-new-msg-notif {
@@ -1235,8 +1235,8 @@ blockquote.FAM-codebox>div {
     left: 0;
     right: 0;
     z-index: 1;
-    opacity: .8;
-    cursor: pointer
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 #FAM-new-msg-notif:after {
@@ -1245,22 +1245,22 @@ blockquote.FAM-codebox>div {
     font-weight: 400;
     font-family: FontAwesome;
     position: absolute;
-    right: 6px
+    right: 6px;
 }
 
 #FAM-new-msg-notif:hover {
-    opacity: 1
+    opacity: 1;
 }
 
 #FAM-new-msg-notif+#FAM-content {
-    padding-top: 30px
+    padding-top: 30px;
 }
 
 #FAM-new-msg-divider {
     color: var(--co1);
     font-size: var(--xlarge);
     text-align: center;
-    margin: 12px
+    margin: 12px;
 }
 
 #FAM-new-msg-divider:after,
@@ -1271,15 +1271,15 @@ blockquote.FAM-codebox>div {
     width: 25%;
     height: 2px;
     position: relative;
-    top: -4px
+    top: -4px;
 }
 
 #FAM-new-msg-divider:before {
-    margin-right: 12px
+    margin-right: 12px;
 }
 
 #FAM-new-msg-divider:after {
-    margin-left: 12px
+    margin-left: 12px;
 }
 
 #FAM-tab-container {
@@ -1294,14 +1294,14 @@ blockquote.FAM-codebox>div {
 }
 
 #FAM-tabs {
-    flex: 1
+    flex: 1;
 }
 
 #FAM-menu-avatar,
 #FAM-profile-avatar,
 .FAM-tab-name {
     display: inline-block;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .FAM-tab {
@@ -1313,23 +1313,23 @@ blockquote.FAM-codebox>div {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
-    border-right: 1px solid var(--co1-200)
+    border-right: 1px solid var(--co1-200);
 }
 
 .FAM-tab:last-of-type {
-    border: 0px !important
+    border: 0px !important;
 }
 
 .FAM-tab:hover,
 .FAM-tab.FAM-tab-active {
     background: var(--co1-200);
-    color: var(--white)
+    color: var(--white);
 }
 
 .FAM-tab-active .FAM-tab-name {
     font-weight: 700;
     letter-spacing: 0px !important;
-    cursor: default
+    cursor: default;
 }
 
 .FAM-tab-name {
@@ -1337,25 +1337,25 @@ blockquote.FAM-codebox>div {
     text-transform: uppercase;
     flex: 1;
     white-space: nowrap;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 
 .FAM-tab-close {
     font-size: var(--large);
-    cursor: pointer
+    cursor: pointer;
 }
 
 .FAM-tab-close:hover {
-    color: #F33
+    color: #f33;
 }
 
 #FAM-profile-username {
     font-size: var(--xlarge);
-    font-weight: 700
+    font-weight: 700;
 }
 
 #FAM-profile-rank {
-    font-weight: 700
+    font-weight: 700;
 }
 
 #FAM-profile-avatar {
@@ -1363,35 +1363,35 @@ blockquote.FAM-codebox>div {
     height: 108px;
     padding: 2px;
     border: 2px solid var(--darkneutral);
-    border-radius: 100px
+    border-radius: 100px;
 }
 
 #FAM-menu-avatar {
     height: 30px;
     width: 30px;
-    border-radius: 30px
+    border-radius: 30px;
 }
 
 #FAM-menu-avatar img,
 #FAM-profile-avatar img {
     width: 100%;
     height: 100%;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 #FAM #FAM-service-title a {
     color: var(--lightdark);
-    font-weight: 400
+    font-weight: 400;
 }
 
 #FAM-service-title b,
 #FAM-service-title i {
-    color: var(--co1)
+    color: var(--co1);
 }
 
 #FAM-service-title b:last-child,
 #FAM-version-status-icon .fa-check-circle {
-    color: var(--co1)
+    color: var(--co1);
 }
 
 #FAM-version-card {
@@ -1402,7 +1402,7 @@ blockquote.FAM-codebox>div {
     margin: 30px auto 12px;
     white-space: nowrap;
     overflow-x: auto;
-    position: relative
+    position: relative;
 }
 
 #FAM-version-status-icon {
@@ -1411,62 +1411,62 @@ blockquote.FAM-codebox>div {
     width: 50px;
     left: 0;
     top: 50%;
-    margin-top: -18px
+    margin-top: -18px;
 }
 
 #FAM-version-status-icon i {
-    font-size: var(--3xlarge)
+    font-size: var(--3xlarge);
 }
 
 #FAM-version-status-icon .fa-exclamation-circle {
-    color: #F93
+    color: #f93;
 }
 
 #FAM-version-info {
     width: 100%;
-    padding-left: 50px
+    padding-left: 50px;
 }
 
 #FAM-version-info>div {
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 #FAM-version-status {
-    font-weight: 700
+    font-weight: 700;
 }
 
 #FAM-creator-info {
     text-align: center;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 #FAM-creator-info i {
     font-size: var(--xlarge);
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 #FAM #FAM-search-keywords {
     font-size: var(--xlarge);
     height: 40px;
-    padding: 0 8px
+    padding: 0 8px;
 }
 
 #FAM-search-results {
     border: 1px solid var(--darkneutral);
     max-height: 300px;
-    overflow: auto
+    overflow: auto;
 }
 
 #FAM-search-results .FAM-chat-avatar,
 .FAM-viewing-search .FAM-chat-avatar {
-    display: none
+    display: none;
 }
 
 #FAM-search-results .FAM-chat-icon,
 .FAM-viewing-search .FAM-chat-icon {
     left: 10px;
     top: 50%;
-    margin-top: -17px
+    margin-top: -17px;
 }
 
 #FAM-modal-content,
@@ -1476,11 +1476,11 @@ blockquote.FAM-codebox>div {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0
+    bottom: 0;
 }
 
 #FAM-modal-overlay {
-    background: rgba(0, 0, 0, .8)
+    background: rgba(0, 0, 0, 0.8);
 }
 
 #FAM-media-viewer,
@@ -1489,7 +1489,7 @@ blockquote.FAM-codebox>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center
+    text-align: center;
 }
 
 #FAM-media-viewer {
@@ -1502,21 +1502,21 @@ blockquote.FAM-codebox>div {
     max-width: calc(100% - 96px);
     max-height: 100%;
     max-height: calc(100% - 96px);
-    padding: 16px
+    padding: 16px;
 }
 
 #FAM-media-list {
     width: 100%;
     max-height: 100vh;
     max-height: calc(100vh - 96px);
-    overflow: hidden
+    overflow: hidden;
 }
 
 #FAM-media-list>iframe,
 #FAM-media-list>img {
     max-width: 100%;
     max-height: 100vh;
-    max-height: calc(100vh - 96px)
+    max-height: calc(100vh - 96px);
 }
 
 #FAM-media-list>a {
@@ -1525,44 +1525,44 @@ blockquote.FAM-codebox>div {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
 }
 
 .FAM-modal-controls {
     color: #999;
     position: absolute;
     cursor: pointer;
-    opacity: 1
+    opacity: 1;
 }
 
 .FAM-modal-controls:hover {
-    color: var(--light)
+    color: var(--light);
 }
 
 .FAM-modal-arrows {
     top: 0;
     bottom: 0;
-    width: 41px
+    width: 41px;
 }
 
 #FAM-modal-prev {
     left: -25px;
-    justify-content: flex-start
+    justify-content: flex-start;
 }
 
 #FAM-modal-next {
     right: -25px;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 #FAM-modal-close {
     top: 0;
     right: -25px;
-    z-index: 1
+    z-index: 1;
 }
 
 #FAM-view-media {
     top: 30px;
     right: -26px;
-    z-index: 1
+    z-index: 1;
 }
