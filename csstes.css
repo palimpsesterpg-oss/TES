@@ -3920,6 +3920,7 @@ pblocgc,
 .tooltip-content {
 	display: flex;
 	height: 115px;
+	width: -webkit-fill-available;
 	justify-content: space-between;
 	align-items: flex-start;
 }
@@ -3932,7 +3933,7 @@ pblocgc,
 
 .tooltip-details {
 	display: flex;
-	width: 100%;
+	width: -webkit-fill-available;
 	justify-content: space-evenly;
 	color: var(--group-color, var(--dark)) !important;
 }
