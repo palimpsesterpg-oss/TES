@@ -4,39 +4,38 @@
 
 x2small,
 .x2small {
-	font-size: var(--2xsmall)
+	font-size: var(--2xsmall);
 }
 
 xsmall,
 .xsmall {
-	font-size: var(--xsmall)
+	font-size: var(--xsmall);
 }
 
 small,
 .small {
-	font-size: var(--small)
+	font-size: var(--small);
 }
 
 medium,
 .medium {
-	font-size: var(--medium)
+	font-size: var(--medium);
 }
 
 large,
 .large {
-	font-size: var(--large)
+	font-size: var(--large);
 }
 
 xlarge,
 .xlarge {
-	font-size: var(--xlarge)
+	font-size: var(--xlarge);
 }
 
 x2large,
 .x2large {
-	font-size: var(--2xlarge)
+	font-size: var(--2xlarge);
 }
-
 
 .reverse {
 	--gradient12: linear-gradient(to left, var(--co1), var(--co2));
@@ -91,7 +90,7 @@ fslarge {
 .posttab.active back3 {
 	font-weight: 700;
 	color: var(--co3);
-	background: var(--white)
+	background: var(--white);
 }
 
 .group-2 {
@@ -627,7 +626,7 @@ lblplyr {
 
 .blocpl.two,
 .blocpl.three {
-	padding: 0px !important
+	padding: 0px !important;
 }
 
 .blocpl.three .mentiontag {
@@ -3732,63 +3731,62 @@ pblocgc,
 
 .fichemoodboard.mix {
 	flex-wrap: wrap;
-	width: 400px
+	width: 400px;
 }
 
 .fichemoodboard.mix.one img {
 	height: 100px;
-	object-fit: cover
+	object-fit: cover;
 }
 
 .fichemoodboard.mix.two img {
 	height: 75px;
-	object-fit: cover
+	object-fit: cover;
 }
 
 .fichemoodboard.mix.one img:nth-child(1),
 .fichemoodboard.mix.one img:nth-child(3),
 .fichemoodboard.mix.two img:nth-child(9) {
-	width: 100px
+	width: 100px;
 }
 
 .fichemoodboard.mix.two img:nth-child(1),
 .fichemoodboard.mix.two img:nth-child(2),
 .fichemoodboard.mix.two img:nth-child(4),
 .fichemoodboard.mix.two img:nth-child(7) {
-	width: 75px
+	width: 75px;
 }
 
 .fichemoodboard.mix.one img:nth-child(2) {
-	width: 168px
+	width: 168px;
 }
 
 .fichemoodboard.mix.two img:nth-child(3) {
-	width: 127px
+	width: 127px;
 }
 
 .fichemoodboard.mix.one img:nth-child(8) {
-	width: 150px
+	width: 150px;
 }
 
 .fichemoodboard.mix.one img:nth-child(9) {
-	width: 234px
+	width: 234px;
 }
 
 .fichemoodboard.mix.two img:nth-child(6),
 .fichemoodboard.mix.two img:nth-child(5) {
-	width: calc(384px / 2)
+	width: calc(384px / 2);
 }
 
 .fichemoodboard.mix.one img:nth-child(7),
 .fichemoodboard.mix.one img:nth-child(5),
 .fichemoodboard.mix.one img:nth-child(6) {
-	width: calc(368px / 3)
+	width: calc(368px / 3);
 }
 
 .fichemoodboard.mix.two img:nth-child(8) {
-	width: 193px
+	width: 193px;
 }
-
 
 .fichemoodboard div {
 	display: flex;
@@ -3880,7 +3878,7 @@ pblocgc,
 }
 
 .tooltip-rank:empty {
-	display: none
+	display: none;
 }
 
 .tooltip-rank age:before {
@@ -3897,7 +3895,9 @@ pblocgc,
 	color: var(--group-color, var(--co1));
 }
 
-.tooltip-rank celeb {text-transform: capitalize !important;}
+.tooltip-rank celeb {
+	text-transform: capitalize !important;
+}
 
 .tooltip-rank job:before {
 	content: "\e272";
@@ -3927,7 +3927,7 @@ pblocgc,
 .tooltip-avatar {
 	object-fit: cover;
 	height: 115px;
-	width: 85px;
+	width: 75px;
 }
 
 .tooltip-details {
@@ -3954,7 +3954,7 @@ pblocgc,
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
-	min-width: 50px !important;
+	min-width: 300px !important;
 	display: flex;
 }
 
@@ -4165,7 +4165,7 @@ chronoevent strong {
 	background: var(--co3);
 	color: var(--white);
 	padding: var(--2xsmall) var(--2xlarge);
-	font-size: var(--large)
+	font-size: var(--large);
 }
 
 .rules.content i:not(.ph) {
@@ -4351,8 +4351,10 @@ p {
 	color: var(--group-color-50, var(--neutral)) !important;
 }
 
-.head-rps strong {width: 50%;
-color: var(--white)}
+.head-rps strong {
+	width: 50%;
+	color: var(--white);
+}
 
 .head-rps:before {
 	font-weight: 100;
@@ -4418,7 +4420,7 @@ firstdts {
 	text-transform: lowercase;
 	font-weight: 300;
 	letter-spacing: 2.5px;
-	color: var(--group-color)
+	color: var(--group-color);
 }
 
 firstdts:before {
@@ -4513,7 +4515,7 @@ firstdts:before {
 }
 
 .ficheinsta.mini>div {
-	flex: 1
+	flex: 1;
 }
 
 .headinsta {
@@ -4743,19 +4745,19 @@ statusinsta {
 }
 
 .ficherpbody strong {
-	color: var(--group-color)
+	color: var(--group-color);
 }
 
 .ficherphead img {
 	height: 100px;
 	padding: var(--xsmall);
 	background: var(--white);
-	object-fit: cover
+	object-fit: cover;
 }
 
 .ficherp.two .ficherphead img {
 	width: 100px;
-	border: 1px solid var(--neutral)
+	border: 1px solid var(--neutral);
 }
 
 .ficherp.three .ficherphead img {
@@ -4782,48 +4784,48 @@ statusinsta {
 }
 
 .ficherphead ficherptitle {
-	font-size: var(--xlarge)
+	font-size: var(--xlarge);
 }
 
 .ficherphead ficherpsstitle {
-	font-size: var(--small)
+	font-size: var(--small);
 }
 
 .ficherp.one ficherptitle {
 	font-family: var(--serif);
 	text-transform: lowercase;
-	font-weight: 700
+	font-weight: 700;
 }
 
 .ficherp.one ficherpsstitle {
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	text-transform: lowercase
+	text-transform: lowercase;
 }
 
 .ficherp.two ficherptitle {
 	font-family: var(--serif);
 	text-transform: uppercase;
-	font-weight: 200
+	font-weight: 200;
 }
 
 .ficherp.two ficherpsstitle {
 	letter-spacing: 5px;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 .ficherp.three ficherptitle {
 	letter-spacing: 5px;
 	padding-left: 5px;
 	text-transform: lowercase;
-	font-weight: 200
+	font-weight: 200;
 }
 
 .ficherp.three ficherpsstitle {
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
 	padding-left: 1.5px;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 .ficherp.four ficherptitle {
@@ -4839,7 +4841,7 @@ statusinsta {
 	letter-spacing: 5px;
 	padding-left: 5px;
 	font-family: var(--mono);
-	text-transform: lowercase
+	text-transform: lowercase;
 }
 
 .ficherp.five ficherptitle {
@@ -4849,12 +4851,12 @@ statusinsta {
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background: var(--gradientgc2);
-	font-weight: 200
+	font-weight: 200;
 }
 
 .ficherp.five ficherpsstitle {
 	letter-spacing: 5px;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 .ficherp.six ficherptitle {
@@ -4863,13 +4865,13 @@ statusinsta {
 	text-transform: lowercase;
 	padding: 0.15rem var(--3xlarge);
 	color: var(--group-color-700);
-	font-weight: 200
+	font-weight: 200;
 }
 
 .ficherp.six ficherpsstitle {
-	letter-spacing: .5px;
-	padding-left: .5px;
-	text-transform: lowercase
+	letter-spacing: 0.5px;
+	padding-left: 0.5px;
+	text-transform: lowercase;
 }
 
 .ficherp.seven ficherptitle {
@@ -4933,7 +4935,7 @@ statusinsta {
 	padding: var(--small);
 	background: var(--white);
 	text-transform: uppercase;
-	font-weight: 200
+	font-weight: 200;
 }
 
 .ficherp.five .ficherpbanner,
@@ -4945,7 +4947,7 @@ statusinsta {
 	padding: var(--2xsmall);
 	background: var(--darklight);
 	text-transform: lowercase;
-	font-weight: 700
+	font-weight: 700;
 }
 
 .ficherp.seven .ficherpbanner,
@@ -4957,7 +4959,7 @@ statusinsta {
 	text-transform: uppercase;
 	font-weight: 200;
 	letter-spacing: 1.5px;
-	font-size: var(--small)
+	font-size: var(--small);
 }
 
 .ficherpbanner div,
@@ -4970,5 +4972,5 @@ statusinsta {
 .ficherpfooter i,
 .ficherpfooter .mention-at {
 	color: var(--group-color);
-	margin-right: var(--small)
+	margin-right: var(--small);
 }
