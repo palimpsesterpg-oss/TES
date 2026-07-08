@@ -372,9 +372,9 @@
     text-align: justify;
 }
 
-.signcam.har div {width: 200px;}
+.signcam.har div {width: 150px;}
 .signcam.fran div {width: 100px;}
-.signcam.esth div {width: 300px;}
+.signcam.esth div {width: 270px;}
 
 .signcam div i {
     font-weight: 500 !important;
