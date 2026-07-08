@@ -359,8 +359,6 @@
 .signcam {
     display: flex;
     gap: var(--large);
-    width: 325px;
-    color: var(--group-color) !important;
     align-items: center;
 }
 
@@ -380,7 +378,7 @@
 
 .signcam div i,
 .signcam div strong {
-    color: var(--group-color-700) !important;
+    color: var(--group-color) !important;
 }
 
 .signcam div strong {
