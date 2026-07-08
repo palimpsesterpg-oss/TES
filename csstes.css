@@ -4345,11 +4345,14 @@ p {
 }
 
 .head-rps a:before {
-	content: "★";
+	content: "-";
 	font-size: 0.35rem;
 	padding-right: var(--large);
 	color: var(--group-color-50, var(--neutral)) !important;
 }
+
+.head-rps strong {width: 50%;
+color: var(--white)}
 
 .head-rps:before {
 	font-weight: 100;
