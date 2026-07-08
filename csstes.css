@@ -398,7 +398,7 @@ fslarge {
 .blocperso.one {
 	outline: 0.5px solid var(--group-color, var(--co3-100));
 	background: var(--white);
-	border: 9.5px solid var(--light);
+	border: 15.5px solid var(--light);
 	margin: 0.5px;
 }
 
