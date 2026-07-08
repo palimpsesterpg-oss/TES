@@ -4345,8 +4345,8 @@ p {
 }
 
 .head-rps a:before {
-	content: "-";
-	font-size: 0.35rem;
+	content: "—";
+	font-size: var(--large);
 	padding-right: var(--large);
 	color: var(--group-color-50, var(--neutral)) !important;
 }
