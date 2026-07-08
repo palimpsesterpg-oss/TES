@@ -212,9 +212,8 @@
     padding: var(--2xsmall);
     display: flex;
     align-items: center;
-    padding-left: 2.5px;
     justify-content: space-around;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     font-size: var(--small);
     font-weight: 200;
