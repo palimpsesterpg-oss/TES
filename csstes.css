@@ -3965,6 +3965,7 @@ pblocgc,
 	display: flex;
 	color: var(--lightdark) !important;
 	align-items: center;
+	width: -webkit-fill-available;
 	padding: var(--small) !important;
 	gap: var(--small) !important;
 }
