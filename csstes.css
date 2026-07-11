@@ -4976,3 +4976,7 @@ statusinsta {
 	color: var(--group-color);
 	margin-right: var(--small);
 }
+
+.ficherp .mentiontag {color: inherit !important;
+text-transform: inherit !important;
+font-weight: inherit !important}
