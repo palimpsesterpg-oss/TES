@@ -231,6 +231,12 @@
     color: var(--group-color) !important;
 }
 
+.cam .inforpcam .mentiontag {
+    color: inherit !important;
+    text-transform: inherit !important;
+    font-weight: inherit !important
+}
+
 .cam .footrpcam {
     background: var(--group-color);
     color: var(--white) !important;
@@ -454,4 +460,3 @@
     color: inherit !important;
     text-transform: inherit !important;
 }
-
