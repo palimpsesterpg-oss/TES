@@ -4973,7 +4973,7 @@ statusinsta {
 .ficherpbanner i,
 .ficherpfooter i,
 .ficherpfooter .mention-at {
-	color: var(--group-color);
+	color: var(--group-color) !important;
 	margin-right: var(--small);
 }
 
