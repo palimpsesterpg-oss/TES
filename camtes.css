@@ -415,7 +415,7 @@
     font-family: var(--serif);
 }
 
-.cam .ficheperso .posttab {
+.cam .ficheperso.anec .posttab {
     text-align: center;
     color: var(--group-color);
     font-family: var(--mono);
