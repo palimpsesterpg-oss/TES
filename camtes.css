@@ -220,7 +220,7 @@
     width: 100%;
 }
 
-.cam .inforpcam > span {
+.cam .inforpcam>span {
     display: flex;
     align-items: center;
     gap: var(--2xsmall);
@@ -372,9 +372,17 @@
     text-align: justify;
 }
 
-.signcam.har div {width: 150px;}
-.signcam.fran div {width: 100px;}
-.signcam.esth div {width: 270px;}
+.signcam.har div {
+    width: 150px;
+}
+
+.signcam.fran div {
+    width: 100px;
+}
+
+.signcam.esth div {
+    width: 270px;
+}
 
 .signcam div i {
     font-weight: 500 !important;
@@ -440,4 +448,9 @@
     padding: var(--2xsmall) var(--large) var(--2xsmall) calc(var(--large) + 1.5px);
     letter-spacing: 1.5px;
     border: 0.25px solid;
+}
+
+.cam .textlisting .mentiontag {
+    color: inherit !important;
+    text-transform: inherit !important;
 }
