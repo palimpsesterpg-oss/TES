@@ -1566,3 +1566,8 @@ blockquote.FAM-codebox>div {
     right: -26px;
     z-index: 1;
 }
+
+.FAM-msg-likes .fa_like_div {
+    margin-top: 0px;
+    margin-bottom: var(--small)
+}
