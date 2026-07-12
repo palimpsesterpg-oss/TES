@@ -5292,7 +5292,7 @@ statusinsta {
 }
 
 .fichetinder {
-	width: 400px;
+	width: 500px;
 	background-color: var(--white);
 	margin: 0 auto
 }
@@ -5340,8 +5340,8 @@ statusinsta {
 }
 
 .tindermisc span {
-	height: 50px;
-	width: 100px;
+	height: 34px;
+	width: 150px;
 	background: var(--group-color-50);
 	color: var(--group-color);
 	display: flex;
@@ -5350,7 +5350,7 @@ statusinsta {
 }
 
 .fichetinder .tinderimg {
-	width: 368px;
-	height: 368px;
+	width: 468px;
+	height: 468px;
 	object-fit: cover;
 }
