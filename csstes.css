@@ -5037,7 +5037,7 @@ statusinsta {
 	object-fit: cover
 }
 
-.ficheperso.playlist dtlsplaylist img {
+.ficheperso.playlist .dtlsplaylist img {
 	width: 150px;
 	height: 150px;
 	object-fit: cover
