@@ -5018,8 +5018,10 @@ statusinsta {
 	display: flex;
 	width: 100%;
 	align-items: center;
+	font-size: var(--large);
 	justify-content: space-between;
-	gap: var(--large)
+	gap: var(--large);
+	color: var(--group-color)
 }
 
 .ficheperso.playlist .headplaylist img {
@@ -5035,24 +5037,30 @@ statusinsta {
 	object-fit: cover
 }
 
-.ficheperso.playlist .headplaylist div {
+.ficheperso.playlist .dtlsplaylist {    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.ficheperso.playlist .dtlsplaylist div {
 	font-size: var(--2xlarge);
 	font-weight: 700;
-	margin-top: var(--large);
-	text-align: center;
 	text-transform: lowercase;
 }
 
 .ficheperso.playlist .headplaylist div {
-	font-size: var(--large);
-	font-weight: 700;
+	font-weight: 500;
 	text-transform: lowercase;
 	flex: 1
 }
 
 .ficheperso.playlist .headplaylist:after {
 	font-family: "Phosphor" !important;
-	content: "\E2C2 \E272";
+	content: "\E272";
+}
+
+.ficheperso.playlist .headplaylist:before {
+	font-family: "Phosphor" !important;
+	content: "\E2C2";
 }
 
 .ficheperso.playlist .headplaylist div:before {
