@@ -333,6 +333,7 @@ fslarge {
 }
 
 .ficheperso,
+.fichetinder,
 .ficherp,
 .fichepl,
 .ficherec,
@@ -5288,4 +5289,19 @@ statusinsta {
 	gap: var(--large);
 	align-items: center;
 	justify-content: center;
+}
+
+.fichetinder {
+	width: 400px;
+	background-color: var(--white);
+}
+
+.fichetinder .tinderhead {
+	text-transform: uppercase
+}
+
+.fichetinder .tinderimg {
+	width: 400px;
+	width: 400px;
+	object-fit: cover;
 }
