@@ -4983,6 +4983,10 @@ statusinsta {
 	font-weight: inherit !important
 }
 
+.ficherp .lettrine::first-letter {
+	font-size: var(--3xlarge)
+}
+
 .password-container {
 	display: flex;
 	align-items: center;
@@ -5061,11 +5065,12 @@ statusinsta {
 	object-fit: cover
 }
 
-.signtes.one img,.signtes.four img {
+.signtes.one img,
+.signtes.four img {
 	width: 100px;
 	padding: 5px;
 	background-color: var(--white);
-	border: 1px solid var(--neutral);
+	border: 1px solid var(--darklight);
 }
 
 .signtes.one div {
