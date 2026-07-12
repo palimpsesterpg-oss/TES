@@ -4988,3 +4988,26 @@ statusinsta {
 	align-items: center;
 	gap: var(--small);
 }
+
+.ficheperso.playlist .playlistitem {
+	font-weight: var(--large);
+	display: flex;
+}
+
+.ficheperso.playlist .playlistitem:before {
+	font-weight: var(--xlarge);
+	font-family: "Phosphor" !important;
+}
+
+.ficheperso.playlist .playlistitem:before {
+	content: "\E3D0";
+}
+
+.ficheperso.playlist .playlistitem:before:hover {
+	content: "\E39E";
+}
+
+.ficheperso.playlist .playlistitem:after {
+	content: "\E2A8";
+	font-family: "Phosphor-Fill" !important;
+}
