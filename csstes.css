@@ -5340,8 +5340,8 @@ statusinsta {
 }
 
 .tindermisc span {
-	height: 34px;
-	width: 150px;
+	height: 35px;
+	width: 135px;
 	background: var(--group-color-50);
 	color: var(--group-color);
 	display: flex;
@@ -5353,4 +5353,8 @@ statusinsta {
 	width: 468px;
 	height: 468px;
 	object-fit: cover;
+}
+
+.fichetinder .tinderbio {
+	width: 100%
 }
