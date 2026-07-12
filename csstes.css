@@ -5021,6 +5021,8 @@ statusinsta {
 	font-size: var(--large);
 	justify-content: space-between;
 	gap: var(--large);
+	padding: var(--large);
+	background-color: var(--white);
 	color: var(--group-color)
 }
 
@@ -5037,9 +5039,11 @@ statusinsta {
 	object-fit: cover
 }
 
-.ficheperso.playlist .dtlsplaylist {    display: flex;
-    flex-direction: column;
-    align-items: center;}
+.ficheperso.playlist .dtlsplaylist {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .ficheperso.playlist .dtlsplaylist div {
 	font-size: var(--2xlarge);
