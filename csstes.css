@@ -5374,3 +5374,26 @@ statusinsta {
 	justify-content: flex-start;
 	gap: var(--large);
 }
+
+.ficheperso.astro {
+	width: 500px;
+	flex-direction: row;
+	background-color: var(--white);
+	padding: 0 !important;
+	gap: 0 !important
+}
+
+.ficheperso.astro img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover
+}
+
+.ficheperso.astro div,
+.ficheperso.astro div span {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: var(--large);
+	padding: var(--large);
+}
