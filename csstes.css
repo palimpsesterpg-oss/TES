@@ -5053,7 +5053,7 @@ statusinsta {
 	background-color: var(--group-color, var(--co3));
 	text-decoration: none !important;
 	color: var(--white);
-	padding: var (--2xsmall) 0
+	padding: 0 var(--2xsmall)
 }
 
 .signtes img {
@@ -5062,7 +5062,9 @@ statusinsta {
 }
 
 .signtes.one img {
-	width: 100px
+	width: 100px;
+	padding: 5px;
+	background-color: var(--white);
 }
 
 .signtes.one div {
@@ -5070,7 +5072,9 @@ statusinsta {
 }
 
 .signtes.two img {
-	width: 75px
+	width: 75px;
+	padding: 4px;
+	border: 1px solid var(--white);
 }
 
 .signtes.two div {
