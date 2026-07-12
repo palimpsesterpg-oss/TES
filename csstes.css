@@ -5056,7 +5056,6 @@ statusinsta {
 .ficheperso.playlist .bottomplaylist {
 	flex-direction: row;
 	justify-content: space-evenly;
-	font-weight: 200;
 	text-transform: lowercase;
 	letter-spacing: 1.5px;
 	font-family: var(--mono)
