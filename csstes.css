@@ -4991,7 +4991,15 @@ statusinsta {
 
 .ficheperso.playlist .playlistitem {
 	font-weight: var(--large);
-	display: flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+	text-transform: uppercase;
+	gap: var(--large);
+}
+
+.ficheperso.playlist .playlistitem span:first-of-type {
+	flex: 1;
 }
 
 .ficheperso.playlist .playlistitem:before {
@@ -5003,7 +5011,7 @@ statusinsta {
 	content: "\E3D0";
 }
 
-.ficheperso.playlist .playlistitem:before:hover {
+.ficheperso.playlist .playlistitem:hover:before {
 	content: "\E39E";
 }
 
@@ -5011,3 +5019,10 @@ statusinsta {
 	content: "\E2A8";
 	font-family: "Phosphor-Fill" !important;
 }
+
+.bodyplaylist {width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: var(--large);
+    gap: var(--large);
+    background: var(--white);}
