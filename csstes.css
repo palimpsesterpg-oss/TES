@@ -5389,11 +5389,26 @@ statusinsta {
 	object-fit: cover
 }
 
-.ficheperso.astro div,
-.ficheperso.astro div span {
+.ficheperso.astro div {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
+	align-items: center;
 	gap: var(--large);
 	padding: var(--large);
+}
+
+.ficheperso.astro div span {
+	display: flex;
+	flex-direction: column;
+	gap: var(--large);
+	font-family: var(--serif);
+	letter-spacing: 2.5px;
+	font-weight: 200;
+	text-transform: lowercase;
+}
+
+.ficheperso.astro div i {
+	font-size: var(--2xlarge);
+	color: var(--group-color)
 }
