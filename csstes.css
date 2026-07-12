@@ -5331,6 +5331,24 @@ statusinsta {
 	font-size: var(--large);
 }
 
+.tindermisc {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: var(--large)
+}
+
+.tindermisc span {
+	height: 50px;
+	width: 100px;
+	background: var(--group-color-50);
+	color: var(--group-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .fichetinder .tinderimg {
 	width: 368px;
 	height: 368px;
