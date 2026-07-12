@@ -5061,6 +5061,11 @@ statusinsta {
 	font-family: var(--mono)
 }
 
+.ficheperso.playlist .bottomplaylist span:hover {
+	cursor: pointer;
+	font-weight: 700
+}
+
 .ficheperso.playlist .dtlsplaylist div {
 	font-size: var(--2xlarge);
 	font-weight: 700;
