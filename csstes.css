@@ -4993,13 +4993,19 @@ statusinsta {
 }
 
 .ficherp.two .lettrine::first-letter,
-.ficherp.five .lettrine::first-letter {
+.ficherp.five .lettrine::first-letter,
+.ficherp.three .lettrine::first-letter,
+.ficherp.six .lettrine::first-letter,
+.ficherp.eight .lettrine::first-letter,
+.ficherp.nine .lettrine::first-letter {
 	font-family: var(--serif)
 }
 
 .ficherp.three .lettrine::first-letter,
-.ficherp.six .lettrine::first-letter {
-	font-family: var(--spe)
+.ficherp.six .lettrine::first-letter,
+.ficherp.nine .lettrine::first-letter {
+	text-transform: lowercase;
+	font-weight: 900;
 }
 
 .password-container {
