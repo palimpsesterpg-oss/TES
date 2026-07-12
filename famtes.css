@@ -121,6 +121,10 @@
     cursor: pointer;
 }
 
+.FAM-menu-option {
+    font-size: 30px
+}
+
 #FAM-menu {
     color: var(--white);
     background: var(--co1);
@@ -161,7 +165,7 @@
 .FAM-block-option {
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-weight: 700;
+    text-transform: uppercase;
     overflow: hidden;
 }
 
@@ -312,9 +316,8 @@
     color: var(--co1);
     font-size: var(--xlarge);
     font-weight: 700;
-    border-bottom: 2px solid var(--co1);
-    margin: 12px auto;
-    padding-bottom: 3px;
+    border-bottom: 1px solid var(--co1);
+    margin: var(--large);
 }
 
 hr.FAM-hr {
@@ -624,24 +627,17 @@ hr.FAM-hr {
 
 #FAM-actions .FAM-dropdown {
     background: var(--light);
-    border: 1px solid var(--darkneutral);
+    border: 1px solid var(--co1-50);
     position: absolute;
     left: 0;
-    bottom: 40px;
+    bottom: 39px;
     width: 300px;
     height: 400px;
     z-index: 2;
 }
 
-.FAM-block-option,
-.FAM-dropdown-title,
-.FAM-option-icon {
-    line-height: 40px;
-    height: 40px;
-}
-
 .FAM-dropdown .FAM-dropdown-inner {
-    padding: 6px;
+    padding: var(--small);
 }
 
 .FAM-dropdown-title {
@@ -662,32 +658,18 @@ hr.FAM-hr {
 }
 
 .FAM-block-option {
-    color: var(--lightdark);
     font-size: var(--large);
-    border-bottom: 1px solid var(--darkneutral);
+    border-bottom: 1px solid var(--co1-50);
     width: 100%;
     cursor: pointer;
-}
-
-.FAM-block-option:hover {
-    color: var(--lightdark);
-    background: var(--darkneutral);
-}
-
-.FAM-block-option:active {
-    color: var(--lightdark);
-    background: var(--darkneutral);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .FAM-option-icon {
     font-size: var(--xlarge);
-    font-weight: 400;
-    display: inline-block;
     width: 50px;
-}
-
-.FAM-option-icon i {
-    line-height: 40px;
 }
 
 .FAM-option-icon.FAM-text-icon {
@@ -1376,6 +1358,7 @@ blockquote.FAM-codebox>div {
 #FAM-profile-avatar img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 100%;
 }
 
