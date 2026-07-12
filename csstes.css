@@ -5224,7 +5224,8 @@ statusinsta {
 	font-family: var(--serif)
 }
 
-.signtes.two img {
+.signtes.two img,
+.signtes.nine img {
 	width: 75px;
 	padding: 5px;
 	border: 1px solid var(--group-color-100)
@@ -5255,8 +5256,7 @@ statusinsta {
 	padding: var(--2xsmall)
 }
 
-.signtes.five img,
-.signtes.nine img {
+.signtes.five img {
 	width: 75px;
 	outline-offset: -5px;
 	outline: 1px solid var(--white)
