@@ -341,6 +341,7 @@ fslarge {
 .ficheadmin {
 	gap: var(--large);
 	align-items: center;
+	margin: 0 auto;
 	display: flex;
 	padding: var(--large);
 	justify-content: center;
@@ -5413,9 +5414,13 @@ statusinsta {
 	color: var(--group-color)
 }
 
-.ficheperso.chiport strong {
+.chiport strong {
 	font-size: var(--large);
 	text-transform: lowercase;
 	letter-spacing: 1.5px;
 	color: var(--group-color)
+}
+
+.chiport strong:after {
+	content: ':'
 }
