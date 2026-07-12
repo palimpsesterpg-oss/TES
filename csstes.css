@@ -5032,3 +5032,32 @@ statusinsta {
 	gap: var(--large);
 	background: var(--white);
 }
+
+.signtes img {
+	height: 75px;
+	object-fit: cover
+}
+
+.signtes.one img {
+	width: 100px
+}
+
+.signtes.two img {
+	width: 75px
+}
+
+.signtes.three img {
+	width: 75px
+}
+
+.signtes.four img {
+	width: 100px
+}
+
+.signtes.five img {
+	width: 75px
+}
+
+.signtes.six img {
+	width: 75px
+}
