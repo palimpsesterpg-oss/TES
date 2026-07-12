@@ -5041,7 +5041,8 @@ statusinsta {
 	object-fit: cover;
 }
 
-.ficheperso.playlist .dtlsplaylist {
+.ficheperso.playlist .dtlsplaylist,
+.ficheperso.playlist .bottomplaylist {
 	display: flex;
 	width: 100%;
 	padding: var(--large);
@@ -5050,6 +5051,15 @@ statusinsta {
 	color: var(--white);
 	align-items: center;
 	background: var(--group-color-300);
+}
+
+.ficheperso.playlist .bottomplaylist {
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-weight: 200;
+	text-transform: lowercase;
+	letter-spacing: 1.5px;
+	font-family: var(--mono)
 }
 
 .ficheperso.playlist .dtlsplaylist div {
