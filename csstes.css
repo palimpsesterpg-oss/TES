@@ -5075,7 +5075,8 @@ statusinsta {
 }
 
 .signtes.three img {
-	width: 75px
+	width: 75px;
+	border-radius: 50%
 }
 
 .signtes.four img {
@@ -5099,5 +5100,6 @@ statusinsta {
 }
 
 .signtes.six img {
-	width: 75px
+	width: 75px;
+	border-radius: 50%
 }
