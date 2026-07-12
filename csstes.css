@@ -5034,6 +5034,13 @@ statusinsta {
 	border-radius: 50%;
 	width: 50px;
 	height: 50px;
+	object-fit: cover
+}
+
+.ficheperso.playlist dtlsplaylist img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover
 }
 
 .ficheperso.playlist .headplaylist div {
