@@ -4999,7 +4999,7 @@ statusinsta {
 
 .ficherp.three .lettrine::first-letter,
 .ficherp.six .lettrine::first-letter {
-	font-family: var(--inc)
+	font-family: var(--spe)
 }
 
 .password-container {
