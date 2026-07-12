@@ -5086,7 +5086,10 @@ statusinsta {
 	width: 100px
 }
 
-.signtes.four, .signtes.five, .signtes.six {width: 500px}
+.signtes.five,
+.signtes.six {
+	width: 500px
+}
 
 .signtes.four div {
 	font-family: var(--serif);
