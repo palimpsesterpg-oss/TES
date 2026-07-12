@@ -5063,7 +5063,7 @@ statusinsta {
 	flex: 1;
 	text-transform: lowercase;
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 .ficheperso.playlist .playlistitem div span:first-of-type {
@@ -5103,6 +5103,7 @@ statusinsta {
 	width: 100%;
 	justify-content: space-between;
 	gap: var(--large);
+	align-items: center;
 }
 
 .bodyplaylist {
