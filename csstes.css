@@ -5026,19 +5026,26 @@ statusinsta {
 .ficheperso.playlist .headplaylist {
 	display: flex;
 	width: 100%;
+	justify-content: space-between;
 	gap: var(--large)
 }
 
 .ficheperso.playlist .headplaylist img {
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 }
 
 .ficheperso.playlist .headplaylist div {
-	font-size: var(--2xlarge);
-	font-weight: 900;
+	font-size: var(--large);
+	font-weight: 700;
+	text-transform: lowercase;
 	flex: 1
+}
+
+.ficheperso.playlist .headplaylist {
+	font-family: "Phosphor" !important;
+	content: "\E2C2 \E272";
 }
 
 .ficheperso.playlist .headplaylist div:before {
