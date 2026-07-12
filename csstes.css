@@ -5355,6 +5355,22 @@ statusinsta {
 	object-fit: cover;
 }
 
-.fichetinder .tinderbio {
+.fichetinder .tinderbio,
+.fichetinder .tindersearch {
 	width: 100%
+}
+
+.tindersearch:before {
+	content: '\E30C';
+	font-family: "Phosphor" !important;
+	color: var(--group-color)
+}
+
+.fichetinder .tindersearch {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: var(--large);
 }
