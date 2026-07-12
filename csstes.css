@@ -4982,3 +4982,9 @@ statusinsta {
 	text-transform: inherit !important;
 	font-weight: inherit !important
 }
+
+.password-container {
+	display: flex;
+	align-items: center;
+	gap: var(--small);
+}
