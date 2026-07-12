@@ -5050,7 +5050,10 @@ statusinsta {
 }
 
 .signtes u {
-	background-color: var(--group-color, var(--co3))
+	background-color: var(--group-color, var(--co3));
+	text-decoration: none !important;
+	color: var(--white);
+	padding: var (--2xsmall) 0
 }
 
 .signtes img {
@@ -5082,6 +5085,8 @@ statusinsta {
 .signtes.four img {
 	width: 100px
 }
+
+.signtes.four, .signtes.five, .signtes.six {width: 500px}
 
 .signtes.four div {
 	font-family: var(--serif);
