@@ -5208,14 +5208,14 @@ statusinsta {
 
 .signtes.one img,
 .signtes.four img,
-.signtes.eight img {
+.signtes.seven img {
 	width: 100px;
 	padding: 5px;
 	background-color: var(--white);
 	border: 1px solid var(--darklight)
 }
 
-.signtes.eight img {
+.signtes.seven img {
 	width: 200px
 }
 
