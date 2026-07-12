@@ -5062,6 +5062,8 @@ statusinsta {
 .ficheperso.playlist .playlistitem div {
 	flex: 1;
 	text-transform: lowercase;
+	display: flex;
+    flex-direction: column;
 }
 
 .ficheperso.playlist .playlistitem div span:first-of-type {
