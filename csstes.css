@@ -5207,14 +5207,20 @@ statusinsta {
 }
 
 .signtes.one img,
-.signtes.four img {
+.signtes.four img,
+.signtes.eight img {
 	width: 100px;
 	padding: 5px;
 	background-color: var(--white);
 	border: 1px solid var(--darklight)
 }
 
-.signtes.one div {
+.signtes.eight img {
+	width: 200px
+}
+
+.signtes.one div,
+.signtes.eight div {
 	font-family: var(--serif)
 }
 
@@ -5224,11 +5230,13 @@ statusinsta {
 	border: 1px solid var(--group-color-100)
 }
 
-.signtes.two div {
+.signtes.two div,
+.signtes.eight div {
 	font-family: var(--mono)
 }
 
-.signtes.three img {
+.signtes.three img,
+.signtes.eight img {
 	width: 75px;
 	outline-offset: -5px;
 	border-radius: 50%;
@@ -5240,13 +5248,15 @@ statusinsta {
 	width: 500px
 }
 
-.signtes.four div {
+.signtes.four div,
+.signtes.nine div {
 	font-family: var(--serif);
 	background-color: var(--white);
 	padding: var(--2xsmall)
 }
 
-.signtes.five img {
+.signtes.five img,
+.signtes.nine img {
 	width: 75px;
 	outline-offset: -5px;
 	outline: 1px solid var(--white)
@@ -5263,4 +5273,19 @@ statusinsta {
 	border-radius: 50%;
 	padding: 5px;
 	border: 1px solid var(--group-color-100)
+}
+
+.signtes.seven,
+.signtes.eight,
+.signtes.nine {
+	flex-direction: column;
+	width: 250px;
+}
+
+.signtes.eight span,
+.signtes.nine span {
+	display: flex;
+	gap: var(--large);
+	align-items: center;
+	justify-content: center;
 }
