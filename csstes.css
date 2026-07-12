@@ -4984,7 +4984,22 @@ statusinsta {
 }
 
 .ficherp .lettrine::first-letter {
-	font-size: var(--3xlarge)
+	font-size: var(--3xlarge);
+	float: left;
+	margin: var(--large);
+	text-transform: uppercase;
+	font-weight: 100;
+	color: var(--group-color)
+}
+
+.ficherp.two .lettrine::first-letter,
+.ficherp.five .lettrine::first-letter {
+	font-family: var(--serif)
+}
+
+.ficherp.three .lettrine::first-letter,
+.ficherp.six .lettrine::first-letter {
+	font-family: var(--inc)
 }
 
 .password-container {
