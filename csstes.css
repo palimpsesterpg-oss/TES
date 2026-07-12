@@ -5033,6 +5033,26 @@ statusinsta {
 	background: var(--white);
 }
 
+.signtes {
+	display: flex;
+	gap: var(--large);
+	width: 400px;
+	align-items: center;
+}
+
+.signtes div {
+	flex: 1
+}
+
+.signtes strong,
+.signtes i {
+	color: var(--group-color, var(--co3))
+}
+
+.signtes u {
+	background-color: var(--group-color, var(--co3))
+}
+
 .signtes img {
 	height: 75px;
 	object-fit: cover
@@ -5042,8 +5062,16 @@ statusinsta {
 	width: 100px
 }
 
+.signtes.one div {
+	font-family: var(--serif)
+}
+
 .signtes.two img {
 	width: 75px
+}
+
+.signtes.two div {
+	font-family: var(--mono)
 }
 
 .signtes.three img {
@@ -5054,8 +5082,20 @@ statusinsta {
 	width: 100px
 }
 
+.signtes.four div {
+	font-family: var(--serif);
+	background-color: var(--white);
+	padding: var(--2xsmall)
+}
+
 .signtes.five img {
 	width: 75px
+}
+
+.signtes.five div {
+	font-family: var(--mono);
+	background-color: var(--white);
+	padding: var(--2xsmall)
 }
 
 .signtes.six img {
