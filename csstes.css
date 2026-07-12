@@ -4991,9 +4991,9 @@ statusinsta {
 
 .ficheperso.playlist .playlistitem {
 	font-weight: var(--large);
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
 	text-transform: uppercase;
 	gap: var(--large);
 }
@@ -5002,7 +5002,8 @@ statusinsta {
 	flex: 1;
 }
 
-.ficheperso.playlist .playlistitem:before {
+.ficheperso.playlist .playlistitem:before,
+.ficheperso.playlist .playlistitem:after {
 	font-weight: var(--xlarge);
 	font-family: "Phosphor" !important;
 }
@@ -5017,12 +5018,17 @@ statusinsta {
 
 .ficheperso.playlist .playlistitem:after {
 	content: "\E2A8";
+}
+
+.ficheperso.playlist .playlistitem:hover:after {
 	font-family: "Phosphor-Fill" !important;
 }
 
-.bodyplaylist {width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: var(--large);
-    gap: var(--large);
-    background: var(--white);}
+.bodyplaylist {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: var(--large);
+	gap: var(--large);
+	background: var(--white);
+}
