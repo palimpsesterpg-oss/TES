@@ -5073,7 +5073,7 @@ statusinsta {
 
 .signtes.two img {
 	width: 75px;
-	padding: 4px;
+	padding: 5px;
 	border: 1px solid var(--white);
 }
 
@@ -5083,7 +5083,9 @@ statusinsta {
 
 .signtes.three img {
 	width: 75px;
-	border-radius: 50%
+	outline-offset: -5px;
+	border-radius: 50%;
+	outline: 1px solid var(--white);
 }
 
 .signtes.four img {
@@ -5102,7 +5104,10 @@ statusinsta {
 }
 
 .signtes.five img {
-	width: 75px
+	width: 75px;
+	outline-offset: -5px;
+	border-radius: 50%;
+	outline: 1px solid var(--white);
 }
 
 .signtes.five div {
@@ -5113,5 +5118,7 @@ statusinsta {
 
 .signtes.six img {
 	width: 75px;
-	border-radius: 50%
+	border-radius: 50%;
+	padding: 5px;
+	border: 1px solid var(--white);
 }
