@@ -5014,26 +5014,18 @@ statusinsta {
 	gap: var(--small);
 }
 
-.ficheperso.playlist .playlistitem {
-	font-weight: var(--large);
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	text-transform: uppercase;
-	gap: var(--large);
-}
-
 .ficheperso.playlist .headplaylist {
 	display: flex;
 	width: 100%;
+	align-items: center;
 	justify-content: space-between;
 	gap: var(--large)
 }
 
 .ficheperso.playlist .headplaylist img {
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	object-fit: cover
 }
 
@@ -5044,13 +5036,21 @@ statusinsta {
 }
 
 .ficheperso.playlist .headplaylist div {
+	font-size: var(--2xlarge);
+	font-weight: 700;
+	margin-top: var(--large);
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.ficheperso.playlist .headplaylist div {
 	font-size: var(--large);
 	font-weight: 700;
 	text-transform: lowercase;
 	flex: 1
 }
 
-.ficheperso.playlist .headplaylist {
+.ficheperso.playlist .headplaylist:after {
 	font-family: "Phosphor" !important;
 	content: "\E2C2 \E272";
 }
@@ -5059,11 +5059,17 @@ statusinsta {
 	content: '@'
 }
 
-.ficheperso.playlist .playlistitem span:first-of-type {
+.ficheperso.playlist .playlistitem div {
 	flex: 1;
+	text-transform: lowercase;
 }
 
-.ficheperso.playlist .playlistitem:hover span:first-of-type {
+.ficheperso.playlist .playlistitem div span:first-of-type {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.ficheperso.playlist .playlistitem:hover div span:first-of-type {
 	font-weight: 700
 }
 
@@ -5087,6 +5093,14 @@ statusinsta {
 
 .ficheperso.playlist .playlistitem:hover:after {
 	font-family: "Phosphor-Fill" !important;
+}
+
+.ficheperso.playlist .playlistitem {
+	font-weight: var(--large);
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	gap: var(--large);
 }
 
 .bodyplaylist {
