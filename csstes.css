@@ -5106,7 +5106,6 @@ statusinsta {
 .signtes.five img {
 	width: 75px;
 	outline-offset: -5px;
-	border-radius: 50%;
 	outline: 1px solid var(--white);
 }
 
