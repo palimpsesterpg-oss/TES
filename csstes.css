@@ -5294,14 +5294,45 @@ statusinsta {
 .fichetinder {
 	width: 400px;
 	background-color: var(--white);
+	margin: 0 auto
 }
 
 .fichetinder .tinderhead {
-	text-transform: uppercase
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: var(--large)
+}
+
+.fichetinder .tinderhead span {
+	height: 50px;
+	width: 50px;
+	background: var(--group-color);
+	color: var(--white);
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 50%;
+	text-transform: uppercase;
+	font-weight: 200;
+	justify-content: center;
+}
+
+.fichetinder .tinderhead div {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	text-transform: lowercase;
+	align-items: flex-start;
+}
+
+.fichetinder .tinderhead div strong {
+	font-size: var(--large);
 }
 
 .fichetinder .tinderimg {
-	width: 400px;
-	width: 400px;
+	width: 368px;
+	height: 368px;
 	object-fit: cover;
 }
