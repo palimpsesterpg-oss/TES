@@ -5023,8 +5023,34 @@ statusinsta {
 	gap: var(--large);
 }
 
+.ficheperso.playlist .headplaylist {
+	display: flex;
+	width: 100%;
+	gap: var(--large)
+}
+
+.ficheperso.playlist .headplaylist img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.ficheperso.playlist .headplaylist div {
+	font-size: var(--2xlarge);
+	font-weight: 900;
+	flex: 1
+}
+
+.ficheperso.playlist .headplaylist div:before {
+	content: '@'
+}
+
 .ficheperso.playlist .playlistitem span:first-of-type {
 	flex: 1;
+}
+
+.ficheperso.playlist .playlistitem:hover span:first-of-type {
+	font-weight: 700
 }
 
 .ficheperso.playlist .playlistitem:before,
