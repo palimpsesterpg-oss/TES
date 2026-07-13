@@ -2676,31 +2676,38 @@ titgc {
 }
 
 tit1 {
-	-webkit-text-stroke: 1px var(--co1)
+	-webkit-text-stroke: 1px var(--co1);
+	color: var(--co1-200)
 }
 
 tit2 {
-	-webkit-text-stroke: 1px var(--co2)
+	-webkit-text-stroke: 1px var(--co2);
+	color: var(--co2-200)
 }
 
 tit3 {
-	-webkit-text-stroke: 1px var(--co3)
+	-webkit-text-stroke: 1px var(--co3);
+	color: var(--co3-200)
 }
 
 tit4 {
-	-webkit-text-stroke: 1px var(--co4)
+	-webkit-text-stroke: 1px var(--co4);
+	color: var(--co4-200)
 }
 
 titn {
-	-webkit-text-stroke: 1px var(--darkneutral)
+	-webkit-text-stroke: 1px var(--darkneutral);
+	color: var(--neutral)
 }
 
 titd {
-	-webkit-text-stroke: 1px var(--dark)
+	-webkit-text-stroke: 1px var(--dark);
+	color: var(--lighterdark)
 }
 
 titgc {
-	-webkit-text-stroke: 1px var(--group-color, var(--lightdark))
+	-webkit-text-stroke: 1px var(--group-color, var(--lightdark));
+	-webkit-text-stroke: 1px var(--group-color-200, var(--neutral));
 }
 
 sstit1,
@@ -2712,6 +2719,7 @@ sstitd,
 sstitgc {
 	font-size: var(--2xlarge);
 	letter-spacing: 1px;
+	color: var(--white);
 	color: transparent;
 	font-weight: 900;
 	font-family: var(--serif)
