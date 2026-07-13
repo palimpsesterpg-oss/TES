@@ -5419,6 +5419,12 @@ statusinsta {
 	object-fit: cover;
 }
 
+.minicontinder {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+}
+
 .ficheperso.astro {
 	width: 400px;
 	flex-direction: row;
