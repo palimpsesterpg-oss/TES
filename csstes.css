@@ -5356,18 +5356,23 @@ statusinsta {
 	color: var(--white)
 }
 
-.fichetinder .tinderimg {
+.fichetinder .tinderimg img {
 	width: 468px;
 	height: 468px;
 	object-fit: cover;
+}
+
+.fichetinder .tinderimg {
 	display: flex;
-	position: relative
+	align-items: center;
+	justify-content: center
 }
 
 .fichetinder .tinderimg:before,
 .fichetinder .tinderimg:after {
 	color: transparent;
 	font-family: "Phosphor" !important;
+	font-size: var(--3xlarge);
 }
 
 .fichetinder .tinderimg:hover:before,
