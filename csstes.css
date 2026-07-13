@@ -5376,6 +5376,12 @@ statusinsta {
 	gap: var(--large);
 }
 
+.fichetinder .tindermoodbd img {
+	width: 135px;
+	height: 135px;
+	object-fit: cover;
+}
+
 .ficheperso.astro {
 	width: 400px;
 	flex-direction: row;
