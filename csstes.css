@@ -5372,16 +5372,19 @@ statusinsta {
 .fichetinder .tinderimg:after {
 	font-family: "Phosphor" !important;
 	font-size: var(--5xlarge);
+	letter-spacing: var(--5xlarge);
+	padding-left: var(--5xlarge);
 	position: absolute;
 	color: transparent
 }
 
 .fichetinder .tinderimg:hover:after {
 	color: var(--white);
+	cursor: pointer;
 }
 
 .fichetinder .tinderimg:after {
-	content: '\E2A8 \E4F6'
+	content: '\E4F6 \E2A8'
 }
 
 .fichetinder .tinderbio,
