@@ -2672,7 +2672,7 @@ titgc {
 	font-size: var(--2xlarge);
 	letter-spacing: 2.5px;
 	color: transparent;
-	font-weight: 500
+	font-weight: 700
 }
 
 tit1 {
@@ -2707,7 +2707,7 @@ titd {
 
 titgc {
 	-webkit-text-stroke: 1px var(--group-color, var(--lightdark));
-	color: 1px var(--group-color-200, var(--neutral));
+	color: var(--group-color-200, var(--neutral));
 }
 
 sstit1,
@@ -2721,7 +2721,7 @@ sstitgc {
 	letter-spacing: 1px;
 	color: var(--white);
 	color: transparent;
-	font-weight: 700;
+	font-weight: 900;
 	font-family: var(--serif)
 }
 
