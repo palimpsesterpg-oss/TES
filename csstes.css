@@ -5365,27 +5365,23 @@ statusinsta {
 .fichetinder .tinderimg {
 	display: flex;
 	align-items: center;
-	justify-content: center
+	justify-content: center;
+	position: relative;
 }
 
-.fichetinder .tinderimg:before,
 .fichetinder .tinderimg:after {
-	color: transparent;
 	font-family: "Phosphor" !important;
-	font-size: var(--3xlarge);
+	font-size: var(--5xlarge);
+	position: absolute;
+	color: transparent
 }
 
-.fichetinder .tinderimg:hover:before,
 .fichetinder .tinderimg:hover:after {
 	color: var(--white);
 }
 
-.fichetinder .tinderimg:before {
-	content: '\E2A8'
-}
-
 .fichetinder .tinderimg:after {
-	content: '\E4F6'
+	content: '\E2A8 \E4F6'
 }
 
 .fichetinder .tinderbio,
