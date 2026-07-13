@@ -5329,7 +5329,7 @@ statusinsta {
 }
 
 .fichetinder .tinderhead div strong {
-	font-size: var(--large);
+	font-size: var(--xlarge);
 }
 
 .tindermisc {
@@ -5341,8 +5341,9 @@ statusinsta {
 }
 
 .tindermisc span {
-	height: 35px;
-	width: 135px;
+	height: 25px;
+	padding: 0 var(--large);
+	overflow: hidden;
 	background: var(--group-color-50);
 	color: var(--group-color);
 	display: flex;
@@ -5350,10 +5351,36 @@ statusinsta {
 	justify-content: center;
 }
 
+.tindermisc span:hover {
+	background-color: var(--group-color);
+	color: var(--white)
+}
+
 .fichetinder .tinderimg {
 	width: 468px;
 	height: 468px;
 	object-fit: cover;
+	display: flex;
+	position: relative
+}
+
+.fichetinder .tinderimg:before,
+.fichetinder .tinderimg:after {
+	color: transparent;
+	font-family: "Phosphor" !important;
+}
+
+.fichetinder .tinderimg:hover:before,
+.fichetinder .tinderimg:hover:after {
+	color: var(--white);
+}
+
+.fichetinder .tinderimg:before {
+	content: '\E2A8'
+}
+
+.fichetinder .tinderimg:after {
+	content: '\E4F6'
 }
 
 .fichetinder .tinderbio,
