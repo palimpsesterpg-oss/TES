@@ -4528,21 +4528,21 @@ firstdts:before {
 	margin: 0 auto
 }
 
-.ficheinsta.mini {
+.mini {
 	flex-direction: row;
 	width: 400px;
 	padding: var(--small);
 	justify-content: flex-start
 }
 
-.ficheinsta.mini a {
+.mini a {
 	font-family: var(--mono);
 	color: var(--co3, var(--group-color));
 	text-transform: uppercase;
 	text-transform: 1px
 }
 
-.ficheinsta.mini>div {
+.mini>div {
 	flex: 1
 }
 
