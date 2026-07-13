@@ -2707,7 +2707,7 @@ titd {
 
 titgc {
 	-webkit-text-stroke: 1px var(--group-color, var(--lightdark));
-	-webkit-text-stroke: 1px var(--group-color-200, var(--neutral));
+	color: 1px var(--group-color-200, var(--neutral));
 }
 
 sstit1,
