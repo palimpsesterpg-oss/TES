@@ -4530,7 +4530,7 @@ firstdts:before {
 
 .mini {
 	flex-direction: row;
-	width: 400px;
+	width: 400px !important;
 	padding: var(--small);
 	justify-content: flex-start
 }
