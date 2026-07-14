@@ -297,8 +297,7 @@
     justify-content: center;
     letter-spacing: 0.5px;
     text-align: right;
-    font-weight: 600;
-    gap: var(--large)
+    font-weight: 500;
 }
 
 .cam #postprofile-libre div[align="left"]:before {
@@ -358,8 +357,11 @@
 }
 
 .cam #postprofile-libre div[align="justify"] a:hover {
-    background-color: var(--group-color-50);
-    color: var(--white) !important
+    background-color: transparent;
+}
+
+.cam #postprofile-libre div[align="justify"] a+a {
+    margin-left: var(--small)
 }
 
 .signcam {
