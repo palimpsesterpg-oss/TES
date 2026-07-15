@@ -5485,6 +5485,6 @@ statusinsta {
 }
 
 .chiport strong:after {
-	content: " je serais :";
+	content: " je serais : ";
 	font-weight: 300
 }
