@@ -5489,3 +5489,29 @@ statusinsta {
 	content: " je serais : ";
 	font-weight: 300
 }
+
+.ficheportrait {
+	width: 400px;
+	display: flex
+}
+
+.quoteportrait {
+	width: 100%
+}
+
+.ficheportrait.one img {
+	height: 100%;
+	object-fit: cover
+}
+
+.ficheportrait.one img {
+	width: 30%
+}
+
+.ficheportrait.two img {
+	width: 20%
+}
+
+.ficheportrait.three img {
+	width: 15%
+}
