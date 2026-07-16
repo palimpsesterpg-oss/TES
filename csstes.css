@@ -5492,7 +5492,9 @@ statusinsta {
 
 .ficheportrait {
 	width: 400px;
-	display: flex
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto
 }
 
 .quoteportrait {
