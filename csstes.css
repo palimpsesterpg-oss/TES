@@ -5497,7 +5497,7 @@ statusinsta {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
-	align-items: center;
+	align-items: center
 }
 
 .quoteportrait {
@@ -5515,14 +5515,14 @@ statusinsta {
 
 .ficheportrait.two .quoteportrait {
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .ficheportrait.three .quoteportrait {
 	text-transform: lowercase;
 	font-weight: 200;
 	color: var(--white);
-	background-color: var(--group-color);
+	background-color: var(--group-color)
 }
 
 .ficheportrait img {
@@ -5531,7 +5531,7 @@ statusinsta {
 }
 
 .ficheportrait.one img {
-	flex: 3;
+	flex: 3
 }
 
 .ficheportrait.two img {
