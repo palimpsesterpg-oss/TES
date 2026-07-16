@@ -5518,13 +5518,6 @@ statusinsta {
 	font-weight: 700
 }
 
-.ficheportrait.three .quoteportrait {
-	text-transform: lowercase;
-	font-weight: 200;
-	color: var(--white);
-	background-color: var(--group-color)
-}
-
 .ficheportrait img {
 	object-fit: cover;
 	padding: var(--small);
@@ -5539,8 +5532,4 @@ statusinsta {
 
 .ficheportrait.two img {
 	flex: 4
-}
-
-.ficheportrait.three img {
-	flex: 5
 }
