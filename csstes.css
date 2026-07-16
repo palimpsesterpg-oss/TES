@@ -5527,6 +5527,9 @@ statusinsta {
 
 .ficheportrait img {
 	object-fit: cover;
+	padding: var(--small);
+	background-color: var(--white);
+	border: 1px solid var(--neutral);
 	height: 100px
 }
 
