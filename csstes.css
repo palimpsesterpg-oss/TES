@@ -5492,10 +5492,12 @@ statusinsta {
 
 .ficheportrait {
 	width: 400px;
+	gap: var(--large);
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin: 0 auto
+	justify-content: center;
+	margin: 0 auto;
+	align-items: center;
 }
 
 .quoteportrait {
@@ -5523,19 +5525,19 @@ statusinsta {
 	background-color: var(--group-color);
 }
 
-.ficheportrait.one img {
-	height: 100px;
-	object-fit: cover
+.ficheportrait img {
+	object-fit: cover;
+	height: 100px
 }
 
 .ficheportrait.one img {
-	width: 30%
+	flex: 3;
 }
 
 .ficheportrait.two img {
-	width: 20%
+	flex: 4
 }
 
 .ficheportrait.three img {
-	width: 15%
+	flex: 5
 }
