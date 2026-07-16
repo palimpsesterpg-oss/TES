@@ -5498,7 +5498,28 @@ statusinsta {
 }
 
 .quoteportrait {
-	width: 100%
+	width: 100%;
+	font-family: var(--serif);
+	text-align: center;
+	color: var(--group-color)
+}
+
+.ficheportrait.one .quoteportrait {
+	text-transform: lowercase;
+	font-weight: 700;
+	font-style: italic
+}
+
+.ficheportrait.two .quoteportrait {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.ficheportrait.three .quoteportrait {
+	text-transform: lowercase;
+	font-weight: 200;
+	color: var(--white);
+	background-color: var(--group-color);
 }
 
 .ficheportrait.one img {
