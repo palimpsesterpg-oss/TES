@@ -484,7 +484,7 @@
 .random .posttab {
     width: 150px;
     text-align: center;
-    padding: var(--small);
+    padding: var(--2xsmall);
     background-color: var(--white);
     color: var(--group-color);
     text-transform: uppercase;
