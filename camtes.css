@@ -177,7 +177,7 @@
     border: 1px solid var(--group-color-200);
     outline: 2px solid var(--group-color-50);
     box-shadow: 0px 0px 0px 6px var(--white);
-    background: var(--white);
+    background-color: var(--white);
     padding: var(--xlarge);
     display: flex;
     width: 90%;
@@ -463,4 +463,37 @@
 .cam .textlisting .mentiontag {
     color: inherit !important;
     text-transform: inherit !important
+}
+
+.posttabsystem.random {
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.random .posttabs {
+    flex-direction: column;
+}
+
+.random .posttab-contents {
+    flex: 1;
+    padding: var(--large);
+    background: var(--white)
+}
+
+.random .posttab {
+    width: 150px;
+    text-align: center;
+    padding: var(--small);
+    background-color: var(--white);
+    color: var(--group-color);
+    text-transform: uppercase;
+    font-family: var(--serif);
+    font-weight: 900;
+    box-shadow: 2.5px 2.5px 0px 0px var(--group-color);
+}
+
+.random .posttab.active {
+    color: var(--white);
+    background-color: var(--group-color);
+    box-shadow: 2.5px 2.5px 0px 0px var(--white);
 }

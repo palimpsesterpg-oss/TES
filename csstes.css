@@ -423,7 +423,7 @@ fslarge {
 
 .blocperso.one {
 	outline: 0.5px solid var(--group-color, var(--co3-100));
-	background: var(--white);
+	background-color: var(--white);
 	border: 15.5px solid var(--light);
 	margin: 0.5px
 }
@@ -3553,7 +3553,7 @@ bblocgc,
 .bblocd,
 .bblocgc {
 	border: var(--xsmall) solid var(--light);
-	background: var(--white);
+	background-color: var(--white);
 	display: block;
 	padding: var(--xsmall);
 	outline: 1px solid var(--co1);
@@ -4299,7 +4299,7 @@ p {
 	justify-content: flex-start;
 	margin: 0 auto;
 	padding: var(--large);
-	background: var(--white);
+	background-color: var(--white);
 	width: 100%;
 	flex-wrap: wrap
 }
@@ -4532,7 +4532,7 @@ firstdts:before {
 	gap: var(--large);
 	padding: var(--large);
 	width: 514px;
-	background: var(--white);
+	background-color: var(--white);
 	margin: 0 auto
 }
 
@@ -4762,7 +4762,7 @@ statusinsta {
 }
 
 .ficheinsta.post {
-	background: var(--white);
+	background-color: var(--white);
 	padding-top: 0px !important
 }
 
@@ -4787,7 +4787,7 @@ statusinsta {
 .ficherphead img {
 	height: 100px;
 	padding: var(--xsmall);
-	background: var(--white);
+	background-color: var(--white);
 	object-fit: cover
 }
 
@@ -4969,7 +4969,7 @@ statusinsta {
 .ficherp.three .ficherpbanner,
 .ficherp.three .ficherpfooter {
 	padding: var(--small);
-	background: var(--white);
+	background-color: var(--white);
 	text-transform: uppercase;
 	font-weight: 200
 }
@@ -5070,7 +5070,7 @@ statusinsta {
 .ficheperso.playlist .dtlsplaylist img {
 	width: 150px;
 	padding: var(--large);
-	background: var(--white);
+	background-color: var(--white);
 	height: 150px;
 	object-fit: cover
 }
