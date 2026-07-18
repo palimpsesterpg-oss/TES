@@ -5535,29 +5535,48 @@ statusinsta {
 }
 
 .fichetodo {
+	margin: 0 auto;
+	padding: var(--2xlarge);
 	width: 400px;
 	display: flex;
 	gap: var(--small);
 	background-color: var(--white);
-	box-shadow: 2px 2px 2px var(--neutral)
+	box-shadow: 2px 2px 2px var(--neutral);
+	flex-direction: column;
+	position: relative;
+}
+
+.fichetodo:before {
+	width: 100px;
+	height: 50px;
+	background: var(--group-color);
+	display: block;
+	position: absolute
 }
 
 .fichetodo span.done:before {
 	content: '\E186';
 }
 
-.fichetodo span {
+.fichetodo span:before {
 	content: '\E45E';
 	font-family: "Phosphor" !important;
 	color: var(--group-color)
 }
 
 .fichetodo span {
-	border-bottom: 1px solid;
+	border-bottom: 1px solid var(--neutral);
 	text-transform: lowercase;
 	letter-spacing: 1px;
+	display: flex;
+	gap: var(--small);
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .fichetodo span.done {
-	text-decoration: wavy;
+	text-decoration: line-through;
+	text-decoration-style: wavy;
+	text-decoration-thickness: 2.5px;
+	text-decoration-color: var(--group-color-100);
 }
