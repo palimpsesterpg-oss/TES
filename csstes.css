@@ -5533,3 +5533,31 @@ statusinsta {
 .ficheportrait.two img {
 	flex: 4
 }
+
+.fichetodo {
+	width: 400px;
+	display: flex;
+	gap: var(--small);
+	background-color: var(--white);
+	box-shadow: 2px 2px 2px var(--neutral)
+}
+
+.fichetodo span.done:before {
+	content: '\E186';
+}
+
+.fichetodo span {
+	content: '\E45E';
+	font-family: "Phosphor" !important;
+	color: var(--group-color)
+}
+
+.fichetodo span {
+	border-bottom: 1px solid;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+}
+
+.fichetodo span.done {
+	text-decoration: wavy;
+}
