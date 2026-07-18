@@ -5541,7 +5541,7 @@ statusinsta {
 	display: flex;
 	gap: var(--small);
 	background-color: var(--white);
-	box-shadow: 2px 2px 2px var(--neutral);
+	box-shadow: 5px 5px 1px var(--group-color-100);
 	flex-direction: column;
 	position: relative;
 	margin-top: 15px;
@@ -5551,7 +5551,7 @@ statusinsta {
 	content: '';
 	width: 100px;
 	height: 30px;
-	background: var(--group-color);
+	background: var(--group-color-100);
 	display: block;
 	position: absolute;
 	top: -15px;
@@ -5560,7 +5560,7 @@ statusinsta {
 }
 
 .fichetodo span {
-	border-bottom: 1px solid var(--neutral);
+	border-bottom: 1px solid var(--group-color-100);
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	display: flex;
@@ -5569,7 +5569,7 @@ statusinsta {
 	justify-content: flex-start;
 }
 
-.fichetodo span.done {
+.fichetodo span.done:nth-child(2) {
 	text-decoration: line-through 2.5px wavy var(--group-color-100);
 }
 
