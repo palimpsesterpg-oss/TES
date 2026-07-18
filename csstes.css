@@ -5570,13 +5570,11 @@ statusinsta {
 }
 
 .fichetodo span.done:not(:first-child) {
-	text-decoration: line-through 2.5px wavy var(--group-color-100);
+	color: var(--group-color);
 }
 
 .fichetodo span:before {
 	content: '\E45E';
-	text-decoration: none;
-	display: inline-block;
 	font-family: "Phosphor" !important;
 	color: var(--group-color-100)
 }
