@@ -5574,7 +5574,7 @@ statusinsta {
 	justify-content: flex-start;
 }
 
-.fichetodo span.done {
+.fichetodo span.done:not(:before) {
 	text-decoration: line-through;
 	text-decoration-style: wavy;
 	text-decoration-thickness: 2.5px;
