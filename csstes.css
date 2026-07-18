@@ -5574,9 +5574,12 @@ statusinsta {
 	justify-content: flex-start;
 }
 
-.fichetodo span.done:not(:before) {
-	text-decoration: line-through;
-	text-decoration-style: wavy;
+.fichetodo span.done {
+	text-decoration: line-through wavy;
 	text-decoration-thickness: 2.5px;
 	text-decoration-color: var(--group-color-100);
+}
+
+.fichetodo span.done::before {
+	text-decoration: none;
 }
