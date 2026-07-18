@@ -5547,6 +5547,7 @@ statusinsta {
 }
 
 .fichetodo::before {
+	content: '';
 	width: 100px;
 	height: 50px;
 	background: var(--group-color);
@@ -5556,7 +5557,7 @@ statusinsta {
 
 .fichetodo span.done:before {
 	content: '\E186';
-	background: transparent !important
+	text-decoration: none !important
 }
 
 .fichetodo span:before {
@@ -5576,5 +5577,7 @@ statusinsta {
 }
 
 .fichetodo span.done {
-	background: var(--group-color-100);
+	text-decoration: line-through wavy;
+	text-decoration-thickness: 2.5px;
+	text-decoration-color: var(--group-color-100);
 }
