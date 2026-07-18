@@ -483,7 +483,6 @@
 
 .random .posttab {
     width: 150px;
-    text-align: center;
     padding: var(--2xsmall);
     background-color: var(--white);
     color: var(--group-color);
@@ -491,10 +490,10 @@
     font-family: var(--serif);
     font-weight: 700;
     letter-spacing: 1px;
-    padding-left: 1px
+    border-bottom: 1px solid
 }
 
 .random .posttab.active {
     color: var(--white);
-    background-color: var(--group-color);
+    background-color: var(--group-color)
 }
