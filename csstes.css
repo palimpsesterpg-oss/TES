@@ -5569,14 +5569,14 @@ statusinsta {
 	justify-content: flex-start;
 }
 
-.fichetodo span.done:nth-child(2) {
+.fichetodo span.done {
 	text-decoration: line-through 2.5px wavy var(--group-color-100);
 }
 
 .fichetodo span:before {
 	content: '\E45E';
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	font-family: "Phosphor" !important;
 	color: var(--group-color-100)
 }
