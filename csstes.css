@@ -5559,17 +5559,6 @@ statusinsta {
 	transform: translateX(-50%);
 }
 
-.fichetodo span.done:before {
-	content: '\E186';
-	text-decoration: none !important
-}
-
-.fichetodo span:before {
-	content: '\E45E';
-	font-family: "Phosphor" !important;
-	color: var(--group-color)
-}
-
 .fichetodo span {
 	border-bottom: 1px solid var(--neutral);
 	text-transform: lowercase;
@@ -5582,4 +5571,16 @@ statusinsta {
 
 .fichetodo span.done {
 	text-decoration: line-through 2.5px wavy var(--group-color-100);
+}
+
+.fichetodo span:before {
+	content: '\E45E';
+	text-decoration: none;
+	display: block;
+	font-family: "Phosphor" !important;
+	color: var(--group-color-100)
+}
+
+.fichetodo span.done:before {
+	content: '\E186';
 }
