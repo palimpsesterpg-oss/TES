@@ -2707,7 +2707,7 @@ titd {
 
 titgc {
 	-webkit-text-stroke: 1px var(--group-color, var(--lightdark));
-	color: var(--group-color-200, var(--neutral));
+	color: var(--group-color-200, var(--neutral))
 }
 
 sstit1,
@@ -5289,7 +5289,7 @@ statusinsta {
 .signtes.eight,
 .signtes.nine {
 	flex-direction: column;
-	width: 250px;
+	width: 250px
 }
 
 .signtes.eight span,
@@ -5297,7 +5297,7 @@ statusinsta {
 	display: flex;
 	gap: var(--large);
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .fichetinder {
@@ -5325,7 +5325,7 @@ statusinsta {
 	border-radius: 50%;
 	text-transform: uppercase;
 	font-weight: 200;
-	justify-content: center;
+	justify-content: center
 }
 
 .fichetinder .tinderhead div {
@@ -5333,11 +5333,11 @@ statusinsta {
 	flex-direction: column;
 	flex: 1;
 	text-transform: lowercase;
-	align-items: flex-start;
+	align-items: flex-start
 }
 
 .fichetinder .tinderhead div strong {
-	font-size: var(--xlarge);
+	font-size: var(--xlarge)
 }
 
 .tindermisc {
@@ -5356,7 +5356,7 @@ statusinsta {
 	color: var(--group-color);
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center
 }
 
 .tindermisc span:hover {
@@ -5367,14 +5367,14 @@ statusinsta {
 .fichetinder .tinderimg img {
 	width: 468px;
 	height: 468px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .fichetinder .tinderimg {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	position: relative
 }
 
 .fichetinder .tinderimg:after {
@@ -5388,7 +5388,7 @@ statusinsta {
 
 .fichetinder .tinderimg:hover:after {
 	color: var(--white);
-	cursor: pointer;
+	cursor: pointer
 }
 
 .fichetinder .tinderimg:after {
@@ -5412,25 +5412,25 @@ statusinsta {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	gap: var(--large);
+	gap: var(--large)
 }
 
 .fichetinder .tindermoodbd {
 	display: flex;
 	width: 100%;
-	justify-content: space-evenly;
+	justify-content: space-evenly
 }
 
 .fichetinder .tindermoodbd img {
 	width: 115px;
 	height: 115px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .minicontinder {
 	height: 50px;
 	width: 50px;
-	object-fit: cover;
+	object-fit: cover
 }
 
 .ficheperso.astro {
@@ -5453,7 +5453,7 @@ statusinsta {
 	flex-direction: column;
 	align-items: center;
 	gap: var(--large);
-	padding: var(--large);
+	padding: var(--large)
 }
 
 .ficheperso.astro div span {
@@ -5464,7 +5464,7 @@ statusinsta {
 	padding-left: 2.5px;
 	font-weight: 200;
 	align-items: center;
-	text-transform: lowercase;
+	text-transform: lowercase
 }
 
 .ficheperso.astro div i {
@@ -5544,7 +5544,7 @@ statusinsta {
 	box-shadow: 5px 5px 0px var(--group-color-100);
 	flex-direction: column;
 	position: relative;
-	margin-top: 15px;
+	margin-top: 15px
 }
 
 .fichetodo::before {
@@ -5556,7 +5556,7 @@ statusinsta {
 	position: absolute;
 	top: -15px;
 	left: 50%;
-	transform: translateX(-50%) rotate(-5deg);
+	transform: translateX(-50%) rotate(-5deg)
 }
 
 .fichetodo span {
@@ -5566,11 +5566,11 @@ statusinsta {
 	display: flex;
 	gap: var(--small);
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: flex-start
 }
 
 .fichetodo span.done:not(:first-child) {
-	color: var(--group-color);
+	color: var(--group-color)
 }
 
 .fichetodo span:before {
@@ -5580,5 +5580,5 @@ statusinsta {
 }
 
 .fichetodo span.done:before {
-	content: '\E186';
+	content: '\E186'
 }
