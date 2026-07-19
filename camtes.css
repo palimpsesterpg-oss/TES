@@ -524,3 +524,9 @@
     font-weight: 200;
     letter-spacing: 1px;
 }
+
+.cam .fichefam back3 {
+    padding-left: var(--large);
+    letter-spacing: 2.5px;
+    margin-left: var(--3xlarge)
+}
