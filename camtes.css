@@ -497,3 +497,11 @@
     color: var(--white);
     background-color: var(--group-color)
 }
+
+.cam .fichefam wback4,
+.cam .fichefam wback3,
+.cam .fichefam wbackd {text-transform: uppercase}
+
+.cam .fichefam wback4 {background: var(--co4-50)}
+.cam .fichefam wback3 {background: var(--co3-50)}
+.cam .fichefam wbackd {background: var(--neutral)}
