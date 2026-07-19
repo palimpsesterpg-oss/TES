@@ -519,7 +519,10 @@
 
 .cam .fichefam main4,
 .cam .fichefam main3,
-.cam .fichefam maind {
+.cam .fichefam maind,
+.cam .fichefam main4 a,
+.cam .fichefam main3 a,
+.cam .fichefam maind a {
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 1px;
