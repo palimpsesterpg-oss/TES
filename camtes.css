@@ -500,8 +500,27 @@
 
 .cam .fichefam wback4,
 .cam .fichefam wback3,
-.cam .fichefam wbackd {text-transform: uppercase}
+.cam .fichefam wbackd {
+    text-transform: uppercase;
+    font-size: var(--large)
+}
 
-.cam .fichefam wback4 {background: var(--co4-50)}
-.cam .fichefam wback3 {background: var(--co3-50)}
-.cam .fichefam wbackd {background: var(--neutral)}
+.cam .fichefam wback4 {
+    background: var(--co4-50)
+}
+
+.cam .fichefam wback3 {
+    background: var(--co3-50)
+}
+
+.cam .fichefam wbackd {
+    background: var(--neutral)
+}
+
+.cam .fichefam main4,
+.cam .fichefam main3,
+.cam .fichefam maind {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
