@@ -5478,6 +5478,7 @@ lblpmdn {
 	padding: 1px 5px 1px 6.5px;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
+	color: var(--white);
 }
 
 .posttab-content.thst strong {
@@ -5492,7 +5493,7 @@ lblpmdn {
 	text-align: justify
 }
 
-.ficheperso.more {
+.posttab-content.thst {
 	text-align: center
 }
 
