@@ -5496,7 +5496,8 @@ lblpmdn {
 }
 
 .posttab-content.thst {
-	text-align: center
+	text-align: center;
+	word-spacing: var(--large);
 }
 
 .ficheperso.more .posttab {
