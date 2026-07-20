@@ -631,7 +631,6 @@ blockquote.blocperso {
 .blocperso {
 	text-align: justify;
 	width: 100%;
-	padding: var(--large)
 }
 
 .blocpl.one {
@@ -641,6 +640,7 @@ blockquote.blocperso {
 	font-family: var(--serif);
 	text-transform: lowercase;
 	font-style: italic;
+	padding: var(--large);
 	text-align: center !important
 }
 
@@ -651,11 +651,6 @@ blockquote.blocperso {
 
 .blocpl.one strong:before {
 	content: "ft. "
-}
-
-.blocpl.two,
-.blocpl.three {
-	padding: 0px !important
 }
 
 .blocpl.three .mentiontag {
@@ -688,7 +683,8 @@ blockquote.blocperso {
 }
 
 .attentes .blocpl {
-	background: var(--white)
+	background: var(--white);
+	padding: var(--large)
 }
 
 .ficheperso.rep blockquote {
@@ -792,20 +788,19 @@ reclinks a:after {
 }
 
 .blocrec.one {
-	background-color: var(--white)
+	background-color: var(--white);
+	padding: var(--large)
 }
 
 .blocrec.two {
-	border: 0.5px solid var(--group-color-100, var(--co1-100))
-}
-
-.blocrec.three {
-	padding: 0px var(--large)
+	border: 0.5px solid var(--group-color-100, var(--co1-100));
+	padding: var(--large)
 }
 
 .blocrec.one bordergc {
 	padding: 0rem var(--xlarge);
-	border: 0.5px solid var(--neutral)
+	font-weight: 200;
+    letter-spacing: 1.5px;
 }
 
 .dotlist:before {
