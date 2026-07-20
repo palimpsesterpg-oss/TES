@@ -492,7 +492,7 @@ lblfvr {
 
 lblfvr:not(:first-of-type),
 lblprtt:not(:first-of-type) {
-	padding-left: 10px
+	padding-left: var(--small)
 }
 
 lblfvr:after,
@@ -5468,7 +5468,7 @@ statusinsta {
 
 lblprtt {
 	text-transform: lowercase;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
 	font-family: var(--mono);
 	color: var(--group-color)
 }
@@ -5480,12 +5480,14 @@ lblpmdn {
 	padding: 1px 5px 1px 6.5px;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	color: var(--white);
+	color: var(--white)
 }
 
 .posttab-content.thst strong {
 	letter-spacing: 0.5px;
 	padding-left: 0.5px;
+	color: var(--group-color);
+	font-weight: 900
 }
 
 .ficheperso.more .posttab-contents {
