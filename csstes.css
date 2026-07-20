@@ -5479,11 +5479,16 @@ lblchns {
 	color: var(--group-color)
 }
 
-.ficheperso.more {
+.ficheperso.more .posttab-contents {
 	width: 100%;
 	padding: var(--large);
 	background-color: var(--white);
 	text-align: justify
+}
+
+.ficheperso.more .posttab {
+	color: var(--group-color);
+	text-transform: uppercase;
 }
 
 .ficheportrait {
