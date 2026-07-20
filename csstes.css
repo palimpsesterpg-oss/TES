@@ -548,11 +548,6 @@ blockquote.blocperso {
 	outline: var(--large) solid var(--white)
 }
 
-.blocperso.three,
-.blocperso.four {
-	padding: 0px
-}
-
 .idperso {
 	width: 85%
 }
