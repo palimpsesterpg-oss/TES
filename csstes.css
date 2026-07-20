@@ -800,7 +800,7 @@ reclinks a:after {
 .blocrec.one bordergc {
 	padding: 0rem var(--xlarge);
 	font-weight: 200;
-    letter-spacing: 1.5px;
+	letter-spacing: 1.5px;
 }
 
 .dotlist:before {
@@ -5471,7 +5471,7 @@ statusinsta {
 	color: var(--group-color)
 }
 
-.chiport lblchns {
+lblchns {
 	font-size: var(--large);
 	text-transform: lowercase;
 	letter-spacing: 1.5px;
@@ -5479,14 +5479,11 @@ statusinsta {
 	color: var(--group-color)
 }
 
-.chiport lblchns:before {
-	content: "si j'étais ";
-	font-weight: 300
-}
-
-.chiport lblchns:after {
-	content: " je serais : ";
-	font-weight: 300
+.ficheperso.more {
+	width: 100%;
+	padding: var(--large);
+	background-color: var(--white);
+	text-align: justify
 }
 
 .ficheportrait {
