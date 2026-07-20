@@ -5476,7 +5476,7 @@ statusinsta {
 	color: var(--group-color)
 }
 
-.chiport strong {
+.chiport lblchns {
 	font-size: var(--large);
 	text-transform: lowercase;
 	letter-spacing: 1.5px;
@@ -5484,12 +5484,12 @@ statusinsta {
 	color: var(--group-color)
 }
 
-.chiport strong:before {
+.chiport lblchns:before {
 	content: "si j'étais ";
 	font-weight: 300
 }
 
-.chiport strong:after {
+.chiport lblchns:after {
 	content: " je serais : ";
 	font-weight: 300
 }
