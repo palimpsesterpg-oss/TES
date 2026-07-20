@@ -428,7 +428,7 @@ fslarge {
 	outline: 0.5px solid var(--group-color, var(--co3-100));
 	background-color: var(--white);
 	border: 15.5px solid var(--light);
-	margin: 0.5px
+	padding: var(--large);
 }
 
 lblprs {
@@ -544,8 +544,6 @@ lblplyr {
 }
 
 blockquote.blocperso {
-	margin: 2rem 1rem;
-	padding: var(--large);
 	border: 1px solid var(--group-color-50, var(--co4-50));
 	outline: var(--large) solid var(--white)
 }
@@ -630,7 +628,7 @@ blockquote.blocperso {
 .blocrec,
 .blocperso {
 	text-align: justify;
-	width: 100%;
+	width: -webkit-fill-available;
 }
 
 .blocpl.one {
