@@ -490,11 +490,13 @@ lblfvr {
 	color: var(--group-color, var(--co3))
 }
 
-lblfvr:not(:first-of-type) {
+lblfvr:not(:first-of-type),
+lblprtt:not(:first-of-type) {
 	padding-left: 10px
 }
 
-lblfvr:after {
+lblfvr:after,
+lblprtt:after {
 	content: ": ";
 	margin-right: 0.5rem
 }
@@ -5482,8 +5484,8 @@ lblpmdn {
 }
 
 .posttab-content.thst strong {
-	color: var(--group-color);
-	font-family: var(--serif)
+	letter-spacing: 0.5px;
+	padding-left: 0.5px;
 }
 
 .ficheperso.more .posttab-contents {
