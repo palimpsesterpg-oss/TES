@@ -5464,12 +5464,17 @@ statusinsta {
 	color: var(--group-color)
 }
 
-lblchns {
+lblprtt {
 	font-size: var(--large);
 	text-transform: lowercase;
 	letter-spacing: 1.5px;
 	font-family: var(--serif);
 	color: var(--group-color)
+}
+
+.posttab-content.thst strong {
+	color: var(--group-color);
+	font-family: var(--serif)
 }
 
 .ficheperso.more .posttab-contents {
@@ -5482,6 +5487,9 @@ lblchns {
 .ficheperso.more .posttab {
 	color: var(--group-color);
 	text-transform: uppercase;
+	font-size: var(--small);
+	letter-spacing: 1px;
+	font-weight: 200;
 }
 
 .ficheportrait {
