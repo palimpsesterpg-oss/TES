@@ -5490,6 +5490,12 @@ lblpmdn {
 	font-weight: 900
 }
 
+.posttab-content.thst u {
+	box-shadow: inset 0 -8px 0 var(--group-color-50);
+	color: var(--group-color-200);
+	text-decoration: none !important;
+}
+
 .ficheperso.more .posttab-contents {
 	width: 100%;
 	padding: var(--large);
