@@ -497,8 +497,8 @@ lblprtt:not(:first-of-type) {
 
 lblfvr:after,
 lblprtt:after {
-	content: ": ";
-	margin-right: 0.5rem
+	content: "—";
+	margin: 0 var(--xsmall)
 }
 
 lbldvrs {
