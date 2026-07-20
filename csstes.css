@@ -5465,11 +5465,19 @@ statusinsta {
 }
 
 lblprtt {
-	font-size: var(--large);
 	text-transform: lowercase;
 	letter-spacing: 1.5px;
-	font-family: var(--serif);
+	font-family: var(--mono);
 	color: var(--group-color)
+}
+
+lblpmdn {
+	background-color: var(--group-color);
+	font-family: var(--var);
+	font-weight: 700;
+	padding: 1px 5px 1px 6.5px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
 }
 
 .posttab-content.thst strong {
@@ -5482,6 +5490,10 @@ lblprtt {
 	padding: var(--large);
 	background-color: var(--white);
 	text-align: justify
+}
+
+.ficheperso.more {
+	text-align: center
 }
 
 .ficheperso.more .posttab {
