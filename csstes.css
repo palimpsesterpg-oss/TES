@@ -5502,8 +5502,29 @@ lblpmdn {
 	text-align: justify
 }
 
+.ficheperso.more .posttab:before {
+	color: var(--group-color);
+	font-family: "Phosphor" !important;
+}
+
 .ficheperso.more .posttab[data-tab="1"]:before {
-	content: 'salut'
+	content: '\EBDC'
+}
+
+.ficheperso.more .posttab[data-tab="2"]:before {
+	content: '\E3F6'
+}
+
+.ficheperso.more .posttab[data-tab="3"]:before {
+	content: '\E2CC'
+}
+
+.ficheperso.more .posttab[data-tab="4"]:before {
+	content: '\E3D0'
+}
+
+.ficheperso.more .posttab[data-tab="5"]:before {
+	content: '\E750'
 }
 
 .posttab-content.thst {
@@ -5511,12 +5532,16 @@ lblpmdn {
 	word-spacing: var(--large);
 }
 
-.ficheperso.more .posttab {
+.ficheperso.more .posttabs:after {
 	color: var(--group-color);
 	text-transform: uppercase;
-	font-size: var(--small);
 	letter-spacing: 1px;
 	font-weight: 200;
+	display: block;
+}
+
+.ficheperso.more .posttab[data-tab="5"]~.posttabs:after {
+	content: 'ça ou ça ?'
 }
 
 .ficheportrait {
