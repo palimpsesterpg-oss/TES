@@ -5506,6 +5506,7 @@ lblpmdn {
 .ficheperso.more .posttab:before {
 	color: var(--group-color);
 	font-family: "Phosphor" !important;
+	font-size: var(--2xlarge)
 }
 
 .ficheperso.more .posttab[data-tab="1"]:before {
@@ -5539,6 +5540,23 @@ lblpmdn {
 	letter-spacing: 1px;
 	font-weight: 200;
 	width: 100%;
+	text-align: center
+}
+
+.ficheperso.more .posttab[data-tab="1"].active~.posttab-title:after {
+	content: 'favoris'
+}
+
+.ficheperso.more .posttab[data-tab="2"].active~.posttab-title:after {
+	content: 'mode de vie'
+}
+
+.ficheperso.more .posttab[data-tab="3"].active~.posttab-title:after {
+	content: 'portrait imagé'
+}
+
+.ficheperso.more .posttab[data-tab="4"].active~.posttab-title:after {
+	content: 'premiers et derniers'
 }
 
 .ficheperso.more .posttab[data-tab="5"].active~.posttab-title:after {
