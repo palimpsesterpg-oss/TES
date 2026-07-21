@@ -5663,3 +5663,37 @@ lblpmdn {
 .fichetodo span.done:before {
 	content: '\E186'
 }
+
+.posttabsystem.random {
+    align-items: stretch;
+    flex-direction: row
+}
+
+.random .posttabs {
+    flex-direction: column;
+	width:fit-content !important;
+    justify-content: flex-start
+}
+
+.random .posttab-contents {
+    flex: 1;
+    padding: var(--large);
+    background: var(--white)
+}
+
+.random .posttab {
+    width: 150px;
+    padding: var(--2xsmall);
+    background-color: var(--white);
+    color: var(--group-color);
+    text-transform: uppercase;
+    font-family: var(--serif);
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 1px solid
+}
+
+.random .posttab.active {
+    color: var(--white);
+    background-color: var(--group-color)
+}
