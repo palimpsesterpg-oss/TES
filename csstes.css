@@ -77,9 +77,10 @@ fslarge {
 	display: flex;
 	cursor: pointer;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 	gap: var(--large);
-	flex-wrap: wrap
+	flex-wrap: wrap;
+	width: 100%;
 }
 
 .posttab-content {
@@ -5532,12 +5533,12 @@ lblpmdn {
 	word-spacing: var(--large);
 }
 
-.ficheperso.more .posttabs:after {
+.ficheperso.more .posttab-title {
 	color: var(--group-color);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 200;
-	display: block;
+	width: 100%;
 }
 
 .ficheperso.more .posttab[data-tab="5"].active~.posttab-title:after {
