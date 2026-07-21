@@ -5502,6 +5502,10 @@ lblpmdn {
 	text-align: justify
 }
 
+.ficheperso.more .posttab[data-tab="1"]:before {
+	content: 'salut'
+}
+
 .posttab-content.thst {
 	text-align: center;
 	word-spacing: var(--large);
