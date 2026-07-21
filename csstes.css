@@ -5540,7 +5540,7 @@ lblpmdn {
 	display: block;
 }
 
-.ficheperso.more .posttab[data-tab="5"]~.posttabs:after {
+.ficheperso.more .posttab[data-tab="5"]~.posttab-title:after {
 	content: 'ça ou ça ?'
 }
 
