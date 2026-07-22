@@ -492,11 +492,16 @@
 .cam .fichefam maind a {
     text-transform: uppercase;
     font-weight: 200;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .cam .fichefam back3 {
     padding-left: var(--large);
     letter-spacing: 2.5px;
     margin-left: var(--3xlarge)
+}
+
+.cam .random .posttab::first-letter {
+    font-family: var(--spe);
+    text-transform: uppercase
 }

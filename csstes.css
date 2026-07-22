@@ -5686,8 +5686,6 @@ lblpmdn {
     padding: var(--2xsmall);
     background-color: var(--white);
     color: var(--group-color);
-    text-transform: uppercase;
-    font-family: var(--serif);
     font-weight: 700;
     letter-spacing: 1px;
     border-bottom: 1px solid
