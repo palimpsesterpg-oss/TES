@@ -2874,11 +2874,9 @@ maj4::first-letter,
 majn::first-letter,
 majd::first-letter,
 majgc::first-letter {
-	font-weight: 900 !important;
 	font-size: var(--xlarge) !important;
 	text-transform: lowercase !important;
-	font-family: var(--serif);
-	font-style: italic
+	font-family: var(--spe);
 }
 
 .brf1,
@@ -5665,33 +5663,33 @@ lblpmdn {
 }
 
 .posttabsystem.random {
-    align-items: stretch;
-    flex-direction: row
+	align-items: stretch;
+	flex-direction: row
 }
 
 .random .posttabs {
-    flex-direction: column;
-	width:fit-content !important;
-    justify-content: flex-start
+	flex-direction: column;
+	width: fit-content !important;
+	justify-content: flex-start
 }
 
 .random .posttab-contents {
-    flex: 1;
-    padding: var(--large);
-    background: var(--white)
+	flex: 1;
+	padding: var(--large);
+	background: var(--white)
 }
 
 .random .posttab {
-    width: 150px;
-    padding: var(--2xsmall);
-    background-color: var(--white);
-    color: var(--group-color);
-    font-weight: 700;
-    letter-spacing: 1px;
-    border-bottom: 1px solid
+	width: 150px;
+	padding: var(--2xsmall);
+	background-color: var(--white);
+	color: var(--group-color);
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-bottom: 1px solid
 }
 
 .random .posttab.active {
-    color: var(--white);
-    background-color: var(--group-color)
+	color: var(--white);
+	background-color: var(--group-color)
 }
